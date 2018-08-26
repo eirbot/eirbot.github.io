@@ -1,6 +1,6 @@
 ---
-title: About Me
-icon: fa-user
+title: Sponsors
+icon: fa-handshake
 order: 3
 ---
 
