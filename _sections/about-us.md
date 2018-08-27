@@ -1,14 +1,15 @@
 ---
-title: Qui somme-nous ?
+title: Qui sommes-nous ?
 icon: fa-user
 order: 2
 ---
 
-<a href="#" class="image featured"><img src="assets/images/pic08.jpg" alt="" /></a>
+![Team](assets/images/eirbot_team.jpg){:class="image featured"}
 
-<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-ornare iaculis.</p>
+Eirbot est l'association de Robotique de l'ENSEIRB-MATMECA. Chaque année, nous
+participons à la coupe de France de Robotique en concevant et réalisant un ou
+plusieurs robots.
+
+![Photo coupe](assets/images/championship_2018.jpg){:class="image right" width="40%"}
+
+![Photo local](assets/images/eirbot_local.jpg){:class="image left" width="40%"}

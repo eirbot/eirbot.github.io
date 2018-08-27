@@ -9,4 +9,4 @@ order: 1
 
 ![Logo](/assets/images/eirbot_logo.svg){:class="image intro"}
 
-[Nous découvrir](#qui-somme-nous){:class="button scrolly"}
+[Nous découvrir](#qui-sommes-nous){:class="button scrolly"}
