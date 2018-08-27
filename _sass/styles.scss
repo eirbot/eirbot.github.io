@@ -1,0 +1,13 @@
+@import  "jekyll-theme-prologue";
+
+.image {
+	&.intro {
+		width: 300px;
+		height: 300px;
+
+		img {
+			width: 300px;
+			height: 300px;
+		}
+	}
+}
