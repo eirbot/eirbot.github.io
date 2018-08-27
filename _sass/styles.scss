@@ -1,5 +1,15 @@
 @import  "jekyll-theme-prologue";
 
+/* Basic */
+
+a {
+	&:hover {
+		color: #e5e539
+	}
+}
+
+/* Image */
+
 .image {
 	&.intro {
 		width: 300px;
@@ -8,6 +18,42 @@
 		img {
 			width: 300px;
 			height: 300px;
+		}
+	}
+	&.avatar48 {
+		background: none;
+	}
+}
+
+/* Button */
+
+.button {
+	color: #e5e539 !important;
+	background-color: #41484c;
+
+	&:hover {
+		color: #41484c!important;
+		background-color: #e5e539;
+	}
+
+	&:active {
+		color: #41484c!important;
+		background-color: #e5e539;
+	}
+}
+
+/* Header */
+
+#nav {
+	ul {
+		li {
+			a {
+				&.active {
+					span::before {
+						color: #e5e539;
+					}
+				}
+			}
 		}
 	}
 }
