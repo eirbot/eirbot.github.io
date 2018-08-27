@@ -27,6 +27,10 @@ a {
 
 /* Button */
 
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
 .button {
 	color: #e5e539 !important;
 	background-color: #41484c;
@@ -39,6 +43,21 @@ a {
 	&:active {
 		color: #41484c!important;
 		background-color: #e5e539;
+	}
+
+	&.reversed {
+		color: #41484c !important;
+		background-color: #e5e539;
+
+		&:hover {
+			color: #e5e539!important;
+			background-color: #41484c;
+		}
+
+		&:active {
+			color: #e5e539!important;
+			background-color: #41484c;
+		}
 	}
 }
 
