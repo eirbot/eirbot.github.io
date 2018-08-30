@@ -15,11 +15,6 @@ a {
 	&.intro {
 		width: 300px;
 		height: 300px;
-
-		img {
-			width: 300px;
-			height: 300px;
-		}
 	}
 
 	&.avatar48 {
@@ -29,6 +24,19 @@ a {
 	&.sponsor {
 		height: 150px;
 		margin: 5% 5% 5% 5%;
+	}
+
+	&.about {
+		max-width: 100%;
+		max-height: 400px;
+
+		&.left {
+			float: left;
+		}
+
+		&.right {
+			float: right;
+		}
 	}
 }
 
