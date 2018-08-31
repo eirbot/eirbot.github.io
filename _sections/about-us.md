@@ -12,7 +12,7 @@ plusieurs robots.
 ![Photo coupe]
 Intéressé(e) par la robotique ? Eirbot est l'association de tes rêves ! Que tu
 sois néophyte ou expérimenté, que tu veuilles participer à la [Coupe de France
-de Robotique] ou réaliser des projets personnels, nous t'acceuillons à bras
+de Robotique] ou réaliser des projets personnels, nous t'accueillons à bras
 ouverts. Nous disposons d'un grand et magnifique local avec tout le matériel que
 tu recherches : électronique, mécanique et bricolage, pour laisser libre cours à
 ton imagination et construire de magnifiques robots.  Quelle que soit ta
@@ -28,10 +28,10 @@ est un événement incroyable où tu pourras profiter d'une super ambiance,
 rencontrer beaucoup d'anciens et tenter de marquer des points sur scène sans
 trouer les tables ! Nous organisons également quelques petits projets pour
 d'autres événements dans l'école, mais tu peux également laisser libre cours à
-ton imagination et réaliser tes porjets personnels !
+ton imagination et réaliser tes projets personnels !
 
 Si tu es interessé(e), n'hésite pas à passer nous voir au local, juste au dessus
-de l'acceuil de l'école. À bientôt !
+de l'accueil de l'école. À bientôt !
 
 
 
