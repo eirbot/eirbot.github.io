@@ -34,7 +34,6 @@ Si tu es interessé(e), n'hésite pas à passer nous voir au local, juste au des
 de l'accueil de l'école. À bientôt !
 
 
-
 [Coupe de France de Robotique]: https://www.coupederobotique.fr/
 
 [Team]: assets/images/eirbot_team.jpg
@@ -45,3 +44,5 @@ de l'accueil de l'école. À bientôt !
 
 [Photo local]: assets/images/eirbot_local.jpg
 {:class="image about left"}
+
+

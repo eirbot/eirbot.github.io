@@ -1,3 +1,4 @@
+
 # This site is built upon jekyll-theme-prologue
 # See https://github.io/chrisbobbe/jekyll-theme-prologue for documentation
 
@@ -15,7 +16,7 @@ avatar: assets/images/eirbot_logo.svg
 baseurl: ""
 url: "https://eirbot.github.io"
 
-twitter_url:
+twitter_url: https://twitter.com/assoeirbot?lang=fr
 facebook_url: https://www.facebook.com/eirbot
 googleplus_url:
 instagram_url:
