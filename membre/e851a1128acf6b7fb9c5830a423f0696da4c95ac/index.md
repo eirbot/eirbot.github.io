@@ -149,9 +149,9 @@ marginwidth="0">Chargement…</iframe>
 
 ## <i class="fab fa-leanpub"></i> Formations Eirbot
 ### Informatique 
-[Github ](/assets/md/formation/learn_git){:class="button fix"}
-[Makefile](/assets/md/formation/learn_makefile){:class="button fix"}
-[Cmake](/assets/md/formation/learn_cmake){:class="button fix"}
+[Github](/assets/md/formation/learn_git){:class="button"}
+[Makefile](/assets/md/formation/learn_makefile){:class="button"}
+[Cmake](/assets/md/formation/learn_cmake){:class="button"}
 
 <!-- [Doxygen <i class="fas fa-wrench"></i>](/assets/md/formation/learn_doxygen){:class="button fix"} -->
 <!-- [Latex <i class="fas fa-wrench"></i>](/assets/md/formation/learn_latex/learn_latex){:class="button fix"} -->
@@ -159,8 +159,8 @@ marginwidth="0">Chargement…</iframe>
 
 ## <i class="fas fa-file-powerpoint"></i> Documents de présentation
 
-[dossier](/assets/dossier.pdf){:class="button fix"}
-[plaquette](/assets/plaquette.pdf){:class="button fix"}
+[Dossier](/assets/dossier.pdf){:class="button"}
+[Plaquette](/assets/plaquette.pdf){:class="button"}
 
 <!------------------->
 <!-- SCRIPT DIVERS -->
