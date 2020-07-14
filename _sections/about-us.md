@@ -18,17 +18,18 @@ tu recherches : électronique, mécanique et bricolage, pour laisser libre cours
 ton imagination et construire de magnifiques robots.  Quelle que soit ta
 filière, tu peux venir apprendre l'électronique, l'informatique, l'automatique
 ou encore les télécommunications appliquées à la robotique. L'association est
-aussi un lieu de détente entre amis, pour discuter, s'amuser, écouter notre
-playlist grandissante au fil des ans et faire des rencontres.
+aussi un lieu de détente entre amis, pour discuter, s'amuser et faire des rencontres.
 
-![Photo local]
+![Photo team]
 Notre principale activité est la préparation de la [Coupe de France de
 Robotique], en construisant chaque année des robots à partir de zéro.  La coupe
 est un événement incroyable où tu pourras profiter d'une super ambiance,
-rencontrer beaucoup d'anciens et tenter de marquer des points sur scène sans
-trouer les tables ! Nous organisons également quelques petits projets pour
-d'autres événements dans l'école, mais tu peux également laisser libre cours à
-ton imagination et réaliser tes projets personnels !
+rencontrer beaucoup d'anciens et tenter de marquer des points sur scène ! 
+
+Nous organisons également des projets pour d'autres événements dans l'école,
+mais tu peux également laisser libre cours à ton imagination et réaliser tes
+projets personnels ! Si tu veux voir ce que nous faisons au fil des années va
+jeter à un coup d'oeil [ici](resources)
 
 Si tu es interessé(e), n'hésite pas à passer nous voir au local, juste au dessus
 de l'accueil de l'école. À bientôt !
@@ -42,7 +43,7 @@ de l'accueil de l'école. À bientôt !
 [Photo coupe]: assets/images/championship_2018.jpg
 {:class="image about right"}
 
-[Photo local]: assets/images/eirbot_local.jpg
+[Photo team]: assets/images/team.png
 {:class="image about left"}
 
 

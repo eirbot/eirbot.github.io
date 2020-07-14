@@ -6,15 +6,19 @@ icon: fa-handshake
 
 <div class="images-boxed">
   <figure class="image-box">
-    <img class="image-item" src="/assets/images/bdx_inp.png" alt="Bordeaux INP">
+   <a href="https://enseirb-matmeca.bordeaux-inp.fr/fr"> <img class="image-item"
+  src="/assets/images/bdx_inp.png" alt="Bordeaux INP"> </a>
   </figure>
   
   <figure class="image-box">
-    <img class="image-item" src="/assets/images/rs.png" alt="RS">
+    <a href="https://fr.rs-online.com/web/"> <img class="image-item" src="/assets/images/rs.png" alt="RS"></a>
   </figure>
   
   <figure class="image-box">
-    <img class="image-item" src="/assets/images/elsys.png" alt="Elsys">
+    <a href="https://www.elsys-design.com/fr/"> <img class="image-item" src="/assets/images/elsys.png" alt="Elsys"></a>
+  </figure>
+    <figure class="image-box">
+    <a href="https://www.aquitaine-robotics.com/"> <img class="image-item" src="/assets/images/ar.svg" alt="Aquitaine Robotics"></a>
   </figure>
 </div>
 

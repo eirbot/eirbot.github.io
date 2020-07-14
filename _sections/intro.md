@@ -1,6 +1,6 @@
 ---
 title: Introduction
-cover-photo: assets/images/banner.jpg
+cover-photo: assets/images/banner.png
 cover-photo-alt: cover photo
 auto-header: none
 icon: fa-home
