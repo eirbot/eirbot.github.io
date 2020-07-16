@@ -92,3 +92,46 @@ suiveur de ligne et un snake 3D), 4 d'entre eux ont abouti à quelque chose.
 ![snake](/assets/images/snake.png){:class="image about center"}
 ![bruno](/assets/images/bruno.png){:class="image about center"}
 
+<style>
+.card-container{
+  width:100%;
+  float: left ;
+}
+
+.card-body{
+  width:70%;
+  padding-left:10px;
+  margin-top:10px;
+  transition:.3s;
+  -webkit-transition:.3s;
+}
+
+.card-deck{
+  float:left;
+margin-bottom:3.2rem;
+margin-left:0.5rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.front-deck{
+  padding-top:12rem;
+}
+
+.card{
+  margin-right:16px;
+  border:none;
+  flex: 0 0 auto;
+}
+
+.card .card-body:first-of-type{
+  border-top:0px;
+
+}
+.card-deck:hover {
+  border-radius: 10px 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+</style>
