@@ -102,18 +102,3 @@ order: 2
   </div><!-- END CARD -->
 </div><!-- END CARD DECK -->
 
-<img src="97036ab8686d9c88-750E750.jpg" usemap="#image-map">
-
-<map name="image-map" id="map">
-    <area class="shadow_area" target="" alt="Atelier Méca" title="Atelier Méca" href="http://www.mycanal.fr/#sc_intcmp=EC:NAV:ONGLET:MYCANAL" coords="584,349,488,314" shape="rect">
-</map>
-<style>
-
-
-<style>
-map .shadow_area:hover{
-    -moz-box-shadow: inset -2px -2px 2px 2px #CCC;
-    -webkit-box-shadow: inset -2px -2px 2px 2px #CCC;
-    box-shadow: inset -2px -2px 2px 2px #CCC;
-} </style>
-
