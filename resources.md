@@ -15,7 +15,7 @@ order: 2
       <div class="card-body">
         <a href="/assets/md/coupe2020"><h3 class="card-sub align-middle">Coupe de
             France</h3></a>
-        <p class="time-card">Édition 2020</p>
+        <p class="time-card">Édition 2020 - Sail the world</p>
       </div><!-- END CARD-BODY -->
     </a>
   </div><!-- END CARD -->
@@ -23,13 +23,13 @@ order: 2
 
 <div class="card-deck flex-row flex-nowrap">
   <div class="card">
-    <a href="/assets/md/coupe2019"><img src="/assets/images/2A2018.png"
+    <a href="/assets/md/coupe2019atom"><img src="/assets/images/atom.png"
                                         height="200 px" alt="Card image cap"></a>
-    <a href="/assets/md/coupe2019">
+    <a href="/assets/md/coupe2019atom">
       <div class="card-body">
-        <a href="/assets/md/coupe2019"><h3 class="card-sub align-middle">Coupe de
+        <a href="/assets/md/coupe2019atom"><h3 class="card-sub align-middle">Coupe de
             France</h3></a>
-        <p class="time-card">Édition 2019</p>
+        <p class="time-card">Édition 2019 - Atom Factory</p>
       </div><!-- END CARD-BODY -->
     </a>
   </div><!-- END CARD -->
@@ -101,48 +101,19 @@ order: 2
     </a>
   </div><!-- END CARD -->
 </div><!-- END CARD DECK -->
+
+<img src="97036ab8686d9c88-750E750.jpg" usemap="#image-map">
+
+<map name="image-map" id="map">
+    <area class="shadow_area" target="" alt="Atelier Méca" title="Atelier Méca" href="http://www.mycanal.fr/#sc_intcmp=EC:NAV:ONGLET:MYCANAL" coords="584,349,488,314" shape="rect">
+</map>
 <style>
-.card-container{
-  width:100%;
-  float: left ;
-    display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-}
 
-.card-body{
-  width:80%;
-  padding-left:10px;
-  margin-top:10px;
-  transition:.3s;
-  -webkit-transition:.3s;
-}
 
-.card-deck{
-float:left;
-width=30%;
-margin-bottom:3.2rem;
-margin-left:0.5rem;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-}
+<style>
+map .shadow_area:hover{
+    -moz-box-shadow: inset -2px -2px 2px 2px #CCC;
+    -webkit-box-shadow: inset -2px -2px 2px 2px #CCC;
+    box-shadow: inset -2px -2px 2px 2px #CCC;
+} </style>
 
-.front-deck{
-  padding-top:12rem;
-}
-
-.card{
-  margin-right:16px;
-  border:none;
-  flex: 0 0 auto;
-}
-
-.card .card-body:first-of-type{
-  border-top:0px; 
-
-}
-.card-deck:hover {
-  box-shadow: 0 8px 16px 0 #41484c;
-    border-radius: 0.5em;
-}
-</style>

@@ -55,23 +55,25 @@ Parmi ces techniques nous pouvons citer
       src="/assets/images/circle-programmation.png" weight="150px" height="150px" onclick="window.open(this.src,'toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+this.width+', height='+this.height);" />
         <div class="card-body">
           <h3 class="card-sub align-middle">Programmation</h3>
-          <p class="time-card">C C++ python ... </p>
+          <p class="time-card">C C++ python et bien d'autres ! </p>
         </div><!-- END CARD-BODY -->
     </div><!-- END CARD -->
     </div><!-- END CARD -->
 <div class="card-deck flex-row flex-nowrap">
         <div class="card">
       <img
-      src="/assets/images/circle-mecanique.png" weight="150px" height="150px" onclick="window.open(this.src,'toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+this.width+', height='+this.height);" />
+      src="/assets/images/circle-mecanique.png" weight="150px" height="150px"  />
         <div class="card-body">
           <h3 class="card-sub align-middle">Mécanique</h3>
+                  <p class="time-card">Construire un robot à partir de rien</p>
         </div><!-- END CARD-BODY -->
     </div><!-- END CARD -->
     </div><!-- END CARD -->
+    
 <div class="card-deck flex-row flex-nowrap">
 <div class="card">
       <img
-      src="/assets/images/circle-teamwork.png" weight="150px" height="150px" onclick="window.open(this.src,'toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+this.width+', height='+this.height);" />
+      src="/assets/images/circle-teamwork.png" weight="150px" height="150px" />
         <div class="card-body">
           <h3 class="card-sub align-middle"> Travail d'équipe</h3>
           <p class="time-card"></p>
@@ -90,45 +92,3 @@ suiveur de ligne et un snake 3D), 4 d'entre eux ont abouti à quelque chose.
 ![snake](/assets/images/snake.png){:class="image about center"}
 ![bruno](/assets/images/bruno.png){:class="image about center"}
 
-
-<style>
-.card-container{
-  width:100%;
-  float: left ;
-    display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
-.card-body{
-  width:70%;
-  padding-left:10px;
-  margin-top:10px;
-  transition:.3s;
-  -webkit-transition:.3s;
-}
-
-.card-deck{
-float:left;
-width=30%;
-margin-bottom:3.2rem;
-margin-left:0.5rem;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-.front-deck{
-  padding-top:12rem;
-}
-
-.card{
-  margin-right:16px;
-  border:none;
-  flex: 0 0 auto;
-}
-
-.card .card-body:first-of-type{
-  border-top:0px; 
-
-}
-</style>

@@ -1,5 +1,7 @@
 ---
-title: kzeg <i class="fas fa-trophy"></i> 
+title: <i class="fas fa-trophy"></i> Coupe de France de robotique
+subtitle: Edition 2019
+layout: page
 hide: true
 ---
 
@@ -14,6 +16,7 @@ tâche difficile et requiert souvent des expériences complexes.
 
 ![table2019] En 2019, nous avons été appelé à l'aide pour réaliser ces expériences ! Nos
 missions étaient
+
 + Classer les atomes. Comme dans le tableau périodique des éléments
 + Peser les atomes. Car souvent les plus rares sont les plus lourds
 + Créer un nouvel élément. Et pour cela rien ne vaut un bon accélérateur de
@@ -29,13 +32,16 @@ missions étaient
 
 Comme chaque année nous avons comme chaque année mis en place 2 équipes, les 1A
 et les 2A.
+
+![team](/assets/images/team.png){:class="image about center"}
  
-#### Eirbot - Equipe 2A - 29/143
+### Eirbot - Equipe 2A - 29/143
 
 ![robot 2A 2019](/assets/images/2A2018.png){:class="image about center"}
 ![coupe 2A 2019](/assets/images/coupe2A2019.jpg){:class="image about center"}
 
-#### Eirb'ium - Equipe 1A - 108/143
+### Eirb'ium - Equipe 1A - 108/143
 
 ![robot 1A 2019](/assets/images/1A2018_2.png){:class="image about center"}
 ![coupe 1A 2019](/assets/images/coupe1A2019.jpg){:class="image about center"}
+

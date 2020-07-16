@@ -28,7 +28,7 @@ hide: true
   <div class="flip-card-inner">
     <div class="flip-card-front">
     <p> Réunion du  </p>
-    <img src="/assets/images/loutre/loutre1.jpg" alt="loutre1" style="width:100px;height:100px;">
+    <img src="/assets/images/loutre/loutre1.jpg" alt="loutre1" style="width:100px;height:100px;  clip-path:ellipse(50% 50%);">
     </div>
     <div class="flip-card-back">
     <p> </p>
@@ -42,7 +42,7 @@ hide: true
   <div class="flip-card-inner">
     <div class="flip-card-front">
     <p> Réunion du  </p>
-    <img src="/assets/images/loutre/loutre2.jpg" alt="loutre2" style="width:100px;height:100px;">
+    <img src="/assets/images/loutre/loutre2.jpg" alt="loutre2" style="width:100px;height:100px;  clip-path:ellipse(50% 50%);">
     </div>
     <div class="flip-card-back">
        <p> </p>
@@ -56,7 +56,7 @@ hide: true
   <div class="flip-card-inner">
     <div class="flip-card-front">
     <p> Réunion du </p>
-    <img src="/assets/images/loutre/loutre3.jpeg" alt="loutre3" style="width:100px;height:100px;">
+    <img src="/assets/images/loutre/loutre3.jpeg" alt="loutre3" style="width:100px;height:100px;  clip-path:ellipse(50% 50%);">
     </div>
     <div class="flip-card-back">
     <p> </p>
@@ -72,7 +72,8 @@ hide: true
   <div class="flip-card-inner">
     <div class="flip-card-front">
     <p> Réunion du  </p>
-    <img src="/assets/images/loutre/loutre4.jpg" alt="loutre4" style="width:100px;height:100px;">
+    <img src="/assets/images/loutre/loutre4.jpg" alt="loutre4"
+    style="width:100px;height:100px;  clip-path:ellipse(50% 50%);">
     </div>
     <div class="flip-card-back">
     <p> </p>
@@ -86,7 +87,8 @@ hide: true
   <div class="flip-card-inner">
     <div class="flip-card-front">
     <p> Réunion du  </p>
-    <img src="/assets/images/loutre/loutre5.jpg" alt="loutre5" style="width:100px;height:100px;">
+    <img src="/assets/images/loutre/loutre5.jpg" alt="loutre5"
+  style="width:100px;height:100px;clip-path:ellipse(50% 50%);">
     </div>
     <div class="flip-card-back">
        <p> </p>
@@ -100,7 +102,7 @@ hide: true
   <div class="flip-card-inner">
     <div class="flip-card-front">
     <p> Réunion du </p>
-    <img src="/assets/images/loutre/loutre6.jpeg" alt="loutre6" style="width:100px;height:100px;">
+    <img src="/assets/images/loutre/loutre6.jpeg" alt="loutre6" style="width:100px;height:100px;  clip-path:ellipse(50% 50%);">
     </div>
     <div class="flip-card-back">
     <p> </p>
@@ -148,6 +150,7 @@ marginwidth="0">Chargement…</iframe>
 <!-- </center> -->
 
 ## <i class="fab fa-leanpub"></i> Formations Eirbot
+
 ### Informatique 
 [Github](/assets/md/formation/learn_git){:class="button"}
 [Makefile](/assets/md/formation/learn_makefile){:class="button"}
