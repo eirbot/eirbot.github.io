@@ -7,12 +7,16 @@ permalink: /assets/md/projet1A
 
 Chaque année des nouveaux arrivent, nous leurs proposons alors de réaliser des
 projets pour s'initier aux différents outils que propose Eirbot et l'Enseirb
-Matmeca. 
+Matmeca. Les sujets des projets ne sont pas imposés, les nouveaux sont libres de
+faire leur propre projet ou de participer à un projet que propose Eirbot. Nous
+n'imposons pas de contraintes de temps ou de production, chacun va à son
+rythme. Cependant nous invitons les nouveaux à commencer à travailler sur la
+coupe de France de Robotique à partir d'octobre. 
 
-L'idée est de les former à certaines techniques qui leurs seront utiles pendant
-les cours, personnellement et même dans leurs futurs métiers !
+Tout au long des projets nous proposons des formations, ces formations visent à
+provoquer une montée en compétences dans divers domaines. Parmi ces domaines
+nous pouvons citer.
 
-Parmi ces techniques nous pouvons citer
 <div class="card-container">
   <div class="card-deck flex-row flex-nowrap">
     <div class="card">
