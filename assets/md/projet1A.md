@@ -17,6 +17,12 @@ Tout au long des projets nous proposons des formations, ces formations visent à
 provoquer une montée en compétences dans divers domaines. Parmi ces domaines
 nous pouvons citer.
 
+
+<!--------------->
+<!-- HTML CARD -->
+<!--------------->
+
+
 <div class="card-container">
   <div class="card-deck flex-row flex-nowrap">
     <div class="card">
@@ -86,7 +92,9 @@ nous pouvons citer.
 </div><!-- END CARD DECK -->
 </div><!-- END CONTAINER -->
 
-
+<!-------------->
+<!-- END HTML -->
+<!-------------->
 
 
 ### Projets 1A - 2019
@@ -104,7 +112,3 @@ Parmi les 5 projets, 4 on aboutit à quelque chose :
 ![snake](/assets/images/snake.png){:class="image about center"}
 ![bruno](/assets/images/bruno.png){:class="image about center"}
 
-
-<style>
-
-</style>

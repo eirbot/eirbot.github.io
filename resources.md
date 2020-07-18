@@ -48,6 +48,7 @@ order: 2
   </div><!-- END CARD -->
 </div><!-- END CARD DECK -->
 </div>
+
 <div class="card-container">
 <div class="card-deck flex-row flex-nowrap">
   <div class="card">
@@ -101,6 +102,3 @@ order: 2
     </a>
   </div><!-- END CARD -->
 </div><!-- END CARD DECK -->
-
-<style>
-</style>
