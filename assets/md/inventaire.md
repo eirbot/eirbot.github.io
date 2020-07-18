@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <i class="fas fa-boxes fa-2x"></i> Eirbot - Inventaire
+title: Eirbot - Inventaire
 hide: true
 ---
 <div id="scroll_to_top"> 

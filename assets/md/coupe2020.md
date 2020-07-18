@@ -1,5 +1,5 @@
 ---
-title: <i class="fas fa-trophy"></i> Coupe de France de robotique
+title: Coupe de France de robotique
 subtitle: Edition 2020
 layout: "page"
 hide: true

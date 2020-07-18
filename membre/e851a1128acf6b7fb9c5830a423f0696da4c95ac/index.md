@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <i class="fas fa-user-shield fa-2x"></i>  Espace membre
+title: Espace membre
 hide: true
 ---
 <font size="6">

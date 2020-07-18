@@ -1,6 +1,6 @@
 ---
-title: <i class="fab fa-leanpub"></i> Projets 1A 
-layout: "page"
+title: Projets 1A 
+layout: page
 hide: true
 permalink: /assets/md/projet1A
 ---
@@ -87,50 +87,24 @@ nous pouvons citer.
 </div><!-- END CONTAINER -->
 
 
-### 2019 
-Nous avons lancé 5 projets
-(recoder le panneau d'entrée, un table apéritif, une useless box, un robot
-suiveur de ligne et un snake 3D), 4 d'entre eux ont abouti à quelque chose.
+
+
+### Projets 1A - 2019
+En 2019 Eirbot a proposé 5 projets 
+- recoder le panneau d'entrée 
+- réaliser une table apéritif
+- réaliser une useless box
+- un robot suiveur de ligne
+- snake 3D 
+
+Parmi les 5 projets, 4 on aboutit à quelque chose :
+
 ![useless box](/assets/images/useless.png){:class="image about center"}
 ![peter](/assets/images/peter.png){:class="image about center"}
 ![snake](/assets/images/snake.png){:class="image about center"}
 ![bruno](/assets/images/bruno.png){:class="image about center"}
 
+
 <style>
-.card-container{
-  width:100%;
-  float: left ;
-}
-
-.card-body{
-  width:70%;
-  padding-left:10px;
-  margin-top:10px;
-  transition:.3s;
-  -webkit-transition:.3s;
-}
-
-.card-deck{
-  float:left;
-margin-bottom:3.2rem;
-margin-left:0.5rem;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-.front-deck{
-  padding-top:12rem;
-}
-
-.card{
-  margin-right:16px;
-  border:none;
-  flex: 0 0 auto;
-}
-
-.card .card-body:first-of-type{
-  border-top:0px;
-
-}
 
 </style>

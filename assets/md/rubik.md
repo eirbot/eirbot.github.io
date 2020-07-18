@@ -1,5 +1,5 @@
 ---
-title: <i class="fas fa-cube"></i> Solveur de Rubik's cube
+title: Solveur de Rubik's cube
 hide: true
 ---
 Un projet concluant de Vincent (promotion 2020) qui permettait de résoudre un

@@ -1,7 +1,5 @@
 ---
-title: <i class="fas fa-trophy"></i> Coupe de France de robotique
-subtitle: Edition 2019
+title: Projets en vrac
 layout: "page"
 hide: true
-permalink: /assets/md/coupe2019
 ---

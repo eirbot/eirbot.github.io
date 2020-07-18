@@ -1,5 +1,5 @@
 ---
-title: <i class="fas fa-car"></i> Brenda & Criquette
+title: Brenda & Criquette
 layout: "page"
 hide: true
 ---
