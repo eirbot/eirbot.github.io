@@ -2,9 +2,7 @@
 title: Projets 1A 
 layout: page
 hide: true
-permalink: /assets/md/projet1A
 ---
-
 Chaque année des nouveaux arrivent, nous leurs proposons alors de réaliser des
 projets pour s'initier aux différents outils que propose Eirbot et l'Enseirb
 Matmeca. Les sujets des projets ne sont pas imposés, les nouveaux sont libres de
