@@ -27,7 +27,7 @@ hide: true
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-    <p> Réunion du  </p>
+    <p> Réunion du 30/07 </p>
     <img src="/assets/images/loutre/loutre1.jpg" alt="loutre1" style="width:100px;height:100px;  clip-path:ellipse(50% 50%);">
     </div>
     <div class="flip-card-back">
@@ -217,7 +217,7 @@ marginwidth="0">Chargement…</iframe>
     <div class="details">
       <div class="center">
         <h1>Électronique<br></h1>
-        <p>Comment créer une carte de A à Z</p>
+        <a href="/assets/md/formation/routage.odp"><p>Routage</p></a>
       </div>
     </div>
   </div>
