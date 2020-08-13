@@ -5,6 +5,12 @@ layout: "page"
 hide: true
 ---
 
+<style>
+html {
+ zoom: 0.80;
+}
+</style>
+
 Préparez vous à prendre le large ! En 2020, les robots partiront voguer à
 travers le monde. Ils devront maîtriser l'art de la navigation afin d'arriver à
 bon port. Les phares et les balises orienteront vos navires. Planifiez votre

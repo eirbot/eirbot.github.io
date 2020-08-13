@@ -5,6 +5,11 @@ layout: page
 hide: true
 ---
 
+<style>
+html {
+ zoom: 0.80;
+}
+</style>
 Il y a 150 ans, Dimitri Mendeleïev revolutionnait notre compréhension de la
 matière et faisait faire un pas de géant à la science en publiant ses travaux
 sur la classification des élements. Graĉe à son célèbre tableau, il a supposé
