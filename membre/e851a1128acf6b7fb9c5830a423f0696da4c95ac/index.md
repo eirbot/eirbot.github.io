@@ -176,52 +176,61 @@ marginwidth="0">Chargement…</iframe>
 ## <i class="fab fa-leanpub"></i> Formations Eirbot
 
 <div class="card-container">
- <div class="card-test">
-    <div class="image">
-      <img src="/assets/images/circle-programmation.png"/>
+    <div class="card-test">
+        <div class="image">
+            <center>
+                <p> Informatique </p>
+            </center>
+            <img src="/assets/images/circle-programmation.png"/>
+        </div>
+        <div class="details">
+            <div class="center">
+                <h1>Informatique<br></h1>
+                <a href="/assets/md/formation/learn_git"><p>Git</p></a>
+                <a href="/assets/md/formation/learn_makefile"><p>Makefile</p></a>
+                <a href="/assets/md/formation/learn_cmake"><p>Cmake</p></a>
+            </div>
+        </div>
     </div>
-    <div class="details">
-      <div class="center">
-        <h1>Informatique<br></h1>
-        <a href="/assets/md/formation/learn_git"><p>Git</p></a>
-        <a href="/assets/md/formation/learn_makefile"><p>Makefile</p></a>
-        <a href="/assets/md/formation/learn_cmake"><p>Cmake</p></a>
-      </div>
+
+    <div class="card-test">
+        <div class="image">
+            <center>
+                <p> Mécanique</p>
+            </center>
+            <img src="/assets/images/circle-mecanique.png"/>
+        </div>
+        <div class="details">
+            <div class="center">
+                <h1>Mécanique<br></h1>
+                <a href="/assets/md/formation/learn_anodisation.pdf"><p>Anodisation</p></a>
+                <!-- <ul> -->
+                    <!--   <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
+                    <!--   <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> -->
+                    <!--   <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> -->
+                    <!--   <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
+                    <!--   <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> -->
+                    <!-- </ul> -->
+            </div>
+        </div>
     </div>
-  </div>
-  
- <div class="card-test">
-    <div class="image">
-      <img src="/assets/images/circle-mecanique.png"/>
+
+
+    <div class="card-test">
+        <div class="image">
+            <center>
+                <p> Électronique </p>
+            </center>
+            <img src="/assets/images/circle-alimentation.png"/>
+        </div>
+        <div class="details">
+            <div class="center">
+                <h1>Électronique<br></h1>
+                <a href="/assets/md/formation/routage.odp"><p>Routage</p></a>
+            </div>
+        </div>
     </div>
-    <div class="details">
-      <div class="center">
-        <h1>Mécanique<br></h1>
-        <p>Imprimante 3D, Découpeuse Laser, CNC ...</p>
-        <!-- <ul> -->
-        <!--   <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
-        <!--   <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> -->
-        <!--   <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> -->
-        <!--   <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
-        <!--   <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> -->
-        <!-- </ul> -->
-      </div>
-    </div>
-  </div>
-  
-  
- <div class="card-test">
-    <div class="image">
-      <img src="/assets/images/circle-alimentation.png"/>
-    </div>
-    <div class="details">
-      <div class="center">
-        <h1>Électronique<br></h1>
-        <a href="/assets/md/formation/routage.odp"><p>Routage</p></a>
-      </div>
-    </div>
-  </div>
-  </div>
+</div>
   
 <!-- ### Informatique  -->
 <!-- [Github](/assets/md/formation/learn_git){:class="button"} -->
