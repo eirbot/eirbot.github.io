@@ -41,7 +41,7 @@ hide: true
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-    <p> Réunion du  </p>
+    <p> Réunion du 10/07 </p>
     <img src="/assets/images/loutre/loutre2.jpg" alt="loutre2" style="width:100px;height:100px;  clip-path:ellipse(50% 50%);">
     </div>
     <div class="flip-card-back">
@@ -55,7 +55,7 @@ hide: true
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-    <p> Réunion du </p>
+    <p> Réunion du 17/07 </p>
     <img src="/assets/images/loutre/loutre3.jpeg" alt="loutre3" style="width:100px;height:100px;  clip-path:ellipse(50% 50%);">
     </div>
     <div class="flip-card-back">
