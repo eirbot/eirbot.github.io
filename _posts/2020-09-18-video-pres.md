@@ -9,7 +9,7 @@ Aujourd'hui c'est au tour de Eirbot de se présenter aux 1A, avec la covid tout
 est en virtuel ! Accompagné de Eirspace et Eirlab nous avons préparé une journée dans une
 ambiance bonne enfant permettant de faire découvrir l'association aux nouveaux ! 
 
-![Affiche d'ouverture](/assets/images/affiche.jpg){:class="image about left"}
+![Affiche d'ouverture](/assets/images/affiche.png){:class="image about left"}
 
 <!-- BRASSE OUVERTURE -->
 <iframe src="/assets/brasse.pdf" width="50%" height="400px">
