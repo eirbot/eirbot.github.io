@@ -3,23 +3,76 @@ layout: page
 title: Espace membre
 hide: true
 ---
-<font size="6">
-<center>
-<div class="navbar navbar-fixed-top"><div class="navbar-inner"><div class="container-fluid">
-	<span class="brand white" href="/admin/">Temps restant avant la coupe</span>
-</div></div></div>
-
-<div id="wrap">
-	<div id="countdown">
-		<strong></strong> 
-		<span id="countdown_day" >--</span> jours
-		<span id="countdown_hour">--</span> heures
-		<span id="countdown_min" >--</span> minutes
-		<span id="countdown_sec" >--</span> secondes
-	</div>
-</div>
-</center>
-</font>
+<html>
+<!-- Début du compteur -->
+<div id="EklaCompteur" style="border:0px solid #663300;
+width:90%;
+text-align:center;
+margin: 0px auto;
+padding:4px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;">&nbsp;</div>
+<script type="text/JavaScript">// <![CDATA[
+//***********************************************************************************************
+//  Compte à rebours dans Eklablog
+//  Version 1.1
+//  Auteur : -Thierry-
+//  Blog : http://gerer-mon-blog.eklablog.fr/
+//***********************************************************************************************
+var idtimeEklaCompteur=0;
+function EklaDisplayCompteurEklaCompteur() {
+	// délais d'affichage
+	var delais = 1;
+	// Element contenant l'affichage
+	var EklaCompteurAffiche=document.getElementById("EklaCompteur");
+	// HTML d'affichage
+	var html = "<span style=\"font-size: 20pt ; color: #41484c;\"><strong>Coupe de France de robotique dans :&nbsp;</strong></span><br /> <span style=\"color: #000000;\"><strong><span style=\"font-size: 24pt;\"><span style=\"color: #ffd700;\">[j]</span> <span style=\"color: #41484c;\">jours</span>&nbsp;</span></strong><span style=\"font-size: 24pt;\"><strong><span style=\"color: #ffd700;\">[h]</span> <span style=\"color: #41484c;\">heures</span> <span style=\"color: #ffd700;\">[m]</span> <span style=\"color: #41484c;\">minutes</span> <span style=\"color: #ffd700;\">[s]</span> <span style=\"color: #41484c;\">secondes</span></strong></span></span>" ;
+	// HTML d'affichage si écoulé
+	var htmlafter = "<strong>COUPE EN COURS&nbsp;</strong>" ;
+	// Date / heure courante
+	var date1 = new Date();
+	// Date / heure de fin
+	// Attention, le mois commence à 0 pour janvier
+	var date2 = new Date (2020, 9, 28, 10, 0, 18);
+	// Nombre de secondes entre les dates
+	var nbsec = (date2 - date1) / 1000;
+	// Nombre de secondes dans une journée
+	var nbsecj = 24 * 3600;
+	// Pour arrêt compteur si temps écoulé et pas de texte prévu
+	var stopcpt=false;
+	// Si négatif => temps écoulé
+	if (nbsec <= 0) {
+		nbsec=-nbsec;
+		if (htmlafter!="") 
+			{ html=htmlafter; }
+		else
+			{stopcpt=true;}
+	}
+	// Nombre de jours restants
+	var j = Math.floor (nbsec / nbsecj);
+	// Nombre d'heures restantes
+	var h = Math.floor ((nbsec - (j * nbsecj)) / 3600);
+	// Nombre de minutes restantes
+	var m = Math.floor ((nbsec - ((j * nbsecj + h * 3600))) / 60);
+	// Nombre de secondes restantes
+	var s = Math.floor (nbsec - ((j * nbsecj + h * 3600 + m * 60)));
+	// Si pas de texte après temps écoulé => on met tout à zéro
+	if (stopcpt==true) {j=0;h=0;m=0;s=0}
+	// Modification du HTML à afficher
+	var html = html.replace("[j]",j);
+	var html = html.replace("[h]",h);
+	var html = html.replace("[m]",m);
+	var html = html.replace("[s]",s);
+	// Affichage
+	if (EklaCompteurAffiche!=null) {EklaCompteurAffiche.innerHTML = html;}
+	// Relance du compteur dans x millisecondes
+	if (stopcpt==false) {idtimeEklaCompteur=setTimeout ("EklaDisplayCompteurEklaCompteur();", 1*1000);}
+}
+EklaDisplayCompteurEklaCompteur();
+// ]]></script>
+<!-- Fin du compteur -->
+</html>
 
 ## <i class="fas fa-users"></i> Rapports de réunion
 
@@ -244,75 +297,6 @@ marginwidth="0">Chargement…</iframe>
 <!------------------->
 <!-- SCRIPT DIVERS -->
 <!------------------->
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script> <!-- Pour gérer le compte à rebours --> 
-countdownManager = {
-	// Configuration
-	    targetTime: new Date('10 28 10:00:00 2020'), // Date cible du compte à rebours (00:00:00)
-	displayElement: { // Elements HTML où sont affichés les informations
-		day:  null,
-		hour: null,
-		min:  null,
-		sec:  null
-	},
-	
-	// Initialisation du compte à rebours (à appeller 1 fois au chargement de la page)
-	init: function(){
-		// Récupération des références vers les éléments pour l'affichage
-		// La référence n'est récupérée qu'une seule fois à l'initialisation pour optimiser les performances
-		this.displayElement.day  = jQuery('#countdown_day');
-		this.displayElement.hour = jQuery('#countdown_hour');
-		this.displayElement.min  = jQuery('#countdown_min');
-		this.displayElement.sec  = jQuery('#countdown_sec');
-		
-		// Lancement du compte à rebours
-		this.tick(); // Premier tick tout de suite
-		window.setInterval("countdownManager.tick();", 1000); // Ticks suivants, répété toutes les secondes (1000 ms)
-	},
-	
-	// Met à jour le compte à rebours (tic d'horloge)
-	tick: function(){
-		// Instant présent
-		var timeNow  = new Date();
-		
-		// On s'assure que le temps restant ne soit jamais negatif (ce qui est le cas dans le futur de targetTime)
-		if( timeNow > this.targetTime ){
-			timeNow = this.targetTime;
-		}
-		
-		// Calcul du temps restant
-		var diff = this.dateDiff(timeNow, this.targetTime);
-		
-		this.displayElement.day.text(  diff.day  );
-		this.displayElement.hour.text( diff.hour );
-		this.displayElement.min.text(  diff.min  );
-		this.displayElement.sec.text(  diff.sec  );
-	},
-	
-	// Calcul la différence entre 2 dates, en jour/heure/minute/seconde
-	dateDiff: function(date1, date2){
-		var diff = {}                           // Initialisation du retour
-		var tmp = date2 - date1;
-
-		tmp = Math.floor(tmp/1000);             // Nombre de secondes entre les 2 dates
-		diff.sec = tmp % 60;                    // Extraction du nombre de secondes
-		tmp = Math.floor((tmp-diff.sec)/60);    // Nombre de minutes (partie entière)
-		diff.min = tmp % 60;                    // Extraction du nombre de minutes
-		tmp = Math.floor((tmp-diff.min)/60);    // Nombre d'heures (entières)
-		diff.hour = tmp % 24;                   // Extraction du nombre d'heures
-		tmp = Math.floor((tmp-diff.hour)/24);   // Nombre de jours restants
-		diff.day = tmp;
-
-		return diff;
-	}
-};
-
-jQuery(function($){
-	// Lancement du compte à rebours au chargement de la page
-	countdownManager.init();
-});
-</script>
 
 <script>  <!-- Pour gérer l'accès aux réponses --> 
 function reponse()
