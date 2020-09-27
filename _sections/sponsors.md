@@ -6,8 +6,10 @@ icon: fa-handshake
 
 ![Bordeaux INP](assets/images/bdx_inp.png){:class="image sponsor"}
 ![RS](assets/images/rs.png){:class="image sponsor"}
+
 ![Elsys Design](assets/images/elsys.png){:class="image sponsor"}
-![AR](assets/images/ar.svg){:class="image sponsor"}
+![Bear](assets/images/bear.png){:class="image sponsor"}
+![AR](assets/images/AR.png){:class="image sponsor"}
 
 <!-- <div class="images-boxed"> -->
 <!--   <figure class="image-box"> -->
