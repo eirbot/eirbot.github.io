@@ -124,14 +124,14 @@ EklaDisplayCompteurEklaCompteur();
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-    <p> Réunion du  </p>
+    <p> Réunion du  01/10 </p>
     <img src="/assets/images/loutre/loutre4.jpg" alt="loutre4"
     style="width:100px;height:100px;  clip-path:ellipse(50% 50%);">
     </div>
     <div class="flip-card-back">
     <p> </p>
     <p> </p>
-<a href="../index.html">Rapport</a>
+<a href="/assets/reunion/rapport4.pdf">Rapport</a>
     </div>
   </div>
 </div>
