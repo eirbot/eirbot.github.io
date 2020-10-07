@@ -11,7 +11,7 @@ EDITOR=emacs
 nbr_valeur=$#
 the_date=$(date +"%A %d %B %Y")
 version=$(ls -Al | wc -l)
-let version=$version-2
+let version=$version-3
 declare -a point_compta=("24.09" "22.10" "26.11" "17.12" "28.01" "25.02" "25.03" "22.04")
 
 
