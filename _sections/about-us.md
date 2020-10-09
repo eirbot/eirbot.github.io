@@ -37,7 +37,7 @@ de l'accueil de l'école. À bientôt !
 
 [Coupe de France de Robotique]: https://www.coupederobotique.fr/
 
-[Team]: assets/images/eirbot_team.jpg
+[Team]: assets/images/eirbot.JPG
 {:class="image featured"}
 
 [Photo coupe]: assets/images/championship_2018.jpg

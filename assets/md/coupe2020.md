@@ -34,7 +34,9 @@ Cette année nos missions sont
 ### Eirbot - Equipe 2A
 
 Avec le Covid-19 la coupe qui devait avoir lieu en mai 2020 a lieu en octobre
-2020, seuls les actuels 2A ont pu participer à cette coupe. 
+2020, seuls les actuels 2A ont pu participer à cette coupe.
+
+![team](/assets/images/coupe.JPG){:class="image featured"}
 
 <div class="timeline">
     <div class="timeline__group">
@@ -54,7 +56,7 @@ Avec le Covid-19 la coupe qui devait avoir lieu en mai 2020 a lieu en octobre
       <div class="timeline__box">
         <div class="timeline__date">
           <span class="timeline__day">24</span>
-          <span class="timeline__month">Octobre</span>
+        <span class="timeline__month">Octobre</span>
         </div>
         <div class="timeline__post">
           <div class="timeline__content">
@@ -292,6 +294,42 @@ Avec le Covid-19 la coupe qui devait avoir lieu en mai 2020 a lieu en octobre
       </div>
       </div>
       </div>
+                        <div class="timeline__box">
+      <div class="timeline__date">
+      <span class="timeline__day">2 </span>
+      <span class="timeline__month">Octobre</span>
+      </div>
+      <div class="timeline__post">
+      <div class="timeline__content">
+      <p>Réception des teeshirts de la coupe </p>
+      
+            <center><img
+    src="/assets/images/dos.png" 
+    width="40%"/>
+            <img
+    src="/assets/images/face.png" 
+    width="40%"/></center>
+
+     
+      </div>
+      </div>
+      </div>
+
+                        <div class="timeline__box">
+      <div class="timeline__date">
+      <span class="timeline__day">8 </span>
+      <span class="timeline__month">Octobre</span>
+      </div>
+      <div class="timeline__post">
+      <div class="timeline__content">
+      <p>Test d'asservissement concluant </p>
+      
+      <center><iframe width="719" height="453" src="https://www.youtube.com/embed/JooSdMvLh3c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+      
+      </div>
+      </div>
+      </div>
+
 
 
 </div>

@@ -95,18 +95,7 @@ nous pouvons citer.
 <!-------------->
 
 
-### Projets 1A - 2019
-En 2019 Eirbot a proposé 5 projets 
-- recoder le panneau d'entrée 
-- réaliser une table apéritif
-- réaliser une useless box
-- un robot suiveur de ligne
-- snake 3D 
+### Projets 1A - 2020
 
-Parmi les 5 projets, 4 on aboutit à quelque chose :
 
-![useless box](/assets/images/useless.png){:class="image about center"}
-![peter](/assets/images/peter.png){:class="image about center"}
-![snake](/assets/images/snake.png){:class="image about center"}
-![bruno](/assets/images/bruno.png){:class="image about center"}
 
