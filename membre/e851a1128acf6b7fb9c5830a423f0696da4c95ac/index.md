@@ -139,7 +139,7 @@ EklaDisplayCompteurEklaCompteur();
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-    <p> Réunion du  </p>
+    <p> Réunion du 08/10 </p>
     <img src="/assets/images/loutre/loutre5.jpg" alt="loutre5"
   style="width:100px;height:100px;clip-path:ellipse(50% 50%);">
     </div>
