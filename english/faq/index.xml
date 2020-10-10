@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frequently Asked Questions on EIRBOT | Association de robotique de l&#39;ENSEIRB-MATMECA</title>
+    <link>https://eirbot.github.io/english/faq/</link>
+    <description>Recent content in Frequently Asked Questions on EIRBOT | Association de robotique de l&#39;ENSEIRB-MATMECA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 23 Mar 2020 13:05:29 +0600</lastBuildDate>
+    
+	<atom:link href="https://eirbot.github.io/english/faq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

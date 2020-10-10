@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on EIRBOT | Association de robotique de l&#39;ENSEIRB-MATMECA</title>
+    <link>https://eirbot.github.io/fr/author/</link>
+    <description>Recent content in Authors on EIRBOT | Association de robotique de l&#39;ENSEIRB-MATMECA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
+    
+	<atom:link href="https://eirbot.github.io/fr/author/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sébastien Delpeuch</title>
+      <link>https://eirbot.github.io/fr/author/sebastien-delpeuch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eirbot.github.io/fr/author/sebastien-delpeuch/</guid>
+      <description>Élève ingénieur en deuxième année de l&amp;rsquo;ENSEIRB-MATMECA en filière Informatique. Président de l&amp;rsquo;association EIRBOT pour l&amp;rsquo;année 2020-2021.</description>
+    </item>
+    
+  </channel>
+</rss>
