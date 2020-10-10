@@ -28,7 +28,22 @@
   </url>
   
   <url>
+    <loc>https://eirbot.github.io/projetuna/astar/</loc>
+    <lastmod>2020-10-01T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://eirbot.github.io/blog/</loc>
+    <lastmod>2020-10-01T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/projetuna/bras/</loc>
+    <lastmod>2020-10-01T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/projetuna/car/</loc>
     <lastmod>2020-10-01T11:07:10+06:00</lastmod>
   </url>
   
@@ -38,7 +53,32 @@
   </url>
   
   <url>
+    <loc>https://eirbot.github.io/projetuna/piano/</loc>
+    <lastmod>2020-10-01T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/tags/projets1a/</loc>
+    <lastmod>2020-10-01T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/projetuna/</loc>
+    <lastmod>2020-10-01T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://eirbot.github.io/blog/blog-post-1/</loc>
+    <lastmod>2020-10-01T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/projetuna/otto/</loc>
+    <lastmod>2020-10-01T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/projetuna/sumo/</loc>
     <lastmod>2020-10-01T11:07:10+06:00</lastmod>
   </url>
   
@@ -111,10 +151,6 @@
   </url>
   
   <url>
-    <loc>https://eirbot.github.io/author/</loc>
-  </url>
-  
-  <url>
     <loc>https://eirbot.github.io/categories/</loc>
   </url>
   
@@ -128,14 +164,6 @@
   
   <url>
     <loc>https://eirbot.github.io/membre/e851a1128acf6b7fb9c5830a423f0696da4c95ac/</loc>
-  </url>
-  
-  <url>
-    <loc>https://eirbot.github.io/author/julien-poupon/</loc>
-  </url>
-  
-  <url>
-    <loc>https://eirbot.github.io/author/lucas-mangin/</loc>
   </url>
   
   <url>
@@ -155,10 +183,6 @@
   </url>
   
   <url>
-    <loc>https://eirbot.github.io/pricing/</loc>
-  </url>
-  
-  <url>
     <loc>https://eirbot.github.io/project/rio-furniture-3/</loc>
   </url>
   
@@ -167,15 +191,7 @@
   </url>
   
   <url>
-    <loc>https://eirbot.github.io/service/</loc>
-  </url>
-  
-  <url>
-    <loc>https://eirbot.github.io/author/sebastien-delpeuch/</loc>
-  </url>
-  
-  <url>
-    <loc>https://eirbot.github.io/author/yohann-varoqui/</loc>
+    <loc>https://eirbot.github.io/author/</loc>
   </url>
   
 </urlset>

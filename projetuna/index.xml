@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projetunas on EIRBOT | Association de robotique de l&#39;ENSEIRB-MATMECA</title>
+    <link>https://eirbot.github.io/projetuna/</link>
+    <description>Recent content in Projetunas on EIRBOT | Association de robotique de l&#39;ENSEIRB-MATMECA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-Us</language>
+    <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 01 Oct 2020 11:07:10 +0600</lastBuildDate>
+    
+	<atom:link href="https://eirbot.github.io/projetuna/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A star</title>
+      <link>https://eirbot.github.io/projetuna/astar/</link>
+      <pubDate>Thu, 01 Oct 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/projetuna/astar/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>Bras robotique</title>
+      <link>https://eirbot.github.io/projetuna/bras/</link>
+      <pubDate>Thu, 01 Oct 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/projetuna/bras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Carrier&#39;a</title>
+      <link>https://eirbot.github.io/projetuna/car/</link>
+      <pubDate>Thu, 01 Oct 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/projetuna/car/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Piano Hero</title>
+      <link>https://eirbot.github.io/projetuna/piano/</link>
+      <pubDate>Thu, 01 Oct 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/projetuna/piano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robot otto</title>
+      <link>https://eirbot.github.io/projetuna/otto/</link>
+      <pubDate>Thu, 01 Oct 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/projetuna/otto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robot Sumo</title>
+      <link>https://eirbot.github.io/projetuna/sumo/</link>
+      <pubDate>Thu, 01 Oct 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/projetuna/sumo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
