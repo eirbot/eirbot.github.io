@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-Us"><head>
   <meta charset="utf-8">
-  <title>404 Page not found</title>
+  <title>Nous contacter</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -91,20 +91,79 @@
   </div>
 </header>
 
-<section class="page-404">
+<section class="page-title bg-2" style="background-image: url('https://eirbot.github.io/images/banner/contact.jpg');">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <a href="index.html">
-          <img src="images/logo.png" alt="site logo" />
-        </a>
-        <h1>404</h1>
-        <h2>Page Not Found</h2>
-        <a href="index.html" class="btn btn-main"><i class="tf-ion-android-arrow-back"></i> Go Home</a>
-        <p class="copyright-text">© 2020 <a href="https://themefisher.com/" target="_blank">themefisher.com</a> All Rights Reserved
-          <br> Get More <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Free Bootstrap Templates</a>
-        </p>
+        <div class="block">
+          <h1>Nous contacter</h1>
+          <p></p>
+        </div>
       </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="contact-form">
+  <div class="container">
+    <div class="row">
+      <form method="POST" action="https://formspree.io/contact.eirbot@listes.enseirb-matmeca.fr">
+        <div class="col-md-6 col-sm-12">
+          <div class="block">
+            <div class="form-group">
+              <input name="user_name" type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input name="user_email" type="text" class="form-control" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+              <input name="user_subject" type="text" class="form-control" placeholder="Subject">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="block">
+            <div class="form-group-2">
+              <textarea name="user_message" class="form-control" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button class="btn btn-default" type="submit">Envoyer</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="contact-box row">
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <h2>Nos coordonnées</h2>
+          <ul class="address-block">
+            <li><i class="ion-ios-location-outline"></i>Localisation:  1 Avenue du Dr Albert Schweitzer, 33400 Talence</li>
+            <li><i class="ion-ios-email-outline"></i>Email: contact.eirbot@listes.enseirb-matmeca.fr</li>
+            <li><i class="ion-ios-telephone-outline"></i>Téléphone: 06.87.59.87.56</li>
+          </ul>
+          <ul class="social-icons">
+            
+            <li><a href="https://twitter.com/AssoEirbot"><i class="ion-social-twitter"></i></a></li>
+            
+            <li><a href="https://www.facebook.com/eirbot.dupont.1"><i class="ion-social-facebook"></i></a></li>
+            
+            <li><a href="https://github.com/eirbot"><i class="ion-social-github"></i></a></li>
+            
+            <li><a href="https://www.youtube.com/user/Eirbot"><i class="ion-social-youtube"></i></a></li>
+            
+          </ul>
+        </div>
+      </div>
+      
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <div class="google-map">
+            <div class="map" id="map_canvas" data-latitude="44.806710" data-longitude="-0.605199" data-marker="/images/marker.png" data-marker-name="EIRBOT | Association de robotique de l&#39;ENSEIRB-MATMECA"></div>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </div>
 </section>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nos projets on EIRBOT | Association de robotique de l&#39;ENSEIRB-MATMECA</title>
+    <link>https://eirbot.github.io/project/</link>
+    <description>Recent content in Nos projets on EIRBOT | Association de robotique de l&#39;ENSEIRB-MATMECA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-Us</language>
+    <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
+    
+	<atom:link href="https://eirbot.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coupe de France de robotique</title>
+      <link>https://eirbot.github.io/project/rio-furniture-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eirbot.github.io/project/rio-furniture-1/</guid>
+      <description>Préparez vous à prendre le large ! En 2020, les robots partiront voguer à travers le monde. Ils devront maîtriser l&amp;rsquo;art de la navigation afin d&amp;rsquo;arriver à bon port. Les phares et les balises orienteront vos navires.</description>
+    </item>
+    
+    <item>
+      <title>Coupe de France de robotique</title>
+      <link>https://eirbot.github.io/project/rio-furniture-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eirbot.github.io/project/rio-furniture-2/</guid>
+      <description>Il y a 150 ans, Dimitri Mendeleïev revolutionnait notre compréhension de la matière et faisait faire un pas de géant à la science en publiant ses travaux sur la classification des élements.</description>
+    </item>
+    
+    <item>
+      <title>Projets 1A</title>
+      <link>https://eirbot.github.io/project/rio-furniture-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eirbot.github.io/project/rio-furniture-3/</guid>
+      <description>Chaque année des nouveaux arrivent, nous leurs proposons alors de réaliser des projets pour s&amp;rsquo;initier aux différents outils que propose Eirbot et l&amp;rsquo;Enseirb Matmeca. Les sujets des projets ne sont pas imposés, les nouveaux sont libres de faire leur propre projet ou de participer à un projet que propose Eirbot.</description>
+    </item>
+    
+    <item>
+      <title>Projets en vrac</title>
+      <link>https://eirbot.github.io/project/rio-furniture-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eirbot.github.io/project/rio-furniture-4/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

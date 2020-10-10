@@ -18,45 +18,47 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
 
-## questions et avancement des projets
+# questions et avancement des projets
 pouet
 
-## projet sphère
+# projet sphère
 possiblilté de passer en projet S8
 
-## preparation coupe
+# preparation coupe
 oui
 
 
-## Robot
-# Asserv
+# Robot
+## Asserv
 elle nique les pneus mais ça roule du tonnerre
-# XY + protocole
+## XY + protocole
 XY ça marche :D protocole bientot
-# RF
+## RF
 protocole fume des mères
 il reste à connecter le Nano à la Rasp
-# boussole
+## boussole
 finie
 meca à faire (Seb   )
-# GP2 et contacteurs
+## GP2 et contacteurs
 faire des tests !
-# Actionneurs
+## Actionneurs
 design fait de la pièce, mais il peut pas "slicer"
 pavillon WIP
-# Shield Nucléo + Rasp
+## Shield Nucléo + Rasp
 shield nucleo imprimé
 shield rasp bientot
-# câbles
+## câbles
 dès qu'il y a le shield -> cablage
 on peut remonter la rasp un peu
-# carte puissance
+## carte puissance
 - pouet
-# compteur de point
+
+
+## compteur de point
 setup empreintes
 
 
-## commande
+# commande
 - [ ] PLA noir et jaune
 - [X] cable noir grosse section
 - [ ] jumper breadboard
@@ -68,7 +70,7 @@ setup empreintes
 - [ ] joint toriqueeeeeeeeeeeeeee !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
-## part
+# part
 - ydlidar : on aura un lidar X4 après 9 octobre
 - Aquitaine Robotics :
   + appel a sponsor : flyers
@@ -85,18 +87,18 @@ setup empreintes
 - se mettre en contact avec une autre asso de robot ENSEEITH (tournoi sumo par ex)
 
 
-## budget
+# budget
 
-## point triste et sérieux
+# point triste et sérieux
 - il faut s'attendre à avoir notre dérogation qui saute
 - il y a trop de monde dans le local
 
 14 MAXIMUM DANS LE LOCAL, 10 C'EST MIEUX, ON VIRE LES GENS SINON
 
 
-## Question 3A
+# Question 3A
 Où on mange ???
 
 
-## Question président
+# Question président
 Est-ce qu'on est prêt pour la coupe ? -> on verra à la coupe

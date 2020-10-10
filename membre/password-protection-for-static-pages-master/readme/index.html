@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-Us"><head>
   <meta charset="utf-8">
-  <title>Tags</title>
+  <title></title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -96,7 +96,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Tags</h1>
+          <h1></h1>
           <p></p>
         </div>
       </div>
@@ -104,21 +104,14 @@
   </div>
 </section>
 
-<div class="page-wrapper">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        
-        
-        <div class="post">
-          <div class="post-media post-thumb">
-            <a href="https://eirbot.github.io/tags/int%C3%A9gration-des-1a/">
-              <img src="/" alt="Intégration des 1A">
-            </a>
-          </div>
-          <h3 class="post-title"><a href="https://eirbot.github.io/tags/int%C3%A9gration-des-1a/">Intégration des 1A</a></h3>
-          <div class="post-meta">
-            <ul>
+<section class="page-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="post post-single">
+					<h2 class="post-title"></h2>
+					<div class="post-meta">
+						<ul>
               <li><i class="ion-calendar"></i> January 1, 0001</li>
               <li><i class="ion-android-people"></i>
                 Écrit par
@@ -130,76 +123,46 @@
                 
               </li>
             </ul>
-          </div>
-          <div class="post-content">
-            <p></p>
-            <a href="https://eirbot.github.io/tags/int%C3%A9gration-des-1a/" class="btn btn-main">Voir Plus</a>
-          </div>
-        </div>
-        
-        <div class="post">
-          <div class="post-media post-thumb">
-            <a href="https://eirbot.github.io/tags/vie-de-lassociation/">
-              <img src="/" alt="Vie de l&#39;association">
-            </a>
-          </div>
-          <h3 class="post-title"><a href="https://eirbot.github.io/tags/vie-de-lassociation/">Vie de l&#39;association</a></h3>
-          <div class="post-meta">
-            <ul>
-              <li><i class="ion-calendar"></i> January 1, 0001</li>
-              <li><i class="ion-android-people"></i>
-                Écrit par
-                
-                <a class="text-primary" href="/author/"></a>
-                
-              </li>
-              <li><i class="ion-pricetags"></i> 
-                
-              </li>
-            </ul>
-          </div>
-          <div class="post-content">
-            <p></p>
-            <a href="https://eirbot.github.io/tags/vie-de-lassociation/" class="btn btn-main">Voir Plus</a>
-          </div>
-        </div>
-        
-        <div class="post">
-          <div class="post-media post-thumb">
-            <a href="https://eirbot.github.io/tags/partenaires/">
-              <img src="/" alt="Partenaires">
-            </a>
-          </div>
-          <h3 class="post-title"><a href="https://eirbot.github.io/tags/partenaires/">Partenaires</a></h3>
-          <div class="post-meta">
-            <ul>
-              <li><i class="ion-calendar"></i> January 1, 0001</li>
-              <li><i class="ion-android-people"></i>
-                Écrit par
-                
-                <a class="text-primary" href="/author/"></a>
-                
-              </li>
-              <li><i class="ion-pricetags"></i> 
-                
-              </li>
-            </ul>
-          </div>
-          <div class="post-content">
-            <p></p>
-            <a href="https://eirbot.github.io/tags/partenaires/" class="btn btn-main">Voir Plus</a>
-          </div>
-        </div>
-        
-        
-				
-				
-				
-				
-				
-				
-				
-      </div>
+					</div>
+					<div class="post-thumb">
+						<img class="img-responsive" src="/" alt="">
+					</div>
+					<div class="post-content post-excerpt">
+						<h1 id="password-protection-for-static-pages">Password protection for static pages</h1>
+<p>This simple HTML document helps you protecting static pages or whole websites with no server configuration required: you can now use Dropbox, Amazon S3 or any generic hosting service to host a private, password protected site.</p>
+<p>This small project is a byproduct of my <a href="https://github.com/matteobrusa/Tumbless">Tumbless blogging platform</a> project.</p>
+<h2 id="setup">Setup</h2>
+<ol start="0">
+<li>Upload the <code>index.html</code> document and the background image to your static hosting service.</li>
+<li>Load it up in your browser, enter the password of your choice</li>
+<li>It will show &ldquo;wrong password&rdquo;, never mind. Copy the section of the URL after the # sign.</li>
+<li>Create a folder with that name next to the <code>index.html</code> file</li>
+<li>Upload the content that you want to protect inside the folder</li>
+</ol>
+<p>The final structure will be:</p>
+<pre><code>- index.html
+- background.jpg
+- this-is-a-hash      &lt;-- the SHA1 hash of your password               
+  \ - index.html      &lt;-- your original index document
+</code></pre><h3 id="is-this-secure">Is this secure?</h3>
+<p>Pretty much secure, please consider that:</p>
+<ol start="0">
+<li>If your hosting service offers directory listing, a visitor can bypass the protection.</li>
+<li>there&rsquo;s no protection against brute force attack. Pick a very long and hard to guess password.</li>
+<li>The password&rsquo;s hash is part of the URI. <strong>Enforce HTTPS</strong> to avoid man in the middle attacks.</li>
+</ol>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<ol start="0">
+<li>Test the <a href="http://matteobrusa.github.io/Password-protection-for-static-pages/">demo page</a> in your browser with password &lsquo;secret&rsquo;</li>
+<li>Deploy the whole repo on your hosting, and test again.</li>
+</ol>
+
+					</div>
+					<div class="post-comments">
+						
+					</div>
+				</div>
+			</div>
       <div class="col-md-4">
         <aside class="sidebar"><div class="widget widget-latest-post">
     <h4 class="widget-title">Derniers articles</h4>
@@ -256,9 +219,9 @@
   </div></aside>
 
       </div>
-    </div>
-  </div>
-</div>
+		</div>
+	</div>
+</section>
 
 <footer class="footer">
 	<div class="container">
