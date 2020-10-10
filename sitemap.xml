@@ -3,12 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://eirbot.github.io/blog/</loc>
-    <lastmod>2020-10-01T11:07:10+06:00</lastmod>
+    <loc>https://eirbot.github.io/</loc>
+    <lastmod>2020-10-08T11:07:10+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eirbot.github.io/</loc>
+    <loc>https://eirbot.github.io/reunion/rapport5/</loc>
+    <lastmod>2020-10-08T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/reunion/</loc>
+    <lastmod>2020-10-08T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/tags/r%C3%A9union/</loc>
+    <lastmod>2020-10-08T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/tags/</loc>
+    <lastmod>2020-10-08T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/blog/</loc>
     <lastmod>2020-10-01T11:07:10+06:00</lastmod>
   </url>
   
@@ -23,13 +43,18 @@
   </url>
   
   <url>
-    <loc>https://eirbot.github.io/tags/</loc>
-    <lastmod>2020-10-01T11:07:10+06:00</lastmod>
+    <loc>https://eirbot.github.io/blog/blog-post-2/</loc>
+    <lastmod>2020-09-18T11:07:10+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eirbot.github.io/blog/blog-post-2/</loc>
-    <lastmod>2020-09-18T11:07:10+06:00</lastmod>
+    <loc>https://eirbot.github.io/reunion/rapport3/</loc>
+    <lastmod>2020-09-17T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/reunion/rapport2/</loc>
+    <lastmod>2020-09-10T11:07:10+06:00</lastmod>
   </url>
   
   <url>
@@ -45,6 +70,11 @@
   <url>
     <loc>https://eirbot.github.io/blog/blog-post-4/</loc>
     <lastmod>2020-09-07T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/reunion/rapport1/</loc>
+    <lastmod>2020-07-30T11:07:10+06:00</lastmod>
   </url>
   
   <url>
@@ -96,11 +126,7 @@
   </url>
   
   <url>
-    <loc>https://eirbot.github.io/author/john-doe/</loc>
-  </url>
-  
-  <url>
-    <loc>https://eirbot.github.io/author/mark-dinn/</loc>
+    <loc>https://eirbot.github.io/author/lucas-mangin/</loc>
   </url>
   
   <url>
