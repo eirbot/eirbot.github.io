@@ -20,24 +20,5 @@
       <description>Password protection for static pages This simple HTML document helps you protecting static pages or whole websites with no server configuration required: you can now use Dropbox, Amazon S3 or any generic hosting service to host a private, password protected site.</description>
     </item>
     
-    <item>
-      <title>&lt;i class=&#34;fas fa-user-shield fa-2x&#34;&gt;&lt;/i&gt;  Espace bureau</title>
-      <link>https://eirbot.github.io/membre/c0875be49cb75bbd185876c6b5135e75170dae05/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eirbot.github.io/membre/c0875be49cb75bbd185876c6b5135e75170dae05/</guid>
-      <description>Temps restant avant la coupe   -- jours -- heures -- minutes -- secondes      Rapports de réunion  Réunion du    Rapport     Réunion du    Rapport     Réunion du    Rapport      Réunion du    Rapport     Réunion du    Rapport     Réunion du    Rapport     Agenda des évenements de Eirbot     Inventaire Inventaire{:class=&amp;quot;button reversed scrolly&amp;rdquo;} Base de données{:class=&amp;quot;button reversed scrolly&amp;rdquo;}</description>
-    </item>
-    
-    <item>
-      <title>Espace membre</title>
-      <link>https://eirbot.github.io/membre/e851a1128acf6b7fb9c5830a423f0696da4c95ac/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eirbot.github.io/membre/e851a1128acf6b7fb9c5830a423f0696da4c95ac/</guid>
-      <description>&amp;nbsp; // Coupe de France de robotique dans :&amp;nbsp;
-[j] jours&amp;nbsp;[h] heures [m] minutes [s] secondes&#34; ; // HTML d&#39;affichage si écoulé var htmlafter = &#34;COUPE EN COURS&amp;nbsp;&#34; ; // Date / heure courante var date1 = new Date(); // Date / heure de fin // Attention, le mois commence à 0 pour janvier var date2 = new Date (2020, 9, 28, 10, 0, 18); // Nombre de secondes entre les dates var nbsec = (date2 - date1) / 1000; // Nombre de secondes dans une journée var nbsecj = 24 * 3600; // Pour arrêt compteur si temps écoulé et pas de texte prévu var stopcpt=false; // Si négatif = temps écoulé if (nbsec on met tout à zéro if (stopcpt==true) {j=0;h=0;m=0;s=0} // Modification du HTML à afficher var html = html.</description>
-    </item>
-    
   </channel>
 </rss>

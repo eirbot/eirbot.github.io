@@ -7,9 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-Us</language>
     <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 11 Oct 2020 11:07:10 +0600</lastBuildDate>
     
 	<atom:link href="https://eirbot.github.io/author/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Julien Poupon</title>
+      <link>https://eirbot.github.io/author/julien-poupon/</link>
+      <pubDate>Sun, 11 Oct 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/author/julien-poupon/</guid>
+      <description> Julien Poupon Élève-ingénieur en filière Électronique promotion 2022.  Responsable des partenariats 2020-2021        </description>
+    </item>
+    
+    <item>
+      <title>Lucas Mangin</title>
+      <link>https://eirbot.github.io/author/lucas-mangin/</link>
+      <pubDate>Sun, 11 Oct 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/author/lucas-mangin/</guid>
+      <description> Lucas Mangin Élève-ingénieur en filière Électronique promotion 2022.  Secrétaire 2020-2021           </description>
+    </item>
+    
+    <item>
+      <title>Sébastien Delpeuch</title>
+      <link>https://eirbot.github.io/author/sebastien-delpeuch/</link>
+      <pubDate>Sun, 11 Oct 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/author/sebastien-delpeuch/</guid>
+      <description> Sébastien Delpeuch Élève-ingénieur en filière Informatique promotion 2022.  Président 2020-2021           </description>
+    </item>
+    
+    <item>
+      <title>Yohann Varoqui</title>
+      <link>https://eirbot.github.io/author/yohann-varoqui/</link>
+      <pubDate>Sun, 11 Oct 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/author/yohann-varoqui/</guid>
+      <description> Yohann Varoqui Élève-ingénieur en filière Électronique promotion 2022. Vice président 2020-2021        </description>
+    </item>
     
   </channel>
 </rss>

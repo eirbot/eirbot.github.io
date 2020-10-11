@@ -4,7 +4,32 @@
   
   <url>
     <loc>https://eirbot.github.io/</loc>
-    <lastmod>2020-10-08T11:07:10+06:00</lastmod>
+    <lastmod>2020-10-11T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/author/julien-poupon/</loc>
+    <lastmod>2020-10-11T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/author/lucas-mangin/</loc>
+    <lastmod>2020-10-11T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/author/</loc>
+    <lastmod>2020-10-11T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/author/sebastien-delpeuch/</loc>
+    <lastmod>2020-10-11T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/author/yohann-varoqui/</loc>
+    <lastmod>2020-10-11T11:07:10+06:00</lastmod>
   </url>
   
   <url>
@@ -147,10 +172,6 @@
   </url>
   
   <url>
-    <loc>https://eirbot.github.io/membre/c0875be49cb75bbd185876c6b5135e75170dae05/</loc>
-  </url>
-  
-  <url>
     <loc>https://eirbot.github.io/categories/</loc>
   </url>
   
@@ -163,7 +184,7 @@
   </url>
   
   <url>
-    <loc>https://eirbot.github.io/membre/e851a1128acf6b7fb9c5830a423f0696da4c95ac/</loc>
+    <loc>https://eirbot.github.io/e851a1128acf6b7fb9c5830a423f0696da4c95ac/</loc>
   </url>
   
   <url>
@@ -188,10 +209,6 @@
   
   <url>
     <loc>https://eirbot.github.io/project/rio-furniture-4/</loc>
-  </url>
-  
-  <url>
-    <loc>https://eirbot.github.io/author/</loc>
   </url>
   
 </urlset>
