@@ -129,37 +129,37 @@
           <p>Cette page regroupe toutes les réalisations diverses des membres.</p>
 <div class="project">
   <div class="box">
-    <img src="/images/vrac/boite.jpg">
+    <img src="/images/vrac/boite.webp">
     <span>Boite de rangement</span>
   </div>
   <div class="box">
-    <img src="/images/vrac/flyers.jpg">
+    <img src="/images/vrac/flyers.webp">
     <span>Porte flyers</span>
   </div>
   <div class="box">
-    <img src="/images/vrac/forets.jpg">
+    <img src="/images/vrac/forets.webp">
     <span>Boite pour ranger les forêts</span>
   </div>
   <div class="box">
-    <img src="/images/vrac/vrac.jpg">
+    <img src="/images/vrac/vrac.webp">
     <span>Casier pour le vrac</span>
 </div>
 </div>
 <div class="project">
   <div class="box">
-    <img src="/images/vrac/otter.png">
+    <img src="/images/vrac/otter.webp">
     <span>Décoration de la porte d'entrée</span>
   </div>
   <div class="box">
-    <img src="/images/vrac/plaque.jpg">
+    <img src="/images/vrac/plaque.webp">
     <span>Étalon pour la découpeuse laser</span>
   </div>
     <div class="box">
-    <img src="/images/vrac/brenda.png">
-    <span>Deux voitures télécommandées</span>
+    <img src="/images/vrac/pavillon.webp">
+    <span>Pavillon du robot </span>
   </div>
   <div class="box">
-    <img src="/images/rubix_cube.jpg">
+    <img src="/images/rubix_cube.webp">
     <span>Solveur de rubix cube</span>
   </div>
 </div>
@@ -170,33 +170,38 @@
   padding: 4% 2%;
   box-sizing: border-box;
 }
-<p>.box {
-flex: 1;
-overflow: hidden;
-transition: .5s;
-margin: 0 2%;
-box-shadow: 0 20px 30px rgba(0,0,0,.1);
-line-height: 0;
-max-height: 100vh;
-color: #45484e;
-}</p>
-<p>.box &gt; img {
-width: 200%;
-object-fit: cover;
-transition: .5s;
-}</p>
-<p>.box &gt; span {
-font-size: 3.8vh;
-display: block;
-text-align: center;
-height: 20vh;
-line-height: 2.6;
-}</p>
-<p>.box:hover { flex: 1 1 50%; }
-.box:hover &gt; img {
-width: 100%;
-}</p>
-<p></style></p>
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+  max-height: 100vh;
+  color: #45484e;
+}
+
+.box > img {
+  width: 200%;
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 20vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+}
+ 
+</style>
 
         </div>
       </div>
