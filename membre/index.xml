@@ -7,9 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-Us</language>
     <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 05 Oct 2019 11:07:10 +0600</lastBuildDate>
     
 	<atom:link href="https://eirbot.github.io/membre/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Base de données inventaire</title>
+      <link>https://eirbot.github.io/membre/base/</link>
+      <pubDate>Sat, 05 Oct 2019 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/membre/base/</guid>
+      <description>Référence Nom Emplacement Caractéristique     &amp;#xa0; Carton station à souder A1 &amp;#xa0;   TQFP 64 ATMEGA A2 &amp;#xa0;   2N1893 Silicon NPN Transitor A2 &amp;#xa0;   LM2902N Low power quad operational amplifiers A2 &amp;#xa0;   2N2222A Silicon Planar Epitaxial NPN A2 &amp;#xa0;   HCF40106BE Hex Schmitt trigger A2 &amp;#xa0;   HCF40107B Dual 2-Input Nand Buffer/Driver A2 &amp;#xa0;   HEF4093BP Quad two-input Nand gate A2 &amp;#xa0;   HEF4060BP 14-stage ripple-carry binary counter/divider and oscillator A2 &amp;#xa0;   LM339N Quad Single Supply A2 &amp;#xa0;   HEF4082BP Dual 4-input AND gate A2 &amp;#xa0;   HEF4001BP Dual 3-input NOR gate and inverter A2 &amp;#xa0;   MC14017BCP Decade Counter A2 &amp;#xa0;   HEF4020BP 14-stage binary counter A2 &amp;#xa0;   HEF4070BP Quad 2-input EXCLUSIVE-OR gate A2 &amp;#xa0;   HEF4511BP BCD to 7-segment latch/decoder/driver A2 &amp;#xa0;   HEF4035BP 4-bit universal shift register A2 &amp;#xa0;   HEF4077BP Quadruple exclusive-NOR gate A2 &amp;#xa0;   HEF4011BP Quad 2-input NAND gate A2 &amp;#xa0;   &amp;#xa0; Condensateur A2 10 nF 100V   &amp;#xa0; Capacitor A2 930p   &amp;#xa0; Capacitor A2 42n   &amp;#xa0; Capacitor A2 80p   &amp;#xa0; Capacitor A2 470n   &amp;#xa0; Kit antistatique A3 &amp;#xa0;   &amp;#xa0; Acessoire robot aspirateur 3A A4 &amp;#xa0;   &amp;#xa0; Distributeur B1 &amp;#xa0;   &amp;#xa0; Joystick B &amp;#xa0;   &amp;#xa0; Prise banane non homologués B2 &amp;#xa0;   &amp;#xa0; Rouleau de scratch B &amp;#xa0;   &amp;#xa0; Barette de RAM B3 &amp;#xa0;   &amp;#xa0; Disque dur B3 &amp;#xa0;   &amp;#xa0; Câble VGA C1 &amp;#xa0;   &amp;#xa0; Connecteur Ethernet - Ethernet C1 &amp;#xa0;   &amp;#xa0; Câble éthernet C1 &amp;#xa0;   &amp;#xa0; Boites lipos vide C2 &amp;#xa0;   &amp;#xa0; Bafles C &amp;#xa0;   &amp;#xa0; Base de robot C &amp;#xa0;   &amp;#xa0; 2 écrancs C &amp;#xa0;   &amp;#xa0; 3 claviers mécanique C &amp;#xa0;   &amp;#xa0; Lidar D &amp;#xa0;   &amp;#xa0; Alimentation PC D &amp;#xa0;   &amp;#xa0; Alimentation autre D &amp;#xa0;   &amp;#xa0; Canon lance balle D1 &amp;#xa0;   &amp;#xa0; Transformer D1 18V 2200mA   &amp;#xa0; Diverses alimentation D1 &amp;#xa0;   &amp;#xa0; Résistance cosse à souder D2 15 ohm   &amp;#xa0; Hélice D2 &amp;#xa0;   &amp;#xa0; Moteurs D2 &amp;#xa0;   &amp;#xa0; Micro controleur température D3 &amp;#xa0;   &amp;#xa0; Boite de vitesse D3 &amp;#xa0;   &amp;#xa0; Fixation murale papier toilette D3 &amp;#xa0;   &amp;#xa0; Moteurs divers D3 &amp;#xa0;   &amp;#xa0; Dominos D4 &amp;#xa0;   DI-145 Data acquisition starter D4 &amp;#xa0;   T560 Digital delay generator D4 &amp;#xa0;   &amp;#xa0; Bloc de jonction 12 pôles D4 &amp;#xa0;   424-370 Alimentation à couplage intégrée D4 &amp;#xa0;   LDTC 1020 Laser diode driver &amp; temperature controller D4 &amp;#xa0;   E230194 Alimentation D4 &amp;#xa0;   522-3006 Bourns Potentiomètre rotatif D4 &amp;#xa0;   &amp;#xa0; Laser D4 &amp;#xa0;   &amp;#xa0; Alimentation D5 &amp;#xa0;   &amp;#xa0; Câbles divers D6 &amp;#xa0;   &amp;#xa0; Ventilateurs E &amp;#xa0;   &amp;#xa0; Câbles divers E1 &amp;#xa0;   &amp;#xa0; Dominos E1 &amp;#xa0;   &amp;#xa0; Range câble E1 &amp;#xa0;   &amp;#xa0; Nappes E1 &amp;#xa0;   &amp;#xa0; Cable divers E2 &amp;#xa0;   &amp;#xa0; Prise de courant E2 &amp;#xa0;   &amp;#xa0; Souris E2 &amp;#xa0;   &amp;#xa0; double VGA E2 &amp;#xa0;   &amp;#xa0; Relay E3 8A 250V   &amp;#xa0; Capacitors E3 4.</description>
+    </item>
+    
+    <item>
+      <title>Inventaire</title>
+      <link>https://eirbot.github.io/membre/inventaire/</link>
+      <pubDate>Sat, 05 Oct 2019 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/membre/inventaire/</guid>
+      <description>Armoire carton  Au dessus (A) Etage 1 (B) Etage 2 (C) Etage 3 (D) Etage 4 (E) Etage 5 (F)   Armoire centrale  1ère colonne (G) 2ème colonne (H) 3ème colonne (I)   Armoire coin élec  Au dessus (J) Etage 1 (K) Etage 2 (L) Etage 3 (M)   Armoire mécanique  Divers (O) Produits chimiques &amp; scotchs (P) Armoire (Q) Caisse à outils (R) Divers (S)    Armoire carton (à droite de l’entrée)</description>
+    </item>
     
     <item>
       <title></title>

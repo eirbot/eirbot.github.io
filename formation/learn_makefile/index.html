@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en-Us"><head>
+  <meta charset="utf-8">
+  <title>Formation makefile</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Formation pour l&#39;utilisation et la création de makefile">
+  <meta name="author" content="Eirbot">
+  <meta name="generator" content="Hugo 0.68.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://eirbot.github.io/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://eirbot.github.io/plugins/Ionicons/css/ionicons.min.css">
+  
+  <link rel="stylesheet" href="https://eirbot.github.io/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="https://eirbot.github.io/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://eirbot.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://eirbot.github.io/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://eirbot.github.io/images/favicon.png" type="image/x-icon">
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+              <img src="https://eirbot.github.io/images/LogoEirbot.png" alt="EIRBOT | Association de robotique de l&#39;ENSEIRB-MATMECA" width="65px" class="img-responsive">
+            </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/">Accueil</a></li>
+              
+              
+              
+              <li><a href="/project">Nos projets</a></li>
+              
+              
+              
+              <li><a href="/blog">Blog</a></li>
+              
+              
+              
+              <li><a href="/membre/login.html">Espace membre</a></li>
+              
+              
+              
+              <li><a href="/about">Nos sponsors</a></li>
+              
+              
+              
+              <li><a href="/contact">Contact</a></li>
+              
+              
+
+              
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="page-title bg-2" style="background-image: url('https://eirbot.github.io/images/banner.webp');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Formation makefile</h1>
+          <p>Formation pour l&#39;utilisation et la création de makefile</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="post post-single">
+					<h2 class="post-title">Formation makefile</h2>
+					<div class="post-meta">
+						<ul>
+              <li><i class="ion-calendar"></i> April 5, 2020</li>
+              <li><i class="ion-android-people"></i>
+                Écrit par
+                
+                <a class="text-primary" href="/author/s%C3%A9bastien-delpeuch">Sébastien Delpeuch</a>
+                
+              </li>
+              <li><i class="ion-pricetags"></i> 
+                
+                <a href="/tags/formations">Formations</a>
+								
+              </li>
+            </ul>
+					</div>
+					<div class="post-thumb">
+						<img class="img-responsive" src="/images/gnu-make.png" alt="Formation makefile">
+					</div>
+					<div class="post-content post-excerpt">
+						<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<p>Les <a href="https://gl.developpez.com/tutoriel/outil/makefile/">Makefiles</a> sont des fichiers permettant d&rsquo;executer un ensemble d&rsquo;actions,
+comme la compilation d&rsquo;un projet, la mise à jour d&rsquo;un rapport, où l&rsquo;archivage de
+données. Les Makefiles sont des fichiers shell particulier ils respectent
+cependant les conventions de codages du shell. L&rsquo;idée de
+ce document est de présenté l&rsquo;idée générale d&rsquo;un Makefile via un exemple
+basique, puis d&rsquo;aller vers un exemple plus complexe, le Makefile pour notre
+robot.</p>
+<h2 id="i-classfab-fa-leanpub-i-un-exemple-basique"><i class="fab fa-leanpub "></i> Un exemple basique</h2>
+<p>Considérons un exemple de projet très basique, constitué de 3 fichiers :
+hello.c, hello.h et main.c.De manière littérale nous avons définit des fonctions
+dans hello.c, ces fonctions sont reférencées par leurs prototypes dans hello.h.
+Par ailleurs nous avons définies des fonctions dans main.c, nous sous entendons
+que les fonctions de main.c font appels à celles de hello.c (d&rsquo;où l&rsquo;inclusion de
+hello.h dans main.c).</p>
+<p>Nous voulons donc compiler main.c pour créer un executable que nous appellerons
+<strong>project</strong>. Si nous essayons directement de faire <code>shell gcc -Wall -Werror -std=c99 main.c project </code> nous allons avoir des références indéfinies. En
+effet il faut d&rsquo;abbord compiler hello.c en hello.o pour que la machine connaisse
+les fonctions définit dans le hello.c (c&rsquo;est le rôle du hello.o). Ainsi pour
+créer project il faut faire deux lignes de commande <code>gcc -Wall -Werror -std=c99 hello.c -c</code> puis <code>gcc -Wall -Werror -std=c99 hello.o main.c -o project</code>.</p>
+<p>Deux nouvelles options se présentent <code>-c</code> qui permet de dire au compilateur de
+créer un fichier &ldquo;.o&rdquo; et <code>-o</code> qui permet d&rsquo;appeler le linker (c&rsquo;est lui qui
+dit au compilateur que certainnes fonctions appelées dans main.c sont définies
+dans hello.o).</p>
+<p>Maintenant que nous avons compris comment nous pouvions compiler ce projet, nous
+allons regarder comment automatiser ces étapes. Pour cela regardons la synthaxe
+type d&rsquo;un Makefile.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile">  cible : dependances
+          commandes
+</code></pre></div><p>Analysons ces deux lignes de commandes, le <code>cible</code> permet de donner un nom
+ainsi dans le shell nous pourrons taper <code>make cible</code> pour effectuer les
+actions correspondantes. Dans notre cas la cible serait <code>project</code>. Ensuite les
+<code>dépendances</code> sont les fichiers nécessaires à la création de la cible, dans
+notre cas cela serait ``hello.o&rsquo;'. Un exemple de Makefile complet pour ce projet
+serait le suivant</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#a6e22e">hello.o</span><span style="color:#f92672">:</span>
+        gcc -Wall -Werror -std<span style="color:#f92672">=</span>c99 hello.c -c
+
+<span style="color:#a6e22e">project </span><span style="color:#f92672">:</span> hello.o
+          gcc -Wall -Werror -std<span style="color:#f92672">=</span>c99 hello.o main.c -o project
+</code></pre></div><h2 id="i-classfab-fa-leanpub-i-un-exemple-plus-complexe"><i class="fab fa-leanpub "></i> Un exemple plus complexe</h2>
+<p>Nous allons maintenant passer à un exemple plus complexe, l&rsquo;exemple du Makefile
+utilisé pour le robot. Plusieurs complications et exigences vont se révéler avec ce projet</p>
+<ul>
+<li>Beaucoup de fichiers pour le projet</li>
+<li>Des dépendances entre les fichiers</li>
+<li>Arreter de compiler les dépendances ``à la main&rsquo;&rsquo;</li>
+<li>Avoir deux main (un main et un test)</li>
+<li>Nettoyer son dossier</li>
+<li>Vouloir changer les options de compilation / le compilateur facilement</li>
+<li>Avoir des fichiers dans différents dossier</li>
+</ul>
+<p>Commençons par présenter les différents fichiers du projet.</p>
+<p><img src="/assets/images/organisation.png" alt="organisation"></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">code/
+| Makefile
+| rasp
+|   | src
+|   |   | actionneur.hpp
+|   |   | affichage.cpp
+|   |   | affichage.hpp
+|   |   | asserv.cpp
+|   |   | asserv.hpp
+|   |   | detection.cpp
+|   |   | detection.hpp
+|   |   | main.cpp
+|   |   | main.hpp
+|   |   | navigation.cpp
+|   |   | navigation.hpp
+|   |   | protocole.cpp
+|   |   | protocole.hpp
+|   |   | world.cpp
+|   |   | world.hpp
+|   | tst
+|   |   | test.cpp
+|   |   | test.hpp
+|
+</code></pre></div><p>{:class=&quot;image about right&rdquo;}</p>
+<p>Chaque figure de ce graphique correspond à un .cpp et un .hpp (même principe que
+un .c et un .h en c++). Cela soulève donc un premier point : beaucoup de fichier
+à gérer il va donc falloir créer tous les fichiers binaires (les .o) pour tout
+ces fichiers. Nous devons donc créer asserv.o, world.o, navigation.o,
+detection.o, protocole.o, affichage.o. Nous allons vouloir automatiser la
+création de ces binaires pour cela nous allons utiliser des commandes spéciales
+aux Makefile<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Pour automatiser la
+transformation des .cpp en .o nous avons les lignes suivantes</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#a6e22e">%.o</span><span style="color:#f92672">:</span> rasp/src/%.cpp
+   <span style="color:#66d9ef">$(</span>CC<span style="color:#66d9ef">)</span> <span style="color:#66d9ef">$(</span>CFLAGS<span style="color:#66d9ef">)</span> -c $&lt;
+</code></pre></div><p>Cela constitue la première règle de notre Makefile, elle permet de transformer
+n&rsquo;importe quel .cpp dans code/rasp/src/ en un .o (qui sera mis dans code/).
+Nous voyons apparaitre deux variables inconnues <code>$(CC)</code> et <code>$(CFLAGS)</code>, ces
+variables seront définies en début de Makefile et permettent de régler le
+problème 6. En effet <code>CC</code> va contenir le compilateur et <code>CFLAGS</code> les options
+de compilation. Nous ajustons donc notre Makefile comme suit.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile">CFLAGS <span style="color:#f92672">=</span> -Wall -Wextra -std<span style="color:#f92672">=</span>c++11 -g -O3
+CC<span style="color:#f92672">=</span>g++
+<span style="color:#a6e22e">%.o</span><span style="color:#f92672">:</span> rasp/src/%.cpp
+	<span style="color:#66d9ef">$(</span>CC<span style="color:#66d9ef">)</span> <span style="color:#66d9ef">$(</span>CFLAGS<span style="color:#66d9ef">)</span> -c $&lt;
+</code></pre></div><p>Maintenant que nous avons obtenu un moyen de transformer tous les fichiers .cpp en
+fichier binaire .o nous allons voir comment créer nos deux executables que nous
+appelerons project (qui contiendra le projet en entier) et le test (qui
+contiendra le test à effectuer) nous créons alors deux règles :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile">CFLAGS <span style="color:#f92672">=</span> -Wall -Wextra -std<span style="color:#f92672">=</span>c++11 -g -O3
+FILE<span style="color:#f92672">=</span>navigation.o detection.o protocole.o asserv.o world.o affichage.o
+CC<span style="color:#f92672">=</span>g++
+
+<span style="color:#a6e22e">all</span><span style="color:#f92672">:</span> project
+
+<span style="color:#a6e22e">%.o</span><span style="color:#f92672">:</span> rasp/src/%.cpp
+	<span style="color:#66d9ef">$(</span>CC<span style="color:#66d9ef">)</span> <span style="color:#66d9ef">$(</span>CFLAGS<span style="color:#66d9ef">)</span> -c $&lt;
+
+<span style="color:#a6e22e">project</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">$(</span>FILE<span style="color:#66d9ef">)</span> rasp/src/main.cpp
+	<span style="color:#66d9ef">$(</span>CC<span style="color:#66d9ef">)</span> <span style="color:#66d9ef">$(</span>CFLAGS<span style="color:#66d9ef">)</span> <span style="color:#66d9ef">$(</span>FILE<span style="color:#66d9ef">)</span> rasp/src/main.cpp -o project
+
+<span style="color:#a6e22e">test</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">$(</span>FILE<span style="color:#66d9ef">)</span> rasp/tst/test.cpp
+	<span style="color:#66d9ef">$(</span>CC<span style="color:#66d9ef">)</span> <span style="color:#66d9ef">$(</span>CFLAGS<span style="color:#66d9ef">)</span> <span style="color:#66d9ef">$(</span>FILE<span style="color:#66d9ef">)</span> rasp/tst/test.cpp -o test
+</code></pre></div><p>Nous voyons alors une nouvelle variable apparaitre, la variable <code>$FILE</code>,
+cette dernière va lister les dépendances (c&rsquo;est à dire tous les fichier .o
+nécessaire pour la réalisation des règles). A ce stade il ne reste plus beaucoup
+de chose à faire sur le Makefile, si vous avez tout compris jusque là vous
+pourrez comprendre et créer un Makefile sans trop de soucis. Il faut encore
+rajouter deux règles qui sont très souvent présentes dans les Makefile <code>all</code>.
+et <code>clean</code> (qui permet de nettoyer le dossier). Nous fournissons alors le
+Makefile final qui permet de réaliser le projet. Ce Makefile est totalement
+générique et est réutilisable pour tous vos projets.</p>
+<p>CFLAGS = -Wall -Wextra -std=c++11 -g -O3
+FILE=navigation.o detection.o protocole.o asserv.o world.o affichage.o
+CC=g++</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#75715e">## Ceci Bloc de documentation doxygen ... pour plus tard
+</span><span style="color:#75715e"># Project Title
+</span><span style="color:#75715e">#
+</span><span style="color:#75715e"># @file
+</span><span style="color:#75715e"># @version 0.1
+</span><span style="color:#75715e"></span>
+<span style="color:#a6e22e">all</span><span style="color:#f92672">:</span> project
+
+<span style="color:#a6e22e">%.o</span><span style="color:#f92672">:</span> rasp/src/%.cpp
+	<span style="color:#66d9ef">$(</span>CC<span style="color:#66d9ef">)</span> <span style="color:#66d9ef">$(</span>CFLAGS<span style="color:#66d9ef">)</span> -c $&lt;
+
+<span style="color:#a6e22e">project</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">$(</span>FILE<span style="color:#66d9ef">)</span> rasp/src/main.cpp
+	<span style="color:#66d9ef">$(</span>CC<span style="color:#66d9ef">)</span> <span style="color:#66d9ef">$(</span>CFLAGS<span style="color:#66d9ef">)</span> <span style="color:#66d9ef">$(</span>FILE<span style="color:#66d9ef">)</span> rasp/src/main.cpp -o project
+
+<span style="color:#a6e22e">test</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">$(</span>FILE<span style="color:#66d9ef">)</span> rasp/tst/test.cpp
+	<span style="color:#66d9ef">$(</span>CC<span style="color:#66d9ef">)</span> <span style="color:#66d9ef">$(</span>CFLAGS<span style="color:#66d9ef">)</span> <span style="color:#66d9ef">$(</span>FILE<span style="color:#66d9ef">)</span> rasp/tst/test.cpp -o test
+
+<span style="color:#a6e22e">clean</span><span style="color:#f92672">:</span>
+	rm -f *.o project test test_protocole
+<span style="color:#75715e"># end
+</span></code></pre></div><h2 id="i-classfab-fa-leanpub-i-automatiser-un-makefile-avec-cmake-i-classfas-fa-wrench-i"><i class="fab fa-leanpub "></i> Automatiser un makefile avec Cmake <i class="fas fa-wrench "></i></h2>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Je passe sous silence les commandes spéciales, si vous voulez des précision demandez à Lucas H. ou SD <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+					</div>
+					<div class="post-comments">
+						
+					</div>
+				</div>
+			</div>
+      <div class="col-md-4">
+        <aside class="sidebar"><div class="widget widget-tag">
+    <h4 class="widget-title">Mots clefs</h4>
+    <ul class="widget-tag-list">
+      <li><a href="/tags/formations">Formations</a></li>
+      <li><a href="/tags/int%c3%a9gration-des-1a">Intégration des 1a</a></li>
+      <li><a href="/tags/partenaires">Partenaires</a></li>
+      <li><a href="/tags/projets1a">Projets1a</a></li>
+      <li><a href="/tags/r%c3%a9union">Réunion</a></li>
+      <li><a href="/tags/vie-de-lassociation">Vie de lassociation</a></li>
+    </ul>
+  </div></aside>
+<a href="https://twitter.com/AssoEirbot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="fr" data-show-count="false">Follow @AssoEirbot</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<a class="twitter-timeline" data-lang="fr" data-height="2000" data-theme="light" href="https://twitter.com/AssoEirbot?ref_src=twsrc%5Etfw">Tweets by AssoEirbot</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      </div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="footer-manu">
+					<ul>
+            
+            <li><a href="https://eirbot.github.io/about">Nos Sponsors</a></li>
+            
+            <li><a href="https://eirbot.github.io/project">Nos Projets</a></li>
+            
+            <li><a href="https://eirbot.github.io/contact">Nous contacter</a></li>
+            
+					</ul>
+				</div>
+				<p class="copyright">Copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
+
+
+
+
+<script src="https://eirbot.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://eirbot.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://eirbot.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://eirbot.github.io/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="https://eirbot.github.io/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://eirbot.github.io/plugins/google-map/gmap.js"></script>
+
+
+
+
+<script src="https://eirbot.github.io/js/script.min.js"></script>
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-main btn-solid-border">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+
+</html>

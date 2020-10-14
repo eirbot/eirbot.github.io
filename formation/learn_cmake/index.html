@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en-Us"><head>
+  <meta charset="utf-8">
+  <title>Formation Cmake</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Eirbot est l&#39;association de robotique de l&#39;ENSEIRB-MATMECA.">
+  <meta name="author" content="Eirbot">
+  <meta name="generator" content="Hugo 0.68.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://eirbot.github.io/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://eirbot.github.io/plugins/Ionicons/css/ionicons.min.css">
+  
+  <link rel="stylesheet" href="https://eirbot.github.io/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="https://eirbot.github.io/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://eirbot.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://eirbot.github.io/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://eirbot.github.io/images/favicon.png" type="image/x-icon">
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+              <img src="https://eirbot.github.io/images/LogoEirbot.png" alt="EIRBOT | Association de robotique de l&#39;ENSEIRB-MATMECA" width="65px" class="img-responsive">
+            </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/">Accueil</a></li>
+              
+              
+              
+              <li><a href="/project">Nos projets</a></li>
+              
+              
+              
+              <li><a href="/blog">Blog</a></li>
+              
+              
+              
+              <li><a href="/membre/login.html">Espace membre</a></li>
+              
+              
+              
+              <li><a href="/about">Nos sponsors</a></li>
+              
+              
+              
+              <li><a href="/contact">Contact</a></li>
+              
+              
+
+              
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="page-title bg-2" style="background-image: url('https://eirbot.github.io/images/banner.webp');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Formation Cmake</h1>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="post post-single">
+					<h2 class="post-title">Formation Cmake</h2>
+					<div class="post-meta">
+						<ul>
+              <li><i class="ion-calendar"></i> October 5, 2019</li>
+              <li><i class="ion-android-people"></i>
+                Écrit par
+                
+                <a class="text-primary" href="/author/s%C3%A9bastien-delpeuch">Sébastien Delpeuch</a>
+                
+              </li>
+              <li><i class="ion-pricetags"></i> 
+                
+                <a href="/tags/formations">Formations</a>
+								
+              </li>
+            </ul>
+					</div>
+					<div class="post-thumb">
+						<img class="img-responsive" src="/images/cmake-logo.png" alt="Formation Cmake">
+					</div>
+					<div class="post-content post-excerpt">
+						<!-- Le latex la vie -->
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<!--------------------------------------------------------------------------------------------->
+<!-- Permet d'afficher la barre de progression                                               -->
+<div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+</div>
+<div id="scroll_to_top">
+    <a href="#top"><img src="/assets/images/fleche.jpg" alt="Retourner en haut" /></a>
+</div>
+<!--------------------------------------------------------------------------------------------->
+<p>Note avant lecture : Cette formation est une formation à CMake, elle permet de voir rapidement les différentes fonctionnalités de cet outil permettant de générer des règles de compilation facilement. Cependant il est bon (voir nécessaire) de savoir utiliser et construire un <a href="/assets/md/formation/learn_makefile">Makefile</a> avant d&rsquo;attaquer</p>
+<p>Formation retranscrite (et factorisée) depuis <a href="https://florian-goujeon.developpez.com/cours/cmake/initiation/">cette page</a>. A noter que Cmake ne dépend pas de la plateforme, il fonctionnera aussi bien sur Windows que sur Linux, sur Ubuntu, un <code>sudo apt install cmake</code> est suffisant pour avoir toutes les fonctionnalités.</p>
+<h2 id="i-classfab-fa-leanpubi-cmake"><i class="fab fa-leanpub"></i> CMake</h2>
+<p>Cmake est un système de construction logicielle. C&rsquo;est un logiciel libre, multilangage et multiplateforme. A partir du fichier descriptif du projet (nommé CMakeList.txt) et des informations sur la configuration logicielle de la machine effectuant la compilation (listées dans le fichier CMakeCache.txt, pré-rempli lors de la phase d&rsquo;analyse de la configuration), CMake est capable de générer les types de fichiers suivants</p>
+<ul>
+<li>un fichier Makefile</li>
+<li>un fichier de projet d&rsquo;EDI</li>
+<li>ou une combinaison des deux (pour les EDI supportant les fichiers Makefile)</li>
+</ul>
+<p>C&rsquo;est le générateur qui permet de définir le type de fichier à générer. Il existe plusieurs générateurs pour les makefiles, ainsi qu&rsquo;un générateur par EDI supporté</p>
+<p><img src="/assets/images/cmake.png" alt="cmake">
+{:class=&quot;images featured&rdquo;}</p>
+<h2 id="i-classfab-fa-leanpubi-compilation-dun-projet-simple"><i class="fab fa-leanpub"></i> Compilation d&rsquo;un projet simple</h2>
+<p>La syntaxe d&rsquo;un fichier Cmakelist.txt est on ne peut plus simple. Elle est exclusivement constituée d&rsquo;appels de commandes. Les arguments à passer aux commandes sont placés entre parenthèses et sépares par des espaces ou des sautes de ligne. Les différents appels de commandes sont séparés de la même façon</p>
+<pre><code>nom de la commande(arg1 arg2 arg3)
+
+nom d'une autre commande(
+    arg1
+    arg2
+    arg3
+)
+</code></pre><h3 id="un-exemple-simple">Un exemple simple</h3>
+<pre><code>#Déclaration du projet
+project(Myproject)
+
+#Déclaration de l'éxécutable
+add_executable(
+    my_executable
+    src/navigation.hpp
+    src/navigation.cpp
+    src/world.hpp
+    src/world.cpp
+    ...
+    src/main.hpp
+    src/main.cpp
+)
+</code></pre><p>La commande <code>project()</code> est utilisée pour déclarer un projet</p>
+<ul>
+<li>Le premier est le nom que vous voulez donner à votre projet. Il s&rsquo;agit entre autres du nom que portera le projet dans votre EDI</li>
+<li>Cette commande prend également un second paramètre optionnel. Il s&rsquo;agit du langage dans lequel le code du programme à compiler est écrit. Dans la majorité des cas, vous pouvez simplement ignorer cet argument, CMake étant capable de reconnaître lui-même le langage en analysant les sources</li>
+</ul>
+<p>Nous devons ensuite définir nos cibles, c&rsquo;est à dire l&rsquo;ensemble des exécutables et des bibliothèques que nous voulons générer à partir du code source. Pour le moment nous ne souhaitons créer qu&rsquo;un unique exécutable à partir de notre code source. Pour ce faire, nous écrivons la commande <code>add_executable()</code>.</p>
+<ul>
+<li>Le premier paramètre est le nom de l&rsquo;exécutable. Inutile de spécifier une éventuelle extension de fichier : rappelez vous que CMake est conçu pour être utilisé sous n&rsquo;importe quel système d&rsquo;exploitation. En outre, lorsqu&rsquo;arrivera le moment de générer le fichier exécutable, il décidera lui-même des caractères à ajouter au nom que vous lui avez passé</li>
+<li>Vous l&rsquo;avez certainement deviné : les arguments suivants consitutent la liste des fichiers sources qui seront passés au comilateur. Remarquez toutefois la présence apparemment inopportune des fichiers d&rsquo;en tête (*.h) au sein de cette liste. En effet on ne passe jamais directement un fichier d&rsquo;en-tête à un compilateur. Ces fichiers ne sont lus qu&rsquo;au moment de la résolution des directives d&rsquo;inclusion (#include) par le préprocesseur. Par bonheur, CMake traite spécifiquement ces fichiers de façon à ce qu&rsquo;ils n&rsquo;apparaissent jamais dans une commande d&rsquo;appel au compilateur. Vous n&rsquo;avez donc pas à vous souciez de ce qui se passe sous le capot à ce niveau-là. La raison de l&rsquo;inclusion est simple : vous voudrez certainement qu&rsquo;ils soient présents parmi les fichiers sources du projet dans voutre EDI, afin de pouvoir les ouvrir et les idées rapidement. Par ailleurs, même si vous n&rsquo;utilisez pas d&rsquo;EDI pouvant gérer des projets, imaginez que cela pourrait être le cas de la personne qui reprendre votre code dans le futur.</li>
+</ul>
+<h3 id="lancement-de-cmake">Lancement de CMake</h3>
+<p>Notre fichier CMakeLists.txt est maintenant complet, lançons CMake sans plus attendre. Placez vous dans le dossier racine de votre projet et entrez une commande cmake de cette forme <code>cmake . -G &quot;nom_du_generateur&quot;</code>. Le premier paramètre désigne le répertoire où se site le fichier CMakeLists.txt du projet. Dans notre cas, il s&rsquo;agit du dossier courant. L&rsquo;option <code>-G</code> permet de définir le générateur (dans le cas d&rsquo;Eirbot <code>Makefile</code>). Si tout se passe bien, la commande devrait retourner quelque chose comme ceci</p>
+<pre><code>-- The C compiler identification is nom_de_votre_compilateur_C
+
+-- The CXX compiler identification is nom_de_votre_compilateur_C++
+
+-- Check for working C compiler : chemin_vers_votre_compilateur_C
+
+-- Check for working C compiler : chemin_vers_votre_compilateur_C -- works
+
+-- Detecting C compiler ABI info
+
+-- Detecting C compiler ABI info - done
+
+-- Check for working CXX compiler : chemin_vers_votre_compilateur_C++
+
+-- Check for working CXX compiler : chemin_vers_votre_compilateur_C++ -- works
+
+-- Detecting CXX compiler ABI info
+
+-- Detecting CXX compiler ABI info - done
+
+-- Configuring done
+
+-- Generating done
+
+-- Build files have been written to : adresse_du_dossier_de_votre_projet
+</code></pre><p>CMake devrait avoir généré les fichiers suivants</p>
+<ul>
+<li>CMakeFiles : dossier contenant les fichiers intermédiaires de compilation, des fichiers temporaires et autres fichiers de configuration qui ne regardent que CMake</li>
+<li>CMakeCache.txt : fichier définissant un ensemble de variables de configuration et d&rsquo;informations sur votre système</li>
+<li>cmake_install.cmake : script CMake d&rsquo;installation de votre programme</li>
+<li>Makefile</li>
+</ul>
+<p>Remarquez que votre dossier <code>src</code> reste inchangé. Aucun fichier d&rsquo;aucune sorte n&rsquo;y a été créé. C&rsquo;est un des aspects qui explique pourquoi CMake est autant apprécié chez les maniaques du rangement.</p>
+<h3 id="ajouter-des-options-de-compilation">Ajouter des options de compilation</h3>
+<p>Que vous compiliez un exécutable ou une librairie, vous pouvez avoir besoin d&rsquo;ajouter des flags de compilation/linkage à votre cible.</p>
+<ol>
+<li>les flags de compilation :</li>
+</ol>
+<ul>
+<li>les flags de compilation tels que les répertoires non-standards dans lesquels rechercher des headers : -I/chemin/vers/les/headers</li>
+<li>les flags qui sont des options passées au compilateur, tels que les flags d&rsquo;optimisation, les flags de diagnostic, les flags de debug, les flags pour le préprocesseur e.g. -O3 -Wall -Wno-pedantic -std=c++11 &hellip;</li>
+</ul>
+<ol start="2">
+<li>les flags pour l'édition de lien :</li>
+</ol>
+<ul>
+<li>les librairies avec lesquelles linker votre cible (e.g. -lmalib) ou les options passés à l'éditeur de liens (e.g. -Wl,&ndash;no-as-needed)Link options</li>
+<li>les flags pour indiquer des répertoires : -L/chemin/vers/des/libs</li>
+</ul>
+<p>Pour modifier ces différents flags, on peut utiliser les commandes cmake ci-dessous, appliquées à &ldquo;macible&rdquo; construite par add_executable ou add_library :</p>
+<ul>
+<li>target_include_directories(macible PUBLIC /chemin/vers/les/headers;chemin2;chemin3)
+Se réécrit dans la ligne de compilation en :<code>-I/chemin/vers/les/headers -Ichemin2 -Ichemin3</code></li>
+<li><code>target_compile_options(macible PUBLIC -std=c++11 -Wall -Wno-pedantic)</code></li>
+<li><code>target_link_libraries(macible -Wl,--allow-multiple-definition;/chemin/vers/libtruc.so)</code></li>
+</ul>
+<p>Pour voir le chemin de compilation/linkage utilisé à la compilation, vous pouvez invoquer make VERBOSE=true. Vous pouvez aussi inspecter et modifier les variables utilisées pour construire votre cible :</p>
+<p>Notez que certaines options sont déjà passées par cmake lors de l&rsquo;appel de certaines macros :</p>
+<ul>
+<li><code>set(CMAKE_BUILD_TYPE Release) -&gt; -O3 -DNDEBUG</code></li>
+<li><code>set(CMAKE_BUILD_TYPE Debug) -&gt; -g</code></li>
+<li><code>add_library(... SHARED ...) -&gt; -shared</code></li>
+</ul>
+<h2 id="i-classfab-fa-leanpubi-améliorations"><i class="fab fa-leanpub"></i> Améliorations</h2>
+<h3 id="génération-automatique-de-la-liste-des-fichiers-source">Génération automatique de la liste des fichiers source</h3>
+<p>Au fur et à mesure que votre projet évolue, de nouvelles classes, de nouveaux fichiers sources apparaissent, tandis que d&rsquo;autres disparaissent. Chaque modification de l&rsquo;arborescence vous contraint à modifier le fichier CMakeLists.txt encore et encore. CMake possède toute la panoplie de commandes nécessaires à la résolution de ce type de désagréments. Pour ce cas, utilisons la commande <code>file()</code></p>
+<pre><code>cmake_minimum_required(VERSION 2.6)
+
+#Déclaration du projet 
+project(MyProject)
+
+#Génération de la liste des fichiers sources
+
+file(
+
+    GLOB_RECURSE
+    source_files
+    src/*
+)
+
+#Déclaration de l'éxécutable
+add_executable(
+    my_exe
+    ${source_files}
+)
+</code></pre><p><code>file()</code> est une commande pouvant effectuer un vas nombre d&rsquo;opérations différentes. Le premier paramètre est le type d&rsquo;opérations à exécuter. L&rsquo;opération <code>GLOB</code> récupère une liste de fichiers à partir d&rsquo;une expression. La variante <code>GLOB_RECURSE</code> cherche dans les sous-dossiers des dossiers spécifiés.  Le troisième paramètre est une expression à laquelle le chemin de chaque fichier doit correspondre pour que celui-ci soit ajouté à la liste <code>/src/*</code> désigne tous les fichiers situés dans le dossier <code>src</code>, ainsi que tous les fichiers situés dans chaque sous-dossier de <code>src</code> (spécificité de la variante <code>GLOB_RECURSE</code>).</p>
+<p>Le deuxième paramètre est la variable (ici <code>source_files</code>) dans laquelle la liste de fichiers est écrite.</p>
+<p>La suite est évidente : parmi les arguments de la commande <code>add_executable()</code>, en lieu et place de la liste de fichiers sources se trouve désormais la variable contenant la liste des fichiers récupérés par la commande <code>file()</code>. Comme vous le voyez, pour accéder à la valeur d&rsquo;une variable, il faut entourer son nom d&rsquo;accolades et faire précéder le tout pour le symbôle $.</p>
+<p>L&rsquo;utilisation de la commande <code>file()</code> nécessite de spécifier une version minimale de CMake.</p>
+<h3 id="modification-du-chemin-de-sortie-de-lexécutable">Modification du chemin de sortie de l&rsquo;exécutable</h3>
+<p>Définissez le dossier où vos exécutables doivent être produits via la variable <code>EXECUTABLE_OUTPUT_PATH</code>. Optons pour un nouveau dossier nommé bin</p>
+<pre><code>set(EXECUTABLE_OUTPUT_PATH bin)
+</code></pre><p>Mieux encore : placez vos exécutables dans dossiers portant le nom du type de compilation (Release, Debug &hellip;). Ce dernier est défini par la variable <code>CMAKE_BUILD_TYPE</code> (qui n&rsquo;a d&rsquo;effet seulement si le générateur choisi est basé sur Make)</p>
+<pre><code>cmake_minimum_required(VERSION 2.6)
+
+#Configuration du projet
+project(MyProject)
+set(EXECUTABLE_OUTPUT_PATH bin/${CMAKE_BUILD_TYPE})
+
+#Génération de la liste des fichiers sources 
+file(
+    GLOB_RECURSE
+    source_files
+    src/*
+)
+
+#Déclaration de l'executable 
+add_executable(
+    my_exe
+    ${source_files}
+)
+</code></pre><p>Ne vous inquiétez pas si aucun sous dossier n&rsquo;est créé dans bin : la variable <code>CMAKE_BUILD_TYPE</code> doit être définie par vous même. Par défaut, cette variable est vide, dans ce cas, CMake crée un script de compilation en mode Debug. Avant de faire l&rsquo;erreur de la définir directement dans le fichier CMakeLists.txt regardez la section qui suit</p>
+<h3 id="edition-du-fichier-cmakecachetxt">Edition du fichier CMakeCache.txt</h3>
+<p>Les fichiers sources et la documentation mis à part, CMakeLists.txt est le seul fichier que vous partagerez avec les autres collaborateurs du projet. Par conséquent, ce fichier doit décrire la construction du projet de façon totalement indépendante du système et du cas d&rsquo;utilisation. En effet, les collaborateurs n&rsquo;utiliseront pas tous le même système avec les mêmes paramètres, votre système lui même pourrait très bien évoluer au cours du projet. En bref <strong>ne définissez rien</strong> dans CMakeLists.txt qui puisse varier d&rsquo;un ordinateur à l&rsquo;autre ou d&rsquo;un cas d&rsquo;utilisation à l&rsquo;autre. Voici quelques exemples d&rsquo;informations qui ne doivent pas figurer dans le fichier</p>
+<ul>
+<li>le chemin vers votre compilateur</li>
+<li>le chemin vers une bibliothèque tierce</li>
+<li>les options de compilation propres au système</li>
+<li>le niveau de verbosité des scripts de compilation généres</li>
+</ul>
+<p>Tous ces paramètre personnes doivent être définis ailleurs : dans le fichier CMakeCache.txt</p>
+<p>Un exemple typique : nous allons modifier le mode de compilation, caractérisé par la variable <code>CMAKe_BUILD_TYPE</code>. Ouvrez le fichier CMakeCache.txt et trouvez la ligne définissant cette variable. La ligne en question devrait être dans cet état</p>
+<pre><code>CMAKE_BUILD_TYPE:STRING=
+</code></pre><p>Optons pour une compilation en mode Release</p>
+<pre><code>CMAKE_BUILD_TYPE:STRING=Release
+</code></pre><p>Relancez la commande cmake et compilez. Si le niveau d&rsquo;optimisation est élevé et que la macro NDEBUG est définie, alors l&rsquo;opération est une succès. Remarquez que vous pouvez également modifier les variables définies par CMakeCache.txt directement via la commande cmake grâce à l&rsquo;option <code>-D</code>. Voici la commande correspondant à la modification que nous venons d&rsquo;effectuer.</p>
+<h2 id="i-classfab-fa-leanpubi-compilation-dun-projet-utilisant-une-bibliothèque-tierce"><i class="fab fa-leanpub"></i> Compilation d&rsquo;un projet utilisant une bibliothèque tierce</h2>
+<p>Nous allons maintenant configurer la compilation d&rsquo;un nouvel exécutable faisant usage d&rsquo;une bibliothèque. Dans cet exemple, nous aimerions inclure l&rsquo;une bibliothèque. L&rsquo;unique fichier du projet <code>main.cpp</code> permet d&rsquo;afficher &ldquo;Hello World !&rdquo; sur la sortie standard</p>
+<p>Noous débutons avec le CMakeLists.txt suivant</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmake" data-lang="cmake">cmake_minimum_required(<span style="color:#e6db74">VERSION</span> <span style="color:#e6db74">2.6</span>)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>                <span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">#Configuration du projet
+</span><span style="color:#75715e"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>project(<span style="color:#e6db74">MyProject</span>)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>set(<span style="color:#e6db74">EXECUTABLE_OUTPUT_PATH</span> <span style="color:#e6db74">bin/</span><span style="color:#f92672">${</span>CMAKE_BUILD_TYPE<span style="color:#f92672">}</span>)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">#Configuration de l&#39;exécutable
+</span><span style="color:#75715e"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>file(
+
+        <span style="color:#e6db74">GLOB_RECURSE</span>
+
+        <span style="color:#e6db74">source_files</span>
+
+        <span style="color:#e6db74">src/*</span>
+
+)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>add_executable(
+
+        <span style="color:#e6db74">my_exe</span>
+
+        <span style="color:#f92672">${</span>source_files<span style="color:#f92672">}</span>
+
+)<span style="color:#960050;background-color:#1e0010">
+</span></code></pre></div><p>Il y a deux méthodes pour inclure une bibliothèque avec CMake : la méthode manuelle et la méthode assistée. La méthode assistée est celle qui nécessiste le moins de travail de votre part. Toutefois, il n&rsquo;est possible de l&rsquo;utiliser qu&rsquo;avec un nombre resteint de bibliothèques. C&rsquo;est pourquoi nous allons passer en revue la méthode manuelle car elle peut s&rsquo;appliquer à tous les cas, pour plus de précision sur la <a href="https://florian-goujeon.developpez.com/cours/cmake/initiation/#LIV-B">méthode assistée</a>.</p>
+<h3 id="méthode-manuelle">Méthode manuelle</h3>
+<p>De la même façon que lors d&rsquo;une compilation en ligne de commande ou via un EDI, nous devons</p>
+<ol>
+<li>ajouter le répertoire des fichiers d&rsquo;en-tête de la bibliothèque à la liste des repertoires parcourus par le préprocesseur lors de la recherche d&rsquo;un fichier d&rsquo;en tête externe</li>
+<li>ajoute le répertoire des fichiers de bibliothèques partagées de la bibliothèque à la liste des répertoires parcourus par l'éditeur de liens lors de la recherche d&rsquo;une bibliothèque</li>
+<li>lier le fichier de bibliothèque partagée de la bibliothèque à notre exécutable</li>
+</ol>
+<p>Pour remplir la première condition, nous utiliserons la commande <code>include_directories()</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmake" data-lang="cmake">include_directories(<span style="color:#e6db74">/chemin/vers/bib</span>)<span style="color:#960050;background-color:#1e0010">
+</span></code></pre></div><p>La commande <code>link_directories()</code> nous permettra de répondre à la deuxième condition</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmake" data-lang="cmake">link_directories(<span style="color:#e6db74">chemin/vers/bib/stage/lib</span>)<span style="color:#960050;background-color:#1e0010">
+</span></code></pre></div><p>Enfin la commande <code>target_link_librairies()</code>, qui sert à spécifier les différentes bibliothèques à lier à une cible (indiquée en premier argument), remplira la dernière</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmake" data-lang="cmake">target_link_libraries(
+
+        <span style="color:#e6db74">my_exe</span>
+
+        <span style="color:#e6db74">bib</span>
+
+)<span style="color:#960050;background-color:#1e0010">
+</span></code></pre></div><p>Comme expliqué dans la section précédente, le fichier CMakelist.txt ne devrait pas comporter d&rsquo;informations relatives à votre système. Utilisons donc des variables à la place des chemins et des noms de fichiers spécifiés.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmake" data-lang="cmake">cmake_minimum_required(<span style="color:#e6db74">VERSION</span> <span style="color:#e6db74">2.6</span>)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">#Configuration du projet
+</span><span style="color:#75715e"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>project(<span style="color:#e6db74">MyProject</span>)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>set(<span style="color:#e6db74">EXECUTABLE_OUTPUT_PATH</span> <span style="color:#e6db74">bin/</span><span style="color:#f92672">${</span>CMAKE_BUILD_TYPE<span style="color:#f92672">}</span>)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">#Inclusion de Boost
+</span><span style="color:#75715e"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>include_directories(<span style="color:#e6db74">/chemin/vers/boost_x_xx_x</span>)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>link_directories(<span style="color:#e6db74">/chemin/vers/boost_x_xx_x/stage/lib</span>)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">#Configuration de l&#39;exécutable
+</span><span style="color:#75715e"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>file(
+
+        <span style="color:#e6db74">GLOB_RECURSE</span>
+
+        <span style="color:#e6db74">source_files</span>
+
+        <span style="color:#e6db74">src/*</span>
+
+)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>add_executable(
+
+        <span style="color:#e6db74">my_exe</span>
+
+        <span style="color:#f92672">${</span>source_files<span style="color:#f92672">}</span>
+
+)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">#Configuration de l&#39;édition de liens
+</span><span style="color:#75715e"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>target_link_libraries(
+
+        <span style="color:#e6db74">my_exe</span>
+
+        <span style="color:#e6db74">boost_signals-mt</span>
+
+)cmake_minimum_required(<span style="color:#e6db74">VERSION</span> <span style="color:#e6db74">2.6</span>)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">#Configuration du projet
+</span><span style="color:#75715e"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>project(<span style="color:#e6db74">MyProject</span>)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>set(<span style="color:#e6db74">EXECUTABLE_OUTPUT_PATH</span> <span style="color:#e6db74">bin/</span><span style="color:#f92672">${</span>CMAKE_BUILD_TYPE<span style="color:#f92672">}</span>)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">#Inclusion de Boost
+</span><span style="color:#75715e"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>include_directories(<span style="color:#f92672">${</span>boost_include_dir<span style="color:#f92672">}</span>)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>link_directories(<span style="color:#f92672">${</span>boost_lib_dir<span style="color:#f92672">}</span>)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">#Configuration de l&#39;exécutable
+</span><span style="color:#75715e"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>file(
+
+        <span style="color:#e6db74">GLOB_RECURSE</span>
+
+        <span style="color:#e6db74">source_files</span>
+
+        <span style="color:#e6db74">src/*</span>
+
+)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>add_executable(
+
+        <span style="color:#e6db74">my_exe</span>
+
+        <span style="color:#f92672">${</span>source_files<span style="color:#f92672">}</span>
+
+)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">#Configuration de l&#39;édition de liens
+</span><span style="color:#75715e"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>target_link_libraries(
+
+        <span style="color:#e6db74">my_exe</span>
+
+        <span style="color:#f92672">${</span>boost_signals_lib_name<span style="color:#f92672">}</span>
+
+)<span style="color:#960050;background-color:#1e0010">
+</span></code></pre></div><p>Encore une fois définissez la valeur de ces variables dans le fichier CMakeCache.txt, ajoutez-y les lignes suivantes</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmake" data-lang="cmake"><span style="color:#960050;background-color:#1e0010">//Chemin</span> <span style="color:#960050;background-color:#1e0010">vers</span> <span style="color:#960050;background-color:#1e0010">le</span> <span style="color:#960050;background-color:#1e0010">dossier</span> <span style="color:#960050;background-color:#1e0010">des</span> <span style="color:#960050;background-color:#1e0010">fichiers</span> <span style="color:#960050;background-color:#1e0010">d&#39;en-tête</span> <span style="color:#960050;background-color:#1e0010">de</span> <span style="color:#960050;background-color:#1e0010">Boost
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">boost_include_dir:FILEPATH=/chemin/vers/boost_x_xx_x
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">//Chemin</span> <span style="color:#960050;background-color:#1e0010">vers</span> <span style="color:#960050;background-color:#1e0010">le</span> <span style="color:#960050;background-color:#1e0010">dossier</span> <span style="color:#960050;background-color:#1e0010">des</span> <span style="color:#960050;background-color:#1e0010">fichiers</span> <span style="color:#960050;background-color:#1e0010">bibliothèques</span> <span style="color:#960050;background-color:#1e0010">de</span> <span style="color:#960050;background-color:#1e0010">Boost
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">boost_lib_dir:FILEPATH=/chemin/vers/boost_x_xx_x/stage/lib
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">//Nom</span> <span style="color:#960050;background-color:#1e0010">du</span> <span style="color:#960050;background-color:#1e0010">fichier</span> <span style="color:#960050;background-color:#1e0010">de</span> <span style="color:#960050;background-color:#1e0010">la</span> <span style="color:#960050;background-color:#1e0010">bibliothèque</span> <span style="color:#960050;background-color:#1e0010">Boost.Signals
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">boost_signals_lib_name:STRING=boost_signals-mt
+</span></code></pre></div><h2 id="i-classfab-fa-leanpubi-compilation-dune-bibliothèque"><i class="fab fa-leanpub"></i> Compilation d&rsquo;une bibliothèque</h2>
+<p>Poursuivons notre mise en pratique avec la compilation d&rsquo;une bibliothèque. Restons dans la simplicité et imaginons une bibliothèque permettant de dire bonjour dans la langue de votre choix. La bibliothèque sera dans le dossier <code>include</code> et contient les en-têtes publics dans un sous dossier portant le nom de la bibliothèque. Un CMakelists.txt permettant d&rsquo;inclure cette bibliothèque est le suivant</p>
+<pre><code>cmake_minimum_required(VERSION 2.6)
+
+
+
+#Configuration du projet
+
+project(Hello)
+
+set(LIBRARY_OUTPUT_PATH lib/${CMAKE_BUILD_TYPE})
+
+
+
+#Inclusion des en-têtes publics
+
+include_directories(include)
+
+
+
+#Configuration de la bibliothèque
+
+file(
+
+        GLOB_RECURSE
+
+        source_files
+
+        src/*
+
+        include/*
+
+)
+
+add_library(
+
+        hello
+
+        SHARED
+
+        ${source_files}
+
+)
+</code></pre><!------------------>
+<!-- END DOCUMENT -->
+<!------------------>
+<style>
+/* Style the header: fixed position (always stay at the top) */
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #707070;
+  width: 0%;
+}
+
+#scroll_to_top {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  bottom: 50px;
+  right: 30px;
+}
+#scroll_to_top img {
+  width: 25px;
+}
+</style>
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
+					</div>
+					<div class="post-comments">
+						
+					</div>
+				</div>
+			</div>
+      <div class="col-md-4">
+        <aside class="sidebar"><div class="widget widget-tag">
+    <h4 class="widget-title">Mots clefs</h4>
+    <ul class="widget-tag-list">
+      <li><a href="/tags/formations">Formations</a></li>
+      <li><a href="/tags/int%c3%a9gration-des-1a">Intégration des 1a</a></li>
+      <li><a href="/tags/partenaires">Partenaires</a></li>
+      <li><a href="/tags/projets1a">Projets1a</a></li>
+      <li><a href="/tags/r%c3%a9union">Réunion</a></li>
+      <li><a href="/tags/vie-de-lassociation">Vie de lassociation</a></li>
+    </ul>
+  </div></aside>
+<a href="https://twitter.com/AssoEirbot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="fr" data-show-count="false">Follow @AssoEirbot</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<a class="twitter-timeline" data-lang="fr" data-height="2000" data-theme="light" href="https://twitter.com/AssoEirbot?ref_src=twsrc%5Etfw">Tweets by AssoEirbot</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      </div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="footer-manu">
+					<ul>
+            
+            <li><a href="https://eirbot.github.io/about">Nos Sponsors</a></li>
+            
+            <li><a href="https://eirbot.github.io/project">Nos Projets</a></li>
+            
+            <li><a href="https://eirbot.github.io/contact">Nous contacter</a></li>
+            
+					</ul>
+				</div>
+				<p class="copyright">Copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
+
+
+
+
+<script src="https://eirbot.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://eirbot.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://eirbot.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://eirbot.github.io/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="https://eirbot.github.io/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://eirbot.github.io/plugins/google-map/gmap.js"></script>
+
+
+
+
+<script src="https://eirbot.github.io/js/script.min.js"></script>
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-main btn-solid-border">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+
+</html>

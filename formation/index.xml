@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Formations on EIRBOT | Association de robotique de l&#39;ENSEIRB-MATMECA</title>
+    <link>https://eirbot.github.io/formation/</link>
+    <description>Recent content in Formations on EIRBOT | Association de robotique de l&#39;ENSEIRB-MATMECA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-Us</language>
+    <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 05 Apr 2020 11:07:10 +0600</lastBuildDate>
+    
+	<atom:link href="https://eirbot.github.io/formation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Formation git et github</title>
+      <link>https://eirbot.github.io/formation/learn_git/</link>
+      <pubDate>Sun, 05 Apr 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/formation/learn_git/</guid>
+      <description>Cette formation se décompose en deux parties, tout d&amp;rsquo;abord un guide de démarrage rapide permettant d&#39;être rapidement capable d&amp;rsquo;utiliser git mais seulement les rudiments. Et une autre partie présentant de manière plus complète et posée le fonctionnement d&amp;rsquo;un système de versionnage des fichiers.</description>
+    </item>
+    
+    <item>
+      <title>Formation makefile</title>
+      <link>https://eirbot.github.io/formation/learn_makefile/</link>
+      <pubDate>Sun, 05 Apr 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/formation/learn_makefile/</guid>
+      <description>Les Makefiles sont des fichiers permettant d&amp;rsquo;executer un ensemble d&amp;rsquo;actions, comme la compilation d&amp;rsquo;un projet, la mise à jour d&amp;rsquo;un rapport, où l&amp;rsquo;archivage de données. Les Makefiles sont des fichiers shell particulier ils respectent cependant les conventions de codages du shell.</description>
+    </item>
+    
+    <item>
+      <title>Formation Anodisation</title>
+      <link>https://eirbot.github.io/formation/learn_anodisation/</link>
+      <pubDate>Sat, 05 Oct 2019 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/formation/learn_anodisation/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Formation Cmake</title>
+      <link>https://eirbot.github.io/formation/learn_cmake/</link>
+      <pubDate>Sat, 05 Oct 2019 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/formation/learn_cmake/</guid>
+      <description>Note avant lecture : Cette formation est une formation à CMake, elle permet de voir rapidement les différentes fonctionnalités de cet outil permettant de générer des règles de compilation facilement.</description>
+    </item>
+    
+    <item>
+      <title>Formation routage</title>
+      <link>https://eirbot.github.io/formation/learn_routage/</link>
+      <pubDate>Sat, 05 Oct 2019 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/formation/learn_routage/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Formation Découpeuse laser</title>
+      <link>https://eirbot.github.io/formation/laser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eirbot.github.io/formation/laser/</guid>
+      <description>Ce guide est prévu pour donner quelques conseils d&amp;rsquo;utilisation, et rappeler les consignes de sécurité, de la découpeuse laser du Fablab mais elle NE REMPLACE PAS LA FORMATION OBLIGATOIRE du Fablab</description>
+    </item>
+    
+  </channel>
+</rss>
