@@ -7,15 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-Us</language>
     <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 08 Oct 2020 11:07:10 +0600</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2020 11:07:10 +0600</lastBuildDate>
     
 	<atom:link href="https://eirbot.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Partenaires</title>
+      <link>https://eirbot.github.io/tags/partenaires/</link>
+      <pubDate>Thu, 15 Oct 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/tags/partenaires/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Réunion</title>
       <link>https://eirbot.github.io/tags/r%C3%A9union/</link>
-      <pubDate>Thu, 08 Oct 2020 11:07:10 +0600</pubDate>
+      <pubDate>Thu, 15 Oct 2020 11:07:10 +0600</pubDate>
       
       <guid>https://eirbot.github.io/tags/r%C3%A9union/</guid>
       <description></description>
@@ -36,15 +45,6 @@
       <pubDate>Thu, 01 Oct 2020 11:07:10 +0600</pubDate>
       
       <guid>https://eirbot.github.io/tags/projets1a/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Partenaires</title>
-      <link>https://eirbot.github.io/tags/partenaires/</link>
-      <pubDate>Wed, 23 Sep 2020 11:07:10 +0600</pubDate>
-      
-      <guid>https://eirbot.github.io/tags/partenaires/</guid>
       <description></description>
     </item>
     
