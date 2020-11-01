@@ -1,0 +1,112 @@
+################################## About #####################################
+about:
+  enable : true
+  image : "/images/part.webp"
+  title : "Eirbot et les entreprises"
+  content : "Depuis sa création, Eirbot tisse des liens avec des entreprises. Ces entreprises permettent de faire vivre l'association par des dons financiers et matériels, des formations, l'organisation d'évènements ... "
+
+  button:
+    enable : false
+    label : "Download Company Profile"
+    link : "#"
+
+  # funfacts:
+  #   # funfacts loop
+  #   - icon : "ion-shuffle" #ionicon pack v2 : https://ionicons.com/v2/
+  #     name : "Nombre de partnaires actuellement"
+  #     count : "7"
+      
+  #   # funfacts loop
+  #   - icon : "ion-flag" #ionicon pack v2 : https://ionicons.com/v2/
+  #     name : "Nombre d'évènements de l'association par an"
+  #     count : "10"
+      
+  #   # funfacts loop
+  #   - icon : "ion-ios-pint-outline" #ionicon pack v2 : https://ionicons.com/v2/
+  #     name : "Nombre de membre dans l'association"
+  #     count : "56"
+      
+  #   # funfacts loop
+  #   - icon : "ion-ios-wineglass-outline" #ionicon pack v2 : https://ionicons.com/v2/
+  #     name : "Nombres d'anciens de l'association"
+  #     count : "354"
+      
+  #   # funfacts loop
+  #   - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
+  #     name : "Résulat à la dernière coupe"
+  #     count : "29"
+      
+  #   # funfacts loop
+  #   - icon : "ion-ios-body-outline" #ionicon pack v2 : https://ionicons.com/v2/
+  #     name : "Awards Winner"
+  #     count : "20"
+
+#################################### testimonial & mission vision #######################################
+testimonial:
+  enable : true
+  # testimonial content comes from "data/*/homepage.yml" file
+
+mission_vision:
+  enable : true
+  tabs:
+    # tab item loop
+    - name : "Robot Makers Day"
+      content : "Chaque année Eirbot participe à l'organisation des [Robots Makers Days](https://robotmakersday.fr/), un évenements permettant de faire découvrir l'univers de la robotiques aux jeunes. \\
+
+      ![rmd](/images/rmd.jpg)"
+
+    # tab item loop
+    - name : "Journee Portes ouvertes"
+      content : "Comme chaque année, les écoles de Bordeaux INP et La Prépa des INP ouvrent leurs portes pour informer les futurs étudiants sur l'offre de formation, la mobilité, la vie des écoles, etc... Services de scolarité, Relations internationales, BDE et étudiant-e-s seront présents pour répondre à toutes les questions des visiteurs. \\
+
+      Chaque année EIRBOT tient un stand à l'ENSEIRB-MATMECA pour faire découvrir aux futurs élèves ingénieur la richesse des associations"
+
+    # tab item loop
+    - name : "AI4Industry"
+      content : "Workshop IA pour l'industrie ENSEIRB-MATMECA 20-24 janvier 2020 Intelligence artificielle, Industrie du futur, Internet of Things… \\
+
+      ![ai](/images/ai4industry.jpg)"
+
+    - name : "Petit Dejeuner Elsys Design"
+      content : "Comme chaque année les premières années de Eirbot organisent un petit déjeuner pour notre partenaire Elsys Design. S’en est suivi d’un moment convivial autour d’un bon repas puis des simulations d’entretien. Merci à Elsys pour son soutien !\\
+
+      ![petit_dej](/images/t_petit_dej.png)"
+
+############################# call to action #################################
+cta:
+  enable : true
+  # call to action content comes from "data/*/homepage.yml"
+################################ feature #####################################
+features:
+  enable : true
+  title : "Nos partenariats"
+  feature_item:
+    # feature item loop
+    - icon : "ion-social-euro" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Dons financiers"
+      content : "Chaque année des entreprises réalisent des dons financiers à notre association. Cela nous permet de faire vivre l'association tout au long de l'année."
+      
+    # feature item loop
+    - icon : "ion-wrench" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Dons matériel"
+      content : "Certaines entreprises nous donnent chaque années du matériel, cela permet à l'association de progresser en technologie et de réaliser des robots de meilleure qualité"
+      
+    # feature item loop
+    - icon : "ion-information" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Formations"
+      content : "Eirbot mène un but pédagogique nous avons donc conclus avec des entreprises la réalisation de formations par des professionnels dans des domaines comme la fabrication de cartes électroniques"
+      
+    # feature item loop
+    - icon : "ion-happy" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Organisation d'évènements"
+      content : "Chaque année Eirbot organise en totalité ou partie des évènements pour leur partenaires. Les évènements sont toujours très conviviaux et permettent de rencontrer nos bienfaiteurs !"
+      
+    # feature item loop
+    - icon : "ion-speakerphone" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Communication"
+      content : "Dans chacun de nos partenariats nous nous engageons à communiquer le plus possible sur l'entreprise. Cela passe par l'intégration de leurs logo sur notre robot, dans notre local et notre école. Mais aussi par des communications sur les réseaux sociaux parlant d'eux et bien d'autres"
+      
+    # feature item loop
+    - icon : "ion-university" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Recrutement"
+      content : "Eirbot est une association composée de 56 élèves ingénieurs et notre réseau d'ancien est composé 345 ingénieurs. Une occasion de recrutement pour nos partenaires"
