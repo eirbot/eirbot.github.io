@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Eirbot est l&#39;association de robotique de l&#39;ENSEIRB-MATMECA.">
   <meta name="author" content="Eirbot">
-  <meta name="generator" content="Hugo 0.68.3" />
+  <meta name="generator" content="Hugo 0.74.3" />
 
   <!-- plugins -->
   
@@ -236,10 +236,10 @@ add_executable(
 <li>les flags qui sont des options passées au compilateur, tels que les flags d&rsquo;optimisation, les flags de diagnostic, les flags de debug, les flags pour le préprocesseur e.g. -O3 -Wall -Wno-pedantic -std=c++11 &hellip;</li>
 </ul>
 <ol start="2">
-<li>les flags pour l'édition de lien :</li>
+<li>les flags pour l&rsquo;édition de lien :</li>
 </ol>
 <ul>
-<li>les librairies avec lesquelles linker votre cible (e.g. -lmalib) ou les options passés à l'éditeur de liens (e.g. -Wl,&ndash;no-as-needed)Link options</li>
+<li>les librairies avec lesquelles linker votre cible (e.g. -lmalib) ou les options passés à l&rsquo;éditeur de liens (e.g. -Wl,&ndash;no-as-needed)Link options</li>
 <li>les flags pour indiquer des répertoires : -L/chemin/vers/des/libs</li>
 </ul>
 <p>Pour modifier ces différents flags, on peut utiliser les commandes cmake ci-dessous, appliquées à &ldquo;macible&rdquo; construite par add_executable ou add_library :</p>
@@ -358,7 +358,7 @@ add_executable(
 <p>De la même façon que lors d&rsquo;une compilation en ligne de commande ou via un EDI, nous devons</p>
 <ol>
 <li>ajouter le répertoire des fichiers d&rsquo;en-tête de la bibliothèque à la liste des repertoires parcourus par le préprocesseur lors de la recherche d&rsquo;un fichier d&rsquo;en tête externe</li>
-<li>ajoute le répertoire des fichiers de bibliothèques partagées de la bibliothèque à la liste des répertoires parcourus par l'éditeur de liens lors de la recherche d&rsquo;une bibliothèque</li>
+<li>ajoute le répertoire des fichiers de bibliothèques partagées de la bibliothèque à la liste des répertoires parcourus par l&rsquo;éditeur de liens lors de la recherche d&rsquo;une bibliothèque</li>
 <li>lier le fichier de bibliothèque partagée de la bibliothèque à notre exécutable</li>
 </ol>
 <p>Pour remplir la première condition, nous utiliserons la commande <code>include_directories()</code></p>
