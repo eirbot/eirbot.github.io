@@ -3,12 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://eirbot.github.io/blog/</loc>
-    <lastmod>2020-10-15T11:07:10+06:00</lastmod>
+    <loc>https://eirbot.github.io/</loc>
+    <lastmod>2020-11-05T16:00:58+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eirbot.github.io/</loc>
+    <loc>https://eirbot.github.io/reunion/rapport-de-reunion-7/</loc>
+    <lastmod>2020-11-05T16:00:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/reunion/</loc>
+    <lastmod>2020-11-05T16:00:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/tags/r%C3%A9union/</loc>
+    <lastmod>2020-11-05T16:00:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/tags/</loc>
+    <lastmod>2020-11-05T16:00:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/blog/</loc>
     <lastmod>2020-10-15T11:07:10+06:00</lastmod>
   </url>
   
@@ -24,21 +44,6 @@
   
   <url>
     <loc>https://eirbot.github.io/reunion/rapport6/</loc>
-    <lastmod>2020-10-15T11:07:10+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eirbot.github.io/reunion/</loc>
-    <lastmod>2020-10-15T11:07:10+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eirbot.github.io/tags/r%C3%A9union/</loc>
-    <lastmod>2020-10-15T11:07:10+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eirbot.github.io/tags/</loc>
     <lastmod>2020-10-15T11:07:10+06:00</lastmod>
   </url>
   
