@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Formation pour l&#39;utilisation et la création de makefile">
   <meta name="author" content="Eirbot">
-  <meta name="generator" content="Hugo 0.74.3" />
+  <meta name="generator" content="Hugo 0.68.3" />
 
   <!-- plugins -->
   
@@ -165,7 +165,7 @@ type d&rsquo;un Makefile.</p>
 ainsi dans le shell nous pourrons taper <code>make cible</code> pour effectuer les
 actions correspondantes. Dans notre cas la cible serait <code>project</code>. Ensuite les
 <code>dépendances</code> sont les fichiers nécessaires à la création de la cible, dans
-notre cas cela serait ``hello.o&rsquo;&rsquo;. Un exemple de Makefile complet pour ce projet
+notre cas cela serait ``hello.o&rsquo;'. Un exemple de Makefile complet pour ce projet
 serait le suivant</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#a6e22e">hello.o</span><span style="color:#f92672">:</span>
         gcc -Wall -Werror -std<span style="color:#f92672">=</span>c99 hello.c -c
