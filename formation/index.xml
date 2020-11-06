@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-Us</language>
     <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 05 Apr 2020 11:07:10 +0600</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2020 11:07:10 +0600</lastBuildDate>
     
 	<atom:link href="https://eirbot.github.io/formation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Formation git et github - Windows</title>
+      <link>https://eirbot.github.io/formation/learn_gitwindows/</link>
+      <pubDate>Fri, 06 Nov 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/formation/learn_gitwindows/</guid>
+      <description>Prérequis L&amp;rsquo;utilisation de Git &amp;amp; Github sur Windows suppose l&amp;rsquo;installation du logiciel Github Desktop. L&amp;rsquo;installation de Git sur sa machine peut être un plus si l&amp;rsquo;on a l&amp;rsquo;habitude d&amp;rsquo;utiliser Git en ligne de commande de manière similaire à Linux.</description>
+    </item>
     
     <item>
       <title>Formation git et github</title>
