@@ -7,10 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-Us</language>
     <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 15 Oct 2020 11:07:10 +0600</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2020 11:07:10 +0600</lastBuildDate>
     
 	<atom:link href="https://eirbot.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Coupe de France de Robotique 2020 - Photos</title>
+      <link>https://eirbot.github.io/blog/blog-post-9/</link>
+      <pubDate>Sat, 31 Oct 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/blog/blog-post-9/</guid>
+      <description>Quelques photos de la coupe !
+ .row { display: -ms-flexbox; /* IE10 */ display: flex; -ms-flex-wrap: wrap; /* IE10 */ flex-wrap: wrap; padding: 0 4px; } /* Create four equal columns that sits next to each other */ .</description>
+    </item>
+    
+    <item>
+      <title>Coupe de France de Robotique 2020 - Jour 2</title>
+      <link>https://eirbot.github.io/blog/blog-post-10/</link>
+      <pubDate>Thu, 29 Oct 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/blog/blog-post-10/</guid>
+      <description>Deuxième jour pour EIRBOT à la Coupe de France de Robotique ! Aujourd&amp;rsquo;hui une grosse journée nous attends. Au programme 3 séries de match puis la finale de la Coupe.</description>
+    </item>
+    
+    <item>
+      <title>Coupe de France de Robotique 2020 - Jour 1</title>
+      <link>https://eirbot.github.io/blog/blog-post-11/</link>
+      <pubDate>Wed, 28 Oct 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/blog/blog-post-11/</guid>
+      <description>Aujourd&amp;rsquo;hui c&amp;rsquo;est le grand jour pour EIRBOT ! Nous partons pour la Coupe de France de Robotique qui a lieu à la Roche sur Yon. Jusqu&amp;rsquo;à Samedi notre équipe et notre robot vont défendre les couleurs de notre école !</description>
+    </item>
     
     <item>
       <title>Partenariat EIRBOT &amp; EMS-Proto</title>
