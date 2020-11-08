@@ -141,7 +141,7 @@
 					</div>
 					<div class="post-content post-excerpt">
 						<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 <p>Les <a href="https://gl.developpez.com/tutoriel/outil/makefile/">Makefiles</a> sont des fichiers permettant d&rsquo;executer un ensemble d&rsquo;actions,
 comme la compilation d&rsquo;un projet, la mise à jour d&rsquo;un rapport, où l&rsquo;archivage de
@@ -150,7 +150,7 @@ cependant les conventions de codages du shell. L&rsquo;idée de
 ce document est de présenté l&rsquo;idée générale d&rsquo;un Makefile via un exemple
 basique, puis d&rsquo;aller vers un exemple plus complexe, le Makefile pour notre
 robot.</p>
-<h2 id="i-classfab-fa-leanpub-i-un-exemple-basique"><i class="fab fa-leanpub "></i> Un exemple basique</h2>
+<h2 id="un-exemple-basique">Un exemple basique</h2>
 <p>Considérons un exemple de projet très basique, constitué de 3 fichiers :
 hello.c, hello.h et main.c.De manière littérale nous avons définit des fonctions
 dans hello.c, ces fonctions sont reférencées par leurs prototypes dans hello.h.
@@ -158,7 +158,7 @@ Par ailleurs nous avons définies des fonctions dans main.c, nous sous entendons
 que les fonctions de main.c font appels à celles de hello.c (d&rsquo;où l&rsquo;inclusion de
 hello.h dans main.c).</p>
 <p>Nous voulons donc compiler main.c pour créer un executable que nous appellerons
-<strong>project</strong>. Si nous essayons directement de faire <code>shell gcc -Wall -Werror -std=c99 main.c project </code> nous allons avoir des références indéfinies. En
+<strong>project</strong>. Si nous essayons directement de faire <code>shell gcc -Wall -Werror -std=c11 main.c project</code> nous allons avoir des références indéfinies. En
 effet il faut d&rsquo;abbord compiler hello.c en hello.o pour que la machine connaisse
 les fonctions définit dans le hello.c (c&rsquo;est le rôle du hello.o). Ainsi pour
 créer project il faut faire deux lignes de commande <code>gcc -Wall -Werror -std=c99 hello.c -c</code> puis <code>gcc -Wall -Werror -std=c99 hello.o main.c -o project</code>.</p>
@@ -181,8 +181,8 @@ serait le suivant</p>
         gcc -Wall -Werror -std<span style="color:#f92672">=</span>c99 hello.c -c
 
 <span style="color:#a6e22e">project </span><span style="color:#f92672">:</span> hello.o
-          gcc -Wall -Werror -std<span style="color:#f92672">=</span>c99 hello.o main.c -o project
-</code></pre></div><h2 id="i-classfab-fa-leanpub-i-un-exemple-plus-complexe"><i class="fab fa-leanpub "></i> Un exemple plus complexe</h2>
+        gcc -Wall -Werror -std<span style="color:#f92672">=</span>c99 hello.o main.c -o project
+</code></pre></div><h2 id="un-exemple-plus-complexe">Un exemple plus complexe</h2>
 <p>Nous allons maintenant passer à un exemple plus complexe, l&rsquo;exemple du Makefile
 utilisé pour le robot. Plusieurs complications et exigences vont se révéler avec ce projet</p>
 <ul>
@@ -226,8 +226,9 @@ un .c et un .h en c++). Cela soulève donc un premier point : beaucoup de fichie
 ces fichiers. Nous devons donc créer asserv.o, world.o, navigation.o,
 detection.o, protocole.o, affichage.o. Nous allons vouloir automatiser la
 création de ces binaires pour cela nous allons utiliser des commandes spéciales
-aux Makefile<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Pour automatiser la
+aux Makefile[^1]. Pour automatiser la
 transformation des .cpp en .o nous avons les lignes suivantes</p>
+<p>[^1]:Je passe sous silence les commandes spéciales, si vous voulez des précision demandez à Lucas H. ou SD</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#a6e22e">%.o</span><span style="color:#f92672">:</span> rasp/src/%.cpp
    <span style="color:#66d9ef">$(</span>CC<span style="color:#66d9ef">)</span> <span style="color:#66d9ef">$(</span>CFLAGS<span style="color:#66d9ef">)</span> -c $&lt;
 </code></pre></div><p>Cela constitue la première règle de notre Makefile, elle permet de transformer
@@ -290,16 +291,7 @@ CC=g++</p>
 <span style="color:#a6e22e">clean</span><span style="color:#f92672">:</span>
 	rm -f *.o project test test_protocole
 <span style="color:#75715e"># end
-</span></code></pre></div><h2 id="i-classfab-fa-leanpub-i-automatiser-un-makefile-avec-cmake-i-classfas-fa-wrench-i"><i class="fab fa-leanpub "></i> Automatiser un makefile avec Cmake <i class="fas fa-wrench "></i></h2>
-<section class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1" role="doc-endnote">
-<p>Je passe sous silence les commandes spéciales, si vous voulez des précision demandez à Lucas H. ou SD <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</section>
-
+</span></code></pre></div>
 					</div>
 					<div class="post-comments">
 						
