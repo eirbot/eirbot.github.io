@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-Us</language>
     <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 06 Nov 2020 11:07:10 +0600</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2020 11:07:10 +0600</lastBuildDate>
     
 	<atom:link href="https://eirbot.github.io/formation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Formation Électronique générale</title>
+      <link>https://eirbot.github.io/formation/learn_elecgen/</link>
+      <pubDate>Wed, 11 Nov 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/formation/learn_elecgen/</guid>
+      <description>Une formation pour revoir les concepts de base de l&amp;rsquo;électronique générale et pour connaître les bonnes et les mauvais pratiques.
+Support de présentation  Rediffusion de la formation </description>
+    </item>
     
     <item>
       <title>Formation git et github - Windows</title>
