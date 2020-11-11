@@ -142,62 +142,61 @@
 					<div class="post-content post-excerpt">
 						<h2 id="prérequis">Prérequis</h2>
 <p>L&rsquo;utilisation de Git &amp; Github sur Windows suppose l&rsquo;installation du logiciel <a href="https://desktop.github.com/">Github Desktop</a>. L&rsquo;installation de <a href="https://git-scm.com/download/win">Git</a> sur sa machine peut être un plus si l&rsquo;on a l&rsquo;habitude d&rsquo;utiliser Git en ligne de commande de manière similaire à Linux.</p>
-<!-- ## Support de présentation  -->
-<!-- <div class="canva-embed" data-design-id="DAEM2war8Lc" data-height-ratio="0.5625" style="padding:56.2500% 5px 5px 5px;background:rgba(0,0,0,0.03);border-radius:8px;"></div><script async src="https:&#x2F;&#x2F;sdk.canva.com&#x2F;v1&#x2F;embed.js"></script> -->
-<!-- ## Guide de démarrage rapide (et incomplet !) -->
-<!-- Ceci est une copie adaptée de la [Formation Github]() réalisée pour Linux, après avoir appréhendé cette formation vous pouvez passer sur la deuxième partie de la formation faite pour Linux, plus complète. -->
-<!-- ### Github, qu'est ce que c'est ? -->
-<!-- Github est un service en ligne qui permet d'héberger ses repositories de code. -->
-<!-- Github est un outil gratuit pour héberger du code open source. -->
-<!-- Pour commencer à utiliser Github il faut créer son compte sur la page -->
-<!-- [page d'acceuil](https://github.com/join?source=header-home), rentrer son -->
-<!-- nom d'utilisateur , un mot de passe etc. Une fois cela fait, il faut -->
-<!-- penser à communiquer son pseudo pour pouvoir accéder au dossier d'eirbot. -->
-<!-- ### Récupérer du code d'un autre d'un autre repository -->
-<!-- Dans un premier temps il faut s'identifier sur GithubDesktop `File>Options>Accounts`  -->
-<!-- <center> -->
-<!-- <img src="/images/formation/account.png" width="50%"></img> -->
-<!-- </center> -->
-<!-- Une fois le compte Github créé et relié avec GithubDesktop, du code d'un autre -->
-<!-- repository peut être récupéré. Pour cela il faut **cloner** le répertoire, -->
-<!-- il suffit de cliquer sur `clone` sur Github et de copier le lien en https ou d'aller directement dans Github Desktop et ouvrir `File>Clone repository`. (On -->
-<!-- pourra modifier pour pouvoir utiliser le ssh plus tard). -->
-<!-- Une fois dans le menu `Clone repository` on choisit le dossier que l'on veux cloner ou on peut coller le lien pris sur Github. Il suffit ensuite d'appuyer sur `Clone` pour récupérer une copie du repertoire. -->
-<!-- Cela permet de créér une copie locale du dossier sur notre machine. -->
-<!-- ### Envoyer du code sur Github -->
-<!-- Maintenant qu'une copie locale du dossier existe sur la machine, le code (ou -->
-<!-- n'importe quel fichier) peut être modifié de manière locale. Lorsque le travail -->
-<!-- terminé il faut synchroniser les modifications effectuées sur le repository -->
-<!-- local avec le repository distant. L'opération que nous allons décrire permet de valider un -->
-<!-- ensemble de modifications dans le code pour créer une nouvelle révision, et est -->
-<!-- communément appelé un `commit`. -->
-<!-- Nous pouvons à tout moment visualiser l'état des modifications que nous avons réalisé en local sur le dépot et qui ne sont pas communiquées à distance via l'interface de GithubDesktop  -->
-<!-- <center> -->
-<!-- <img src="/images/formation/statut.png" width="50%"></img> -->
-<!-- </center> -->
-<!-- Une fois que nous connaissons l'état des fichiers il faut choisir ceux que l'on veut envoyer -->
-<!-- pour cela il suffit de cocher ou décocher la marque bleue.  -->
-<!-- Une fois que nous sommes sur de toutes les modifications à effectuer nous pouvons effectuer un `commit` via le formulaire en bas à gauche  -->
-<!-- <center> -->
-<!-- <img src="/images/formation/commit.png" width="50%"></img> -->
-<!-- </center> -->
-<!-- **Attention !** Les commentaires des commits sont les premières choses que les -->
-<!-- collaborateurs vont voir, un commit comme ``pause dej'' n'a aucun intérêt[^3], -->
-<!-- les collaborateurs ne peuvent pas comprendre ce que vous avez fait. Il est donc -->
-<!-- conseillé de commit fichier par fichier en expliquant correctement les -->
-<!-- modifications réalisées sur chaque fichier. -->
-<!-- [^3]:Cela a plutôt tendance à énerver vos collègues et les conduire à détruire chaqu'un de vos commits (oui oui c'est possible) -->
-<!-- Il faut ensuite communiquer les modifications à distance pour cela on appuie sur `Repository>Push` ou `Ctrl + P`. Une fois push les modifications sont sur le site de Github. -->
-<!-- ### Récupérer des modifications -->
-<!-- Pour récupérer en local les dernières modifications du repository Github, il -->
-<!-- faut utiliser la commande la commande pull utilisable soit via `Repository>Pull` soit par `Fetch Origin` (on privilégiera la première solution lorsqu'on travaille sur un dépôt avec des branches et que le concept de branche n'est pas maitrisé) -->
-<!-- ### Gérer un conflit sur du code -->
-<!-- Du fait de la présence de multiples dépôts dans lesquels le code peut être -->
-<!-- modifié, il est possible que la même branche master ait divergé entre deux -->
-<!-- dépôts (typiquement avec la même branche sur un dépôt distant, comme -->
-<!-- origin/master). Dans ce cas, une fusion/merge risque d'amener à un conflit. Il -->
-<!-- convient de ne surtout pas paniquer, cela fait partie des tracas standards du -->
-<!-- développement logiciel. Mettons que la dernière fusion/merge ait amené au résultat suivant : -->
+<h2 id="support-de-présentation">Support de présentation</h2>
+<div class="canva-embed" data-design-id="DAEM2war8Lc" data-height-ratio="0.5625" style="padding:56.2500% 5px 5px 5px;background:rgba(0,0,0,0.03);border-radius:8px;"></div><script async src="https:&#x2F;&#x2F;sdk.canva.com&#x2F;v1&#x2F;embed.js"></script>
+<h2 id="guide-de-démarrage-rapide-et-incomplet-">Guide de démarrage rapide (et incomplet !)</h2>
+<p>Ceci est une copie adaptée de la <a href="">Formation Github</a> réalisée pour Linux, après avoir appréhendé cette formation vous pouvez passer sur la deuxième partie de la formation faite pour Linux, plus complète.</p>
+<h3 id="github-quest-ce-que-cest-">Github, qu&rsquo;est ce que c&rsquo;est ?</h3>
+<p>Github est un service en ligne qui permet d&rsquo;héberger ses repositories de code.
+Github est un outil gratuit pour héberger du code open source.
+Pour commencer à utiliser Github il faut créer son compte sur la page
+<a href="https://github.com/join?source=header-home">page d&rsquo;acceuil</a>, rentrer son
+nom d&rsquo;utilisateur , un mot de passe etc. Une fois cela fait, il faut
+penser à communiquer son pseudo pour pouvoir accéder au dossier d&rsquo;eirbot.</p>
+<h3 id="récupérer-du-code-dun-autre-dun-autre-repository">Récupérer du code d&rsquo;un autre d&rsquo;un autre repository</h3>
+<p>Dans un premier temps il faut s&rsquo;identifier sur GithubDesktop <code>File&gt;Options&gt;Accounts</code></p>
+<center>
+<img src="/images/formation/account.png" width="50%"></img>
+</center>
+<p>Une fois le compte Github créé et relié avec GithubDesktop, du code d&rsquo;un autre
+repository peut être récupéré. Pour cela il faut <strong>cloner</strong> le répertoire,
+il suffit de cliquer sur <code>clone</code> sur Github et de copier le lien en https ou d&rsquo;aller directement dans Github Desktop et ouvrir <code>File&gt;Clone repository</code>. (On
+pourra modifier pour pouvoir utiliser le ssh plus tard).</p>
+<p>Une fois dans le menu <code>Clone repository</code> on choisit le dossier que l&rsquo;on veux cloner ou on peut coller le lien pris sur Github. Il suffit ensuite d&rsquo;appuyer sur <code>Clone</code> pour récupérer une copie du repertoire.</p>
+<p>Cela permet de créér une copie locale du dossier sur notre machine.</p>
+<h3 id="envoyer-du-code-sur-github">Envoyer du code sur Github</h3>
+<p>Maintenant qu&rsquo;une copie locale du dossier existe sur la machine, le code (ou
+n&rsquo;importe quel fichier) peut être modifié de manière locale. Lorsque le travail
+terminé il faut synchroniser les modifications effectuées sur le repository
+local avec le repository distant. L&rsquo;opération que nous allons décrire permet de valider un
+ensemble de modifications dans le code pour créer une nouvelle révision, et est
+communément appelé un <code>commit</code>.</p>
+<p>Nous pouvons à tout moment visualiser l&rsquo;état des modifications que nous avons réalisé en local sur le dépot et qui ne sont pas communiquées à distance via l&rsquo;interface de GithubDesktop</p>
+<center>
+<img src="/images/formation/statut.png" width="50%"></img>
+</center>
+<p>Une fois que nous connaissons l&rsquo;état des fichiers il faut choisir ceux que l&rsquo;on veut envoyer
+pour cela il suffit de cocher ou décocher la marque bleue.</p>
+<p>Une fois que nous sommes sur de toutes les modifications à effectuer nous pouvons effectuer un <code>commit</code> via le formulaire en bas à gauche</p>
+<center>
+<img src="/images/formation/commit.png" width="50%"></img>
+</center>
+<p><strong>Attention !</strong> Les commentaires des commits sont les premières choses que les
+collaborateurs vont voir, un commit comme ``pause dej&rsquo;&rsquo; n&rsquo;a aucun intérêt<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>,
+les collaborateurs ne peuvent pas comprendre ce que vous avez fait. Il est donc
+conseillé de commit fichier par fichier en expliquant correctement les
+modifications réalisées sur chaque fichier.</p>
+<p>Il faut ensuite communiquer les modifications à distance pour cela on appuie sur <code>Repository&gt;Push</code> ou <code>Ctrl + P</code>. Une fois push les modifications sont sur le site de Github.</p>
+<h3 id="récupérer-des-modifications">Récupérer des modifications</h3>
+<p>Pour récupérer en local les dernières modifications du repository Github, il
+faut utiliser la commande la commande pull utilisable soit via <code>Repository&gt;Pull</code> soit par <code>Fetch Origin</code> (on privilégiera la première solution lorsqu&rsquo;on travaille sur un dépôt avec des branches et que le concept de branche n&rsquo;est pas maitrisé)</p>
+<h3 id="gérer-un-conflit-sur-du-code">Gérer un conflit sur du code</h3>
+<p>Du fait de la présence de multiples dépôts dans lesquels le code peut être
+modifié, il est possible que la même branche master ait divergé entre deux
+dépôts (typiquement avec la même branche sur un dépôt distant, comme
+origin/master). Dans ce cas, une fusion/merge risque d&rsquo;amener à un conflit. Il
+convient de ne surtout pas paniquer, cela fait partie des tracas standards du
+développement logiciel. Mettons que la dernière fusion/merge ait amené au résultat suivant :</p>
 <!-- ```shell -->
 <!-- Auto-merging nom_du_fichier -->
 <!-- CONFLICT (content): Merge conflict in nom_du_fichier -->
@@ -226,6 +225,14 @@
 <!-- éliminer tous les marqueurs. Il est ainsi facile de choisir une version des deux -->
 <!-- versions à garder, ou de faire une sorte de mélange des deux si besoin. -->
 <!-- 3. A la fin des modifications, ajouter le code au commit (ici le fichier en conflit) puis on push -->
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Cela a plutôt tendance à énerver vos collègues et les conduire à détruire chaqu&rsquo;un de vos commits (oui oui c&rsquo;est possible) <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
 
 					</div>
 					<div class="post-comments">
