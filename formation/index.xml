@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-Us</language>
     <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 14 Nov 2020 09:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2020 11:07:10 +0600</lastBuildDate>
     
 	<atom:link href="https://eirbot.github.io/formation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Formation CAO</title>
+      <link>https://eirbot.github.io/formation/learn_cao/</link>
+      <pubDate>Mon, 16 Nov 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/formation/learn_cao/</guid>
+      <description>Installation d&amp;rsquo;inventor Inventor est gratuit pour les étudiants sur ce lien
+Support de présentation  </description>
+    </item>
     
     <item>
       <title>Formation impression 3D</title>
