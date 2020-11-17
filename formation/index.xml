@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-Us</language>
     <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 16 Nov 2020 11:07:10 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2020 11:07:10 +0600</lastBuildDate>
     
 	<atom:link href="https://eirbot.github.io/formation/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,11 +15,20 @@
     <item>
       <title>Formation CAO</title>
       <link>https://eirbot.github.io/formation/learn_cao/</link>
-      <pubDate>Mon, 16 Nov 2020 11:07:10 +0600</pubDate>
+      <pubDate>Tue, 17 Nov 2020 11:07:10 +0600</pubDate>
       
       <guid>https://eirbot.github.io/formation/learn_cao/</guid>
       <description>Installation d&amp;rsquo;inventor Inventor est gratuit pour les étudiants sur ce lien
-Support de présentation  Les didacticiels Les didacticiels sont un excellent moyen de démarrer. Définissez le filtre Type pour démarrer rapidement les didacticiels qui vous présentent les bases de la création d&amp;rsquo;esquisse, de la modélisation de pièces, de la création d&amp;rsquo;ensembles et de la documentation de vos conceptions dans un dessin.</description>
+Support de présentation  Rediffusion de la présentation  Les didacticiels Les didacticiels sont un excellent moyen de démarrer. Définissez le filtre Type pour démarrer rapidement les didacticiels qui vous présentent les bases de la création d&amp;rsquo;esquisse, de la modélisation de pièces, de la création d&amp;rsquo;ensembles et de la documentation de vos conceptions dans un dessin.</description>
+    </item>
+    
+    <item>
+      <title>Formation routage</title>
+      <link>https://eirbot.github.io/formation/learn_routage/</link>
+      <pubDate>Tue, 17 Nov 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/formation/learn_routage/</guid>
+      <description> </description>
     </item>
     
     <item>
@@ -95,15 +104,6 @@ Support de présentation  Rediffusion de la formation  </description>
       
       <guid>https://eirbot.github.io/formation/learn_cmake/</guid>
       <description>Note avant lecture : Cette formation est une formation à CMake, elle permet de voir rapidement les différentes fonctionnalités de cet outil permettant de générer des règles de compilation facilement.</description>
-    </item>
-    
-    <item>
-      <title>Formation routage</title>
-      <link>https://eirbot.github.io/formation/learn_routage/</link>
-      <pubDate>Sat, 05 Oct 2019 11:07:10 +0600</pubDate>
-      
-      <guid>https://eirbot.github.io/formation/learn_routage/</guid>
-      <description> </description>
     </item>
     
     <item>
