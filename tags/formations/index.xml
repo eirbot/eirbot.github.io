@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-Us</language>
     <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 17 Nov 2020 11:07:10 +0600</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2020 11:07:10 +0600</lastBuildDate>
     
 	<atom:link href="https://eirbot.github.io/tags/formations/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Formation routage</title>
+      <link>https://eirbot.github.io/formation/learn_routage/</link>
+      <pubDate>Wed, 18 Nov 2020 11:07:10 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/formation/learn_routage/</guid>
+      <description>Formation sur les bonnes pratiques du routage et du placement en électronique. Formation indispensable pour tous les élec de l&amp;rsquo;association pour éviter de faire tomber des avions !
+Support de présentation  Rediffusion de la formation </description>
+    </item>
     
     <item>
       <title>Formation CAO</title>
