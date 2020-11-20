@@ -122,7 +122,7 @@
 					<h2 class="post-title">Formation makefile</h2>
 					<div class="post-meta">
 						<ul>
-              <li><i class="ion-calendar"></i> April 5, 2020</li>
+              <li><i class="ion-calendar"></i> November 20, 2020</li>
               <li><i class="ion-android-people"></i>
                 Écrit par
                 
@@ -140,16 +140,19 @@
 						<img class="img-responsive" src="/images/gnu-make.png" alt="Formation makefile">
 					</div>
 					<div class="post-content post-excerpt">
-						<script type="text/javascript" async
-src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-<p>Les <a href="https://gl.developpez.com/tutoriel/outil/makefile/">Makefiles</a> sont des fichiers permettant d&rsquo;executer un ensemble d&rsquo;actions,
+						<p>Les <a href="https://gl.developpez.com/tutoriel/outil/makefile/">Makefiles</a> sont des fichiers permettant d&rsquo;executer un ensemble d&rsquo;actions,
 comme la compilation d&rsquo;un projet, la mise à jour d&rsquo;un rapport, où l&rsquo;archivage de
 données. Les Makefiles sont des fichiers shell particulier ils respectent
 cependant les conventions de codages du shell. L&rsquo;idée de
 ce document est de présenté l&rsquo;idée générale d&rsquo;un Makefile via un exemple
 basique, puis d&rsquo;aller vers un exemple plus complexe, le Makefile pour notre
 robot.</p>
+<h2 id="support-de-présentation">Support de présentation</h2>
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">  <iframe style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAENsp8TSTY&#x2F;view?embed">  </iframe></div>
+<h2 id="rediffusion-de-la-formation">Rediffusion de la formation</h2>
+<h2 id="exercice">Exercice</h2>
+<center><a class="button2" href="/images/formation/make.tar.xz">Archive</a>  <a class="button2"
+href="/images/formation/make.pdf">Exercice</a>  <a class="button2" href="/images/formation/makesoluce.pdf">Correction</a></center>
 <h2 id="un-exemple-basique">Un exemple basique</h2>
 <p>Considérons un exemple de projet très basique, constitué de 3 fichiers :
 hello.c, hello.h et main.c.De manière littérale nous avons définit des fonctions
@@ -195,8 +198,10 @@ utilisé pour le robot. Plusieurs complications et exigences vont se révéler a
 <li>Avoir des fichiers dans différents dossier</li>
 </ul>
 <p>Commençons par présenter les différents fichiers du projet.</p>
-<p><img src="/assets/images/organisation.png" alt="organisation"></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">code/
+<center>
+<img src="/images/organisation.png" width="50%"></img>
+</center>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">code/
 | Makefile
 | rasp
 |   | src
@@ -219,8 +224,7 @@ utilisé pour le robot. Plusieurs complications et exigences vont se révéler a
 |   |   | test.cpp
 |   |   | test.hpp
 |
-</code></pre></div><p>{:class=&quot;image about right&rdquo;}</p>
-<p>Chaque figure de ce graphique correspond à un .cpp et un .hpp (même principe que
+</code></pre></div><p>Chaque figure de ce graphique correspond à un .cpp et un .hpp (même principe que
 un .c et un .h en c++). Cela soulève donc un premier point : beaucoup de fichier
 à gérer il va donc falloir créer tous les fichiers binaires (les .o) pour tout
 ces fichiers. Nous devons donc créer asserv.o, world.o, navigation.o,
@@ -291,7 +295,20 @@ CC=g++</p>
 <span style="color:#a6e22e">clean</span><span style="color:#f92672">:</span>
 	rm -f *.o project test test_protocole
 <span style="color:#75715e"># end
-</span></code></pre></div>
+</span></code></pre></div><style>
+.button2 {
+  background-color: #41484c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px 10px;
+}
+</style>
+
 					</div>
 					<div class="post-comments">
 						
