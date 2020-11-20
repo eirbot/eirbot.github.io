@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-Us</language>
     <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 20 Nov 2020 11:07:10 +0600</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2020 10:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://eirbot.github.io/formation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Formation programmation arduino</title>
+      <link>https://eirbot.github.io/formation/learn_progarduino/</link>
+      <pubDate>Fri, 20 Nov 2020 10:00:00 +0000</pubDate>
+      
+      <guid>https://eirbot.github.io/formation/learn_progarduino/</guid>
+      <description>Support de présentation Rediffusion de la formation </description>
+    </item>
     
     <item>
       <title>Formation makefile</title>
@@ -28,15 +37,6 @@
       
       <guid>https://eirbot.github.io/formation/learn_git/</guid>
       <description>Cette formation se décompose en deux parties, tout d&amp;rsquo;abord un guide de démarrage rapide permettant d&amp;rsquo;être rapidement capable d&amp;rsquo;utiliser git mais seulement les rudiments. Et une autre partie présentant de manière plus complète et posée le fonctionnement d&amp;rsquo;un système de versionnage des fichiers.</description>
-    </item>
-    
-    <item>
-      <title>Formation programmation arduino</title>
-      <link>https://eirbot.github.io/formation/formation-programmation-arduino/</link>
-      <pubDate>Thu, 19 Nov 2020 23:00:00 +0000</pubDate>
-      
-      <guid>https://eirbot.github.io/formation/formation-programmation-arduino/</guid>
-      <description>Support de présentation Rediffusion de la formation </description>
     </item>
     
     <item>
