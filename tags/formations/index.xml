@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-Us</language>
     <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 20 Nov 2020 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2020 10:30:00 +0600</lastBuildDate>
     
 	<atom:link href="https://eirbot.github.io/tags/formations/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Formation git et github</title>
+      <link>https://eirbot.github.io/formation/learn_git/</link>
+      <pubDate>Sat, 21 Nov 2020 10:30:00 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/formation/learn_git/</guid>
+      <description>Cette formation se décompose en deux parties, tout d&amp;rsquo;abord un guide de démarrage rapide permettant d&amp;rsquo;être rapidement capable d&amp;rsquo;utiliser git mais seulement les rudiments. Et une autre partie présentant de manière plus complète et posée le fonctionnement d&amp;rsquo;un système de versionnage des fichiers.</description>
+    </item>
     
     <item>
       <title>Formation programmation arduino</title>
@@ -28,15 +37,6 @@
       
       <guid>https://eirbot.github.io/formation/learn_makefile/</guid>
       <description>Les Makefiles sont des fichiers permettant d&amp;rsquo;executer un ensemble d&amp;rsquo;actions, comme la compilation d&amp;rsquo;un projet, la mise à jour d&amp;rsquo;un rapport, où l&amp;rsquo;archivage de données. Les Makefiles sont des fichiers shell particulier ils respectent cependant les conventions de codages du shell.</description>
-    </item>
-    
-    <item>
-      <title>Formation git et github</title>
-      <link>https://eirbot.github.io/formation/learn_git/</link>
-      <pubDate>Fri, 20 Nov 2020 10:00:00 +0600</pubDate>
-      
-      <guid>https://eirbot.github.io/formation/learn_git/</guid>
-      <description>Cette formation se décompose en deux parties, tout d&amp;rsquo;abord un guide de démarrage rapide permettant d&amp;rsquo;être rapidement capable d&amp;rsquo;utiliser git mais seulement les rudiments. Et une autre partie présentant de manière plus complète et posée le fonctionnement d&amp;rsquo;un système de versionnage des fichiers.</description>
     </item>
     
     <item>
