@@ -3,8 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://eirbot.github.io/reunion/rapport8/</loc>
+    <lastmod>2020-11-28T14:00:58+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://eirbot.github.io/</loc>
-    <lastmod>2020-11-21T11:00:10+06:00</lastmod>
+    <lastmod>2020-11-28T14:00:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/reunion/</loc>
+    <lastmod>2020-11-28T14:00:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/tags/r%C3%A9union/</loc>
+    <lastmod>2020-11-28T14:00:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eirbot.github.io/tags/</loc>
+    <lastmod>2020-11-28T14:00:58+00:00</lastmod>
   </url>
   
   <url>
@@ -19,11 +39,6 @@
   
   <url>
     <loc>https://eirbot.github.io/formation/</loc>
-    <lastmod>2020-11-21T11:00:10+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eirbot.github.io/tags/</loc>
     <lastmod>2020-11-21T11:00:10+06:00</lastmod>
   </url>
   
@@ -69,16 +84,6 @@
   
   <url>
     <loc>https://eirbot.github.io/reunion/rapport7/</loc>
-    <lastmod>2020-11-05T16:00:58+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eirbot.github.io/reunion/</loc>
-    <lastmod>2020-11-05T16:00:58+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eirbot.github.io/tags/r%C3%A9union/</loc>
     <lastmod>2020-11-05T16:00:58+00:00</lastmod>
   </url>
   
