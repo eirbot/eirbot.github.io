@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Formation pour l&#39;utilisation de git et github">
   <meta name="author" content="Eirbot">
-  <meta name="generator" content="Hugo 0.74.3" />
+  <meta name="generator" content="Hugo 0.68.3" />
 
   <!-- plugins -->
   
@@ -79,6 +79,8 @@
                   
                   <li><a href="/tags/r%c3%a9union">Réunion</a></li>
                   
+                  <li><a href="/tags/r%c3%a9union1a">Réunion 1A</a></li>
+                  
                 </ul>
               </li>
               
@@ -144,7 +146,7 @@
 
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
-<p>Cette formation se décompose en deux parties, tout d&rsquo;abord un guide de démarrage rapide permettant d&rsquo;être rapidement capable d&rsquo;utiliser git mais seulement les rudiments. Et une autre partie présentant de manière plus complète et posée le fonctionnement d&rsquo;un système de versionnage des fichiers. Les deux parties sont totalement indépendantes et ne dépendent que du temps et des compétences voulus du lecteur. <a href="#quest-ce-quun-logiciel-de-gestion-de-version-">Lien direct vers la partie 2</a></p>
+<p>Cette formation se décompose en deux parties, tout d&rsquo;abord un guide de démarrage rapide permettant d'être rapidement capable d&rsquo;utiliser git mais seulement les rudiments. Et une autre partie présentant de manière plus complète et posée le fonctionnement d&rsquo;un système de versionnage des fichiers. Les deux parties sont totalement indépendantes et ne dépendent que du temps et des compétences voulus du lecteur. <a href="#quest-ce-quun-logiciel-de-gestion-de-version-">Lien direct vers la partie 2</a></p>
 <p>L&rsquo;apprentissage de git par un document écrit ne remplacera jamais la maîtrise via la pratique. Quelques applications comme <strong>Git commands - Best for the beginners</strong> sur android ou <a href="https://learngitbranching.js.org/">cette page</a> permettent de completer ce document.</p>
 <h2 id="support-de-présentation">Support de présentation</h2>
 <div class="canva-embed" data-design-id="DAEM2war8Lc" data-height-ratio="0.5625" style="padding:56.2500% 5px 5px 5px;background:rgba(0,0,0,0.03);border-radius:8px;"></div><script async src="https:&#x2F;&#x2F;sdk.canva.com&#x2F;v1&#x2F;embed.js"></script>
@@ -178,7 +180,7 @@ terminé il faut synchroniser les modifications effectuées sur le repository
 local avec le repository distant. L&rsquo;opération que nous allons décrire permet de valider un
 ensemble de modifications dans le code pour créer une nouvelle révision, et est
 communément appelé un <code>commit</code>.</p>
-<p>Commençons par visualiser l&rsquo;état des fichiers dans le dépôt avec la commande
+<p>Commençons par visualiser l'état des fichiers dans le dépôt avec la commande
 suivante <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git status
 </code></pre></div><p>Si le fichier n&rsquo;a jamais été communiqué au dépôt, le résultat devrait être être
@@ -194,7 +196,7 @@ forme  :</p>
   <span style="color:#f92672">(</span>use <span style="color:#e6db74">&#34;git checkout -- &lt;file&gt;...&#34;</span> to discard changes in working directory<span style="color:#f92672">)</span>
 
     modified:   nom_du_fichier
-</code></pre></div><p>Une fois que nous connaissons l&rsquo;état des fichiers il faut choisir ceux que l&rsquo;on veut envoyer
+</code></pre></div><p>Une fois que nous connaissons l'état des fichiers il faut choisir ceux que l&rsquo;on veut envoyer
 pour cela</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git add nom_du_fichier
 </code></pre></div><p>Une fois les fichiers ajouté nous pouvons <code>commit</code> ces derniers via</p>
@@ -236,7 +238,7 @@ l&rsquo;assister à terminer cette fusion correctement.</p>
 <p>Pour chaque fichier en conflit, appliquer la procédure suivante :</p>
 <ol>
 <li>Ouvrir le fichier dans un éditeur (dans notre exemple nom_du_fichier).</li>
-<li>Rechercher dans l&rsquo;éditeur les blocs de la forme suivante :
+<li>Rechercher dans l'éditeur les blocs de la forme suivante :
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#f92672">&lt;&lt;&lt;&lt;&lt;&lt;</span> HEAD
 Teddy , le programmeur extremiste.
 <span style="color:#f92672">=======</span>
@@ -282,23 +284,23 @@ eval &quot;$(ssh-agent -s)&quot;
 <p>A finir</p>
 <h2 id="i-classfab-fa-leanpubi-gérez-vos-codes-sources-avec-git"><i class="fab fa-leanpub"></i> Gérez vos codes sources avec Git</h2>
 <h3 id="quest-ce-quun-logiciel-de-gestion-de-version-">Qu&rsquo;est ce qu&rsquo;un logiciel de gestion de version ?</h3>
-<p>Les logiciels de gestion de versions sont utilisés principalement par les développeurs. En effet ils sont quasi exclusivement utilisés pour gérer des codes sources car ils sont capables de suivre l&rsquo;évolution d&rsquo;un fichier texte ligne de code par ligne de code. Ces logiciels sont fortement conseillées pour gérer un projet informatique. Ces outils suivent l&rsquo;évolution de vos fichiers source et gardent les anciennes versions de chacun d&rsquo;eux. S&rsquo;ils s&rsquo;arrêtaient à cela, ce ne seraient que de vulgaire outils de backup. Cependant, ils proposent de nombreuses fonctionnalités qui vont vraiment vous être utiles tout au long de l&rsquo;évolution de votre projet informatique</p>
+<p>Les logiciels de gestion de versions sont utilisés principalement par les développeurs. En effet ils sont quasi exclusivement utilisés pour gérer des codes sources car ils sont capables de suivre l'évolution d&rsquo;un fichier texte ligne de code par ligne de code. Ces logiciels sont fortement conseillées pour gérer un projet informatique. Ces outils suivent l'évolution de vos fichiers source et gardent les anciennes versions de chacun d&rsquo;eux. S&rsquo;ils s&rsquo;arrêtaient à cela, ce ne seraient que de vulgaire outils de backup. Cependant, ils proposent de nombreuses fonctionnalités qui vont vraiment vous être utiles tout au long de l'évolution de votre projet informatique</p>
 <ul>
 <li>ils retiennent qui à effectué chaque modification de chaque fichier et pourquoi. Ils sont par conséquent capables de dire qui a écrit chaque ligne de code de chaque fichier et dans quel but</li>
-<li>si deux personnes travaillent simultanément sur un même fichier, ils sont capables d&rsquo;assembler (de fusionner) leurs modifications et d&rsquo;éviter que le travail d&rsquo;une de ces personnes ne soit écrasé</li>
+<li>si deux personnes travaillent simultanément sur un même fichier, ils sont capables d&rsquo;assembler (de fusionner) leurs modifications et d'éviter que le travail d&rsquo;une de ces personnes ne soit écrasé</li>
 </ul>
 <p>Ces logiciels ont donc par conséquent deux utilités principales</p>
 <ul>
-<li>suivre l&rsquo;évolution d&rsquo;un code source, pour retenir les modifications effectués sur chaque fichier et ainsi capable de revenir en arrière en cas de problème</li>
+<li>suivre l'évolution d&rsquo;un code source, pour retenir les modifications effectués sur chaque fichier et ainsi capable de revenir en arrière en cas de problème</li>
 <li>travailler à plusieurs, sans risquer de se marcher sur les pieds. Si deux personnes modifient un même fichier en même temps, leurs modifications doivent pouvoir être fusionnées sans perte d&rsquo;information</li>
 </ul>
 <h3 id="logiciels-centralisés-et-distribués">Logiciels centralisés et distribués</h3>
 <p>Il existe deux types principaux de logiciels de gestion de versions</p>
 <ul>
 <li>Les logiciels centralisés : un serveur conserve les anciennes versions des fichiers et les développeurs s&rsquo;y connectent pour prendre connaissance des fichiers qui ont été modifiés par d&rsquo;autres personnes et pour y envoyer leurs modifications</li>
-<li>Les logiciels distribués : il n&rsquo;y a pas de serveur, chacun possède l&rsquo;historique de l&rsquo;évolution de chacun des fichiers. Les développeurs se transmettent directement entre eux les modifications.</li>
+<li>Les logiciels distribués : il n&rsquo;y a pas de serveur, chacun possède l&rsquo;historique de l'évolution de chacun des fichiers. Les développeurs se transmettent directement entre eux les modifications.</li>
 </ul>
-<p>C&rsquo;est dans ce dernier mode que nous allons fonctionner avec Git. Il a l&rsquo;avantage d&rsquo;être à la fois flexible et pratique. Pas besoin de faire de sauvegarde du serveur étant donné que tout le monde possède l&rsquo;historique des fichiers, et le serveur simplifie la transmission des modifications.</p>
+<p>C&rsquo;est dans ce dernier mode que nous allons fonctionner avec Git. Il a l&rsquo;avantage d'être à la fois flexible et pratique. Pas besoin de faire de sauvegarde du serveur étant donné que tout le monde possède l&rsquo;historique des fichiers, et le serveur simplifie la transmission des modifications.</p>
 <h3 id="installer-et-configurer-git">Installer et configurer Git</h3>
 <h4 id="installation">Installation.</h4>
 <p>Nous allons voir ici comment installer Git sous Linux, Windows et Mac OS X. Git est plus agréable à utiliser sous Linux et sensiblement plus rapidement, mais il reste néanmoins utilisable sous Windows.</p>
@@ -317,7 +319,7 @@ git config --gloabl color.branch auto
 </code></pre></div><p>Elle activeront la couleur dans Git. Il ne faut le faire qu&rsquo;une fois, cela aide à la lisibilité des messages dans la console. De même il faut configurer votre nom et votre email</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git config --global user.name <span style="color:#e6db74">&#34;your name&#34;</span>
 git config --global user.email your@email.com
-</code></pre></div><p>Vous pouvez aussi éditer votre fichier de configuration <code>.gitconfig</code> situé dans votre répertoire personnelle pour y ajouter une section alias à la fin. Ces alias permettent de raccourcir certaines commandes de Git. Ainsi, au lieu d&rsquo;écrire <code>git checkout</code>, vous pourrez écrire si vous le désirez <code>git co</code>, ce qui est plus cours</p>
+</code></pre></div><p>Vous pouvez aussi éditer votre fichier de configuration <code>.gitconfig</code> situé dans votre répertoire personnelle pour y ajouter une section alias à la fin. Ces alias permettent de raccourcir certaines commandes de Git. Ainsi, au lieu d'écrire <code>git checkout</code>, vous pourrez écrire si vous le désirez <code>git co</code>, ce qui est plus cours</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#f92672">[</span>color<span style="color:#f92672">]</span>
         diff <span style="color:#f92672">=</span> auto
         status <span style="color:#f92672">=</span> auto
@@ -347,7 +349,7 @@ git config --global user.email your@email.com
 <li>modifier le code source</li>
 <li>tester votre programme pour vérifier si cela fonctionne</li>
 <li>faire un commit pour enregistrer les changements et les faire connaître à git</li>
-<li>recommencer à partir de l&rsquo;étape 1 pour une autre modification</li>
+<li>recommencer à partir de l'étape 1 pour une autre modification</li>
 </ol>
 <h4 id="quest-ce-quon-appelle-une-modification-du-code-source-">Qu&rsquo;est ce qu&rsquo;on appelle une modification du code source ?</h4>
 <p>C&rsquo;est un ensemble de changements qui permet soit de régler un bug, soit d&rsquo;ajouter une fonctionnalité</p>
@@ -362,12 +364,12 @@ git config --global user.email your@email.com
 <span style="color:#75715e">#       modified:   src/navigation.cc</span>
 #
 no changes added to commit <span style="color:#f92672">(</span>use <span style="color:#e6db74">&#34;git add&#34;</span> and/or <span style="color:#e6db74">&#34;git commit -a&#34;</span><span style="color:#f92672">)</span>
-</code></pre></div><p>Git vous liste tous les fichiers qui ont changé sur le disque. Il peut aussi bien détecter les modifications que les ajouts, les suppressions et les renommages. Vous pouvez voir concrètement ce que vous avez changé en tapant <code>git diff</code>. Les lignes ajoutées sont précédées d&rsquo;un &ldquo;+&rdquo; tandis que les lignes supprimées sont précédées d&rsquo;un &ldquo;-&rdquo;. Normalement les lignes sont colorées et donc faciles à repérer.</p>
+</code></pre></div><p>Git vous liste tous les fichiers qui ont changé sur le disque. Il peut aussi bien détecter les modifications que les ajouts, les suppressions et les renommages. Vous pouvez voir concrètement ce que vous avez changé en tapant <code>git diff</code>. Les lignes ajoutées sont précédées d&rsquo;un &ldquo;+&rdquo; tandis que les lignes supprimées sont précédées d&rsquo;un &ldquo;-&quot;. Normalement les lignes sont colorées et donc faciles à repérer.</p>
 <p>Si les modifications vous paraissent bonnes et que vous les avez TESTEES, il est temps de fiare un commit.</p>
 <h4 id="effectuer-un-commit-des-changements">Effectuer un commit des changements</h4>
 <p>En faisant <code>git status</code> vous devriez voir les fichiers que vous avez modifiés en rouge. Cela signifie qu&rsquo;ils ne sont pas pris en compte lorsque vous allez faire un commit. Il faut explicitement préciser les fichiers que vous voulez commiter. Pour cela faites un <code>git add nomfichier1 nomfichier2 ...</code> pour ajouter à la liste de ceux devant l&rsquo;objet d&rsquo;un commit, puis faire <code>git commit</code>.</p>
 <p><i class="fas fa-exclamation-triangle fa-2x"></i> Il pourrait être tentant de réaliser un <code>git commit -a</code> pour ajouter tous les fichiers que vous avez modifié d&rsquo;un coup. C&rsquo;est une fausse bonne idée en effet lorsque vous faites cela, le commentaire que vous allez associer au commit ne pourra pas résumer tout ce que vous avez modifié, vos collaborateurs auront du mal à comprendre rapidement toutes vos modifications.</p>
-<p>Lorsque la commande commit est lancée, l&rsquo;éditeur par défaut s&rsquo;ouvre. Vous devez sur la première taper un message qui décrit à quoi correspondent vos changements. Les lignes suivantes vous permettent de décrire plus en détail vos changements mais ne seront pas visibles au premier coup d&rsquo;oeil par vos collaborateurs (elles sont tout de même très utile lorsque l&rsquo;on veut comprendre plus en détail un commit).</p>
+<p>Lorsque la commande commit est lancée, l'éditeur par défaut s&rsquo;ouvre. Vous devez sur la première taper un message qui décrit à quoi correspondent vos changements. Les lignes suivantes vous permettent de décrire plus en détail vos changements mais ne seront pas visibles au premier coup d&rsquo;oeil par vos collaborateurs (elles sont tout de même très utile lorsque l&rsquo;on veut comprendre plus en détail un commit).</p>
 <p>Une fois le message de commit enregistré, Git va officiellement sauvegarder vos changements dans un commit. Il ajoute donc cela à la liste des changements qu&rsquo;il connait du projet. Cependant pour l&rsquo;instant votre commit est local, nous apprendrons à le mettre sur le serveur plus loin. Cela a un avantage, si vous vous rendez compte que vous avez fait une erreur dans votre dernier commit, vous avez la possibilité de l&rsquo;annuler.</p>
 <h3 id="annuler-un-commit-effectué-par-erreur">Annuler un commit effectué par erreur</h3>
 <p>Il est fréquent de chercher à comprendre ce qui s&rsquo;est passé récemment, pourquoi une erreur a été introduite et comment annuler ce changement qui pose problème. C&rsquo;est même là tout l&rsquo;intérêt d&rsquo;un logiciel de versions comme Git. Nous allons d&rsquo;abord apprendre à lire les logs, puis nous verrons comment corriger une erreur.</p>
@@ -393,7 +395,7 @@ Date:   Thu Jun <span style="color:#ae81ff">3</span> 08:42:22 <span style="color
 </code></pre></div><h4 id="corriger-un-erreur">Corriger un erreur.</h4>
 <p>Voici différentes méthodes permettant de corriger les erreurs, selon leur ancienneté ou leur importance.</p>
 <ol>
-<li>Modifier le dernier message de commit. Si vous avez fait une faute d&rsquo;orthographe dans votre dernier message de commit ou que vous voulez tout simplement le modifier, vous pouvez le faire facilement grâce à la commande <code>git commit --amend</code>. L&rsquo;éditeur de texte s&rsquo;ouvrira à nouveau pour changer le message. Cette commande est généralement utilisée juste après avoir effectué un commit lorsqu&rsquo;on se rend compte d&rsquo;une erreur dans le message. Il est en effet impossible de modifier le message d&rsquo;un commit lorsque celui-ci a été transmis à d&rsquo;autres personnes</li>
+<li>Modifier le dernier message de commit. Si vous avez fait une faute d&rsquo;orthographe dans votre dernier message de commit ou que vous voulez tout simplement le modifier, vous pouvez le faire facilement grâce à la commande <code>git commit --amend</code>. L'éditeur de texte s&rsquo;ouvrira à nouveau pour changer le message. Cette commande est généralement utilisée juste après avoir effectué un commit lorsqu&rsquo;on se rend compte d&rsquo;une erreur dans le message. Il est en effet impossible de modifier le message d&rsquo;un commit lorsque celui-ci a été transmis à d&rsquo;autres personnes</li>
 <li>Annuler le dernier commit. Si vous voulez annuler votre dernier commit <code>git reset numéro</code> où numéro est l&rsquo;identifiant du commit auquel on veut revenir. Seul le commit est retiré de Git, vos fichiers, eux restent modifiés. Vous pouvez alors à nouveau changer vos fichiers si besoin est et refaire un commit</li>
 <li>Annuler tous les changements du dernier commit. C&rsquo;est une assez mauvaise idée, il y a peu de cas d&rsquo;utilisation la commande est <code>git reset --hard HEAD^</code></li>
 <li>Annuler les modifications d&rsquo;un fichier avant un commit. Si vous avez modifié plusieurs fichiers mais que vous n&rsquo;avez pas encore envoyé le commit et que vous voulez restaurer un fichier tel qu&rsquo;il était au dernier commit, utilisez <code>git checkout nomfichier</code></li>
@@ -420,7 +422,7 @@ Date:   Thu Jun <span style="color:#ae81ff">3</span> 08:42:22 <span style="color
 <p>A un moment donné, nous avons décidé de créer une nouvelle branche. Nous avons pu y faire des commits, mais cela ne nous a pas empêché de continuer à travailler sur la branche principale et d&rsquo;y faire des commits aussi. A la fin, mon idée s&rsquo;est révélée concluante, j&rsquo;ai donc intégré les changements dans la branche principale &ldquo;master&rdquo;. Mon projet dispose maintenant de mon idée que j&rsquo;avais développée en parallèle. Tous les commits de ma branche se retrouvent fusionnés dans la branche principale.</p>
 <p>Git n&rsquo;est pas le seul outil capable de gérer des branches, mais il est le seul à le faire aussi bien, En effet, en temps normal vous pourriez tout simplement copier le répertoire de votre projet dans un autre dossier, tester les modifications et les incorporer ensuite dans le véritable dossier de votre projet. Mais cela aura nécessité de copier tous les fichiers et de se souvenir de tout ce que vous avez modifié. Cela inclut en plus des conflits dans le cas où quelqu&rsquo;un aurait modifié le même fichier que vous en même temps dans la branche principale.</p>
 <p>Git gère tous ces problèmes pour vous. Au lieu de créer une copie des fichiers, il crée juste une branche &ldquo;virtuelle&rdquo; dans laquelle il retient vos changements en parallèle. Lorsque vous décidez de fusionner une branche. Git vérifie si vos modifications n&rsquo;entrent pas en conflit avec des commits effectués en parallèle. Si il y a des conflits, il essaie de les résoudre tout seul ou vous avertir s&rsquo;il a besoin de votre avis.</p>
-<p>Ce concept de branches très légères qui ne nécessitent pas de copier les fichiers est d&rsquo;une grande puissance. Cela encourage à créer des branches tout le temps, pour les modifications qui pourraient prendre du temps avant d&rsquo;être terminées. Vous pouvez même créer une sous branche à partir d&rsquo;une branche.</p>
+<p>Ce concept de branches très légères qui ne nécessitent pas de copier les fichiers est d&rsquo;une grande puissance. Cela encourage à créer des branches tout le temps, pour les modifications qui pourraient prendre du temps avant d'être terminées. Vous pouvez même créer une sous branche à partir d&rsquo;une branche.</p>
 <h4 id="les-branches-locales">Les branches locales.</h4>
 <p>Tout le monde commence avec une seule branche master : c&rsquo;est la branche principale. Jusqu&rsquo;ici, vous avez donc travaillé dans la branche &ldquo;master&rdquo;, sur le &ldquo;vrai&rdquo; code source de votre projet. Pour voir toutes vos branches, tapez <code>git branch</code>. Vous verrez normalement uniquement &ldquo;master&rdquo;. Il y a une étoile devant pour indiquer que c&rsquo;est la branche sur laquelle vous êtes actuellement.</p>
 <h4 id="pourquoi-créer-une-branche-et-quand-dois-je-en-créer-une-">Pourquoi créer une branche et quand dois-je en créer une ?</h4>
@@ -475,12 +477,23 @@ Date:   Thu Jun <span style="color:#ae81ff">3</span> 08:42:22 <span style="color
       <li><a href="/tags/partenaires">Partenaires</a></li>
       <li><a href="/tags/projets1a">Projets1a</a></li>
       <li><a href="/tags/r%c3%a9union">Réunion</a></li>
+      <li><a href="/tags/r%c3%a9union1a">Réunion1a</a></li>
       <li><a href="/tags/vie-de-lassociation">Vie de lassociation</a></li>
     </ul>
 </div>
 
 <div class="widget widget-latest-post">
     <h4 class="widget-title">Derniers articles</h4>
+    
+    <div class="media">
+      <a class="pull-left" href="https://eirbot.github.io/reunion1a/reunion1a-1/">
+        <img class="media-object" src="/images/reunion.jpg" alt="Rapport de réunion 1 des 1A">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="https://eirbot.github.io/reunion1a/reunion1a-1/">Rapport de réunion 1 des 1A</a></h4>
+        <p>Réunion 1A:  D’abord on a commencé par se …</p>
+      </div>
+    </div>
     
     <div class="media">
       <a class="pull-left" href="https://eirbot.github.io/reunion/rapport8/">
@@ -509,16 +522,6 @@ Date:   Thu Jun <span style="color:#ae81ff">3</span> 08:42:22 <span style="color
       <div class="media-body">
         <h4 class="media-heading"><a href="https://eirbot.github.io/blog/blog-post-9/">Coupe de France de Robotique 2020 - Photos</a></h4>
         <p>Quelques photos de la coupe ! Ce fut pour nous un …</p>
-      </div>
-    </div>
-    
-    <div class="media">
-      <a class="pull-left" href="https://eirbot.github.io/blog/blog-post-10/">
-        <img class="media-object" src="/images/coupe2020/picture/CDR2020-off-14.webp" alt="Coupe de France de Robotique 2020 - Jour 2">
-      </a>
-      <div class="media-body">
-        <h4 class="media-heading"><a href="https://eirbot.github.io/blog/blog-post-10/">Coupe de France de Robotique 2020 - Jour 2</a></h4>
-        <p>Deuxième jour pour EIRBOT à la Coupe de France de …</p>
       </div>
     </div>
     
