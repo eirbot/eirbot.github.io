@@ -469,7 +469,18 @@ Date:   Thu Jun <span style="color:#ae81ff">3</span> 08:42:22 <span style="color
 				</div>
 			</div>
       <div class="col-md-4">
-        <aside class="sidebar"><div class="widget widget-tag">
+        <aside class="sidebar">
+
+<div id="EklaCompteur" style="border:0px solid #663300;
+                              width:90%;
+                              text-align:center;
+                              margin: 0px auto;
+                              padding:4px;
+                              -moz-border-radius:10px;
+                              -webkit-border-radius:10px;
+                              border-radius:10px;">&nbsp;
+</div>
+<div class="widget widget-tag">
     <h4 class="widget-title">Mots clefs</h4>
     <ul class="widget-tag-list">
       <li><a href="/tags/coupe-de-france">Coupe de france</a></li>
@@ -481,6 +492,7 @@ Date:   Thu Jun <span style="color:#ae81ff">3</span> 08:42:22 <span style="color
       <li><a href="/tags/vie-de-lassociation">Vie de lassociation</a></li>
     </ul>
 </div>
+
 
 <div class="widget widget-latest-post">
     <h4 class="widget-title">Derniers articles</h4>
@@ -526,6 +538,61 @@ Date:   Thu Jun <span style="color:#ae81ff">3</span> 08:42:22 <span style="color
     </div>
     
   </div>
+
+<script type="text/JavaScript">
+  var idtimeEklaCompteur=0;
+  function EklaDisplayCompteurEklaCompteur() {
+      
+      var delais = 1;
+      
+      var EklaCompteurAffiche=document.getElementById("EklaCompteur");
+      
+      var html = "<span style=\"font-size: 12pt ; color: #333333;\"><strong>Coupe de France de robotique dans :&nbsp;</strong></span><br /> <span style=\"color: #333333;\"><strong><span style=\"font-size: 12pt;\"><span style=\"color: #ffd700;\">[j]</span> <span style=\"color: #333333;\">jours</span>&nbsp;</span></strong><span style=\"font-size: 12pt;\"><strong><span style=\"color: #ffd700;\">[h]</span> <span style=\"color: #333333;\">heures</span> <span style=\"color: #ffd700;\">[m]</span> <span style=\"color: #333333;\">minutes</span> <span style=\"color: #ffd700;\">[s]</span> <span style=\"color: #333333;\">secondes</span></strong></span></span>" ;
+      
+      var htmlafter = "<strong>COUPE EN COURS&nbsp;</strong>" ;
+      
+      var date1 = new Date();
+      
+      
+      var date2 = new Date (2021, 4, 12, 10, 0, 18);
+      
+      var nbsec = (date2 - date1) / 1000;
+      
+      var nbsecj = 24 * 3600;
+      
+      var stopcpt=false;
+      
+      if (nbsec <= 0) {
+          nbsec=-nbsec;
+          if (htmlafter!="") 
+          { html=htmlafter; }
+          else
+          {stopcpt=true;}
+      }
+      
+      var j = Math.floor (nbsec / nbsecj);
+      
+      var h = Math.floor ((nbsec - (j * nbsecj)) / 3600);
+      
+      var m = Math.floor ((nbsec - ((j * nbsecj + h * 3600))) / 60);
+      
+      var s = Math.floor (nbsec - ((j * nbsecj + h * 3600 + m * 60)));
+      
+      if (stopcpt==true) {j=0;h=0;m=0;s=0}
+      
+      var html = html.replace("[j]",j);
+      var html = html.replace("[h]",h);
+      var html = html.replace("[m]",m);
+	    var html = html.replace("[s]",s);
+	    
+	    if (EklaCompteurAffiche!=null) {EklaCompteurAffiche.innerHTML = html;}
+	    
+	    if (stopcpt==false) {idtimeEklaCompteur=setTimeout ("EklaDisplayCompteurEklaCompteur();", 1*1000);}
+  }
+  EklaDisplayCompteurEklaCompteur();
+  
+</script>
+
 </aside>
 <a href="https://twitter.com/AssoEirbot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="fr" data-show-count="false">Follow @AssoEirbot</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
