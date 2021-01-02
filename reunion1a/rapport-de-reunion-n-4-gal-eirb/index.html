@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-Us"><head>
   <meta charset="utf-8">
-  <title>Formation impression 3D</title>
+  <title>Rapport de réunion n°4 - Gal&#39;eirb</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Base de l&#39;utilisation d&#39;une imprimante 3D">
+  <meta name="description" content="Eirbot est l&#39;association de robotique de l&#39;ENSEIRB-MATMECA.">
   <meta name="author" content="Eirbot">
   <meta name="generator" content="Hugo 0.74.3" />
 
@@ -103,13 +103,13 @@
   </div>
 </header>
 
-<section class="page-title bg-2" style="background-image: url('https://eirbot.github.io/images/banner.webp');">
+<section class="page-title bg-2" style="background-image: url('https://eirbot.github.io/uploads/banner.webp');">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Formation impression 3D</h1>
-          <p>Base de l&#39;utilisation d&#39;une imprimante 3D</p>
+          <h1>Rapport de réunion n°4 - Gal&#39;eirb</h1>
+          <p></p>
         </div>
       </div>
     </div>
@@ -121,32 +121,85 @@
 		<div class="row">
 			<div class="col-md-8">
 				<div class="post post-single">
-					<h2 class="post-title">Formation impression 3D</h2>
+					<h2 class="post-title">Rapport de réunion n°4 - Gal&#39;eirb</h2>
 					<div class="post-meta">
 						<ul>
-              <li><i class="ion-calendar"></i> November 14, 2020</li>
+              <li><i class="ion-calendar"></i> January 2, 2021</li>
               <li><i class="ion-android-people"></i>
                 Écrit par
                 
-                <a class="text-primary" href="/author/tristan-lecocq">Tristan Lecocq</a>
+                <a class="text-primary" href="/author/vincent-quattrin">Vincent Quattrin</a>
                 
               </li>
               <li><i class="ion-pricetags"></i> 
                 
-                <a href="/tags/formations">Formations</a>
+                <a href="/tags/r%c3%a9union1a">Réunion1 a</a>
 								
               </li>
             </ul>
 					</div>
 					<div class="post-thumb">
-						<img class="img-responsive" src="/images/otter3d.jpeg" alt="Formation impression 3D">
+						<img class="img-responsive" src="/images/reunion.jpg" alt="Rapport de réunion n°4 - Gal&#39;eirb">
 					</div>
 					<div class="post-content post-excerpt">
-						<p>Formation à l&rsquo;impression 3D et introduction aux méthodes et techniques d&rsquo;impressions 3D. Découverte et prise en mains du logiciel de slicing Cura et ses paramètres.</p>
-<h2 id="support-de-présentation-de-la-formation">Support de présentation de la formation</h2>
-<div class="canva-embed" data-design-id="DAEM1ufE2M8" data-height-ratio="0.5625" style="padding:56.2500% 5px 5px 5px;background:rgba(0,0,0,0.03);border-radius:8px;"></div><script async src="https://sdk.canva.com/v1/embed.js"></script>
-<h2 id="enregistrement-de-la-formation">Enregistrement de la formation</h2>
-<center><iframe width="719" height="404" src="https://www.youtube.com/embed/UE0vC8vjx7M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+						<h2 id="coupe-de-france-de-robotique-2021">Coupe de France de Robotique 2021</h2>
+<p>Voici un résumé de la réunion :</p>
+<h3 id="partie-mécanique"><strong>PARTIE MÉCANIQUE</strong></h3>
+<ul>
+<li>Choix d&rsquo;une structure octogonale pour la plateforme du robot</li>
+<li>Utilisation de 4 profilés en aluminium (30x30 ou 40x40mm ?)</li>
+</ul>
+<center>
+<p><img src="/images/infos_reunion_2021_01_02_1.jpg" alt=""></p>
+</center>
+<p>Propositions d&rsquo;idées sur un système de montage des cartes électroniques sur le robot.</p>
+<p>BUT : être capable de retirer une carte sans retirer les autres autour.</p>
+<ul>
+<li>Nappe IDE3 type ATA133 avec plusieurs connecteurs</li>
+<li>Glissière/rail de maintient des cartes</li>
+<li>Écrous papillon/boulon de fixation des cartes</li>
+</ul>
+<p>En cours :).</p>
+<h3 id="partie-informatique"><strong>PARTIE INFORMATIQUE</strong></h3>
+<p>Ils n&rsquo;ont pas encore tous les éléments pour commencer à coder (entrées, sorties, but de chaque programme &hellip;). Le choix de la micro-ordinateur n&rsquo;est pas encore fait :</p>
+<ul>
+<li>Raspberry Pi 4</li>
+<li>Nvidia Jetson Nano</li>
+</ul>
+<p>NOTE : attention au protocole de communication entre le uC et la carte info :).</p>
+<h3 id="partie-électronique"><strong>PARTIE ÉLECTRONIQUE</strong></h3>
+<h5 id="alimentation">ALIMENTATION</h5>
+<ul>
+<li>Victor a terminé la carte, il va bientôt la fabriquer à l&rsquo;ENSEIRB</li>
+</ul>
+<h5 id="moteurs">MOTEURS</h5>
+<ul>
+<li>On récupère une paire de moto-réducteurs+roues+codeurs</li>
+<li>Ils sont surdimensionnés, pour être tranquille</li>
+<li>Rappel : la carte de contrôle des moteurs supporte 2*90W</li>
+</ul>
+<h5 id="capteurs">CAPTEURS</h5>
+<p>Voici les principales technologies qui ont été retenues :</p>
+<ul>
+<li>Infrarouge (IR)</li>
+<li>Laser</li>
+<li>Ultrason ?</li>
+</ul>
+<h5 id="micro-controlleur">MICRO-CONTROLLEUR</h5>
+<p>Le choix est à faire (rapidement) mais voici quelques idées :</p>
+<ul>
+<li>STM32 (ST Nucléo)</li>
+<li>ATMEGA328 (Arduino Uno) ou ATMEGA2560 (Arduino Mega) ?</li>
+<li>AT91SAM3X8E (Arduino Due)</li>
+<li>ARM CORTEX M7 (Teensy 4.0)</li>
+</ul>
+<h3 id="pour-la-prochaine-reunion-">POUR LA PROCHAINE REUNION :</h3>
+<ul>
+<li><strong>Réfléchir à des idées</strong></li>
+<li><strong>Établir un cahier des charges suffisamment clair et détaillé pour pouvoir commencer à bosser</strong></li>
+<li><strong>Discussions sur le logo de l&rsquo;équipe :)</strong></li>
+</ul>
+
 					</div>
 					<div class="post-comments">
 						
