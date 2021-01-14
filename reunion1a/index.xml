@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-Us</language>
     <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 06 Jan 2021 23:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Jan 2021 15:39:06 +0000</lastBuildDate>
     
 	<atom:link href="https://eirbot.github.io/reunion1a/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rapport de réunion n°6 - Gal&#39;eirb</title>
+      <link>https://eirbot.github.io/reunion1a/rapport-de-reunion-n-6-gal-eirb/</link>
+      <pubDate>Thu, 14 Jan 2021 15:39:06 +0000</pubDate>
+      
+      <guid>https://eirbot.github.io/reunion1a/rapport-de-reunion-n-6-gal-eirb/</guid>
+      <description>Coupe de France de Robotique 2021 Voici un résumé de la réunion Gal&amp;rsquo;eirb :
+ La structure du robot est presque entièrement modélisée, fabrication prévue autour du 1er février Les dimensions des cartes électroniques ainsi que les emplacements des connecteurs ont été définis (cf Drive/elec/attribution broches) Possibilité de pouvoir travailler pour la coupe dans le local d&amp;rsquo;Eirbot Il est envisagé de prévoir des réunions en présentiel, si c&amp;rsquo;est possible, pour commencer à se connaître et travailler plus efficacement ensemble  Prochaine réunion : Jeudi 28 Janvier (celle du 21 annulée) Je vous souhaite de bonnes révisions et bonne chance pour les partiels !</description>
+    </item>
     
     <item>
       <title>Rapport de réunion n°5 - Gal&#39;eirb</title>
