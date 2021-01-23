@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reunion2As on EIRBOT | Association de robotique de l&#39;ENSEIRB-MATMECA</title>
+    <link>https://eirbot.github.io/reunion2a/</link>
+    <description>Recent content in Reunion2As on EIRBOT | Association de robotique de l&#39;ENSEIRB-MATMECA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-Us</language>
+    <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 16 Jan 2021 17:00:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://eirbot.github.io/reunion2a/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coupe 2A - réunion 1</title>
+      <link>https://eirbot.github.io/reunion2a/reunion1/</link>
+      <pubDate>Sat, 16 Jan 2021 17:00:58 +0000</pubDate>
+      
+      <guid>https://eirbot.github.io/reunion2a/reunion1/</guid>
+      <description>Répartition des rôles    Définition des objectifs Mécanique statique On garde le système d&amp;rsquo;étage de l&amp;rsquo;an dernier mais on utilise une forme de robot octogonale aplati, l&amp;rsquo;objectif est de compresser le robot pour créer un actionneur de taille suffisante.</description>
+    </item>
+    
+  </channel>
+</rss>
