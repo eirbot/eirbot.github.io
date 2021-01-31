@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-Us</language>
     <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 28 Jan 2021 18:21:21 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Jan 2021 10:00:58 +0000</lastBuildDate>
     
 	<atom:link href="https://eirbot.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Réunion2A</title>
+      <link>https://eirbot.github.io/tags/r%C3%A9union2a/</link>
+      <pubDate>Sat, 30 Jan 2021 10:00:58 +0000</pubDate>
+      
+      <guid>https://eirbot.github.io/tags/r%C3%A9union2a/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Réunion</title>
@@ -27,15 +36,6 @@
       <pubDate>Sat, 23 Jan 2021 06:30:00 +0000</pubDate>
       
       <guid>https://eirbot.github.io/tags/vie-de-lassociation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Réunion2A</title>
-      <link>https://eirbot.github.io/tags/r%C3%A9union2a/</link>
-      <pubDate>Sat, 16 Jan 2021 17:00:58 +0000</pubDate>
-      
-      <guid>https://eirbot.github.io/tags/r%C3%A9union2a/</guid>
       <description></description>
     </item>
     
