@@ -71,8 +71,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://eirbot.github.io/project/rio-furniture-4/</guid>
-      <description>Cette page regroupe toutes les réalisations diverses des membres.
- div.gallery { border: 1px solid #ccc; border-radius:10px 10px; } div.gallery:hover { border: 1px solid #777; } div.gallery img { width: 100%; height: auto; border-radius: 10px 10px; } div.</description>
+      <description>Cette page regroupe toutes les réalisations diverses des membres. Les sources sont disponibles sur le github de l&amp;rsquo;association
+ .button1 { background-color: #FFD700; /* Green */ border: none; color: #41484c; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius : 10px; } div.</description>
     </item>
     
   </channel>
