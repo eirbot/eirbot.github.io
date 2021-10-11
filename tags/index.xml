@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-Us</language>
     <copyright>Copyright &amp;copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 08 Apr 2021 16:01:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Sep 2021 10:30:00 +0600</lastBuildDate>
     
 	<atom:link href="https://eirbot.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Formations</title>
+      <link>https://eirbot.github.io/tags/formations/</link>
+      <pubDate>Thu, 30 Sep 2021 10:30:00 +0600</pubDate>
+      
+      <guid>https://eirbot.github.io/tags/formations/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Réunion</title>
@@ -54,15 +63,6 @@
       <pubDate>Sat, 23 Jan 2021 06:30:00 +0000</pubDate>
       
       <guid>https://eirbot.github.io/tags/vie-de-lassociation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Formations</title>
-      <link>https://eirbot.github.io/tags/formations/</link>
-      <pubDate>Sun, 13 Dec 2020 13:00:00 +0000</pubDate>
-      
-      <guid>https://eirbot.github.io/tags/formations/</guid>
       <description></description>
     </item>
     
